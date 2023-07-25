@@ -1,0 +1,128 @@
+import Image from "next/image";
+import Header from "../components/header";
+
+export default function Garments() {
+  return (
+    <div className="main-container grid about-bg">
+      <Header />
+      <main className="cs1 ce12">
+        <div className="grid">
+          <div className="cs1 ce12 grid-container">
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-1.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-5.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-2.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-4.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-3.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-16.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-15.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-8.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-9.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-10.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-11.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-12.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-13.png"
+                width={320}
+                height={240}
+              />
+            </div>
+            <div class="grid-item">
+              <Image
+                className="card "
+                src="/garments/garments-14.png"
+                width={320}
+                height={240}
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}

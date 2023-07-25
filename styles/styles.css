@@ -1,0 +1,252 @@
+:root {
+  --font-size: 16px;
+}
+
+body {
+  height: 100%;
+  background-color: black;
+  color: #f2f2f2;
+  word-break: break-word;
+}
+
+footer {
+  padding: 3vw 0 0 0;
+  justify-content: flex-end;
+}
+
+footer > div > a {
+  padding-right: 12px;
+}
+
+.footer {
+  margin: 64px 0;
+}
+
+.header {
+  margin: 64px 0;
+}
+
+video {
+  width: 100%;
+  object-fit: cover;
+}
+
+hr {
+  width: 100%;
+  margin: 3vw 0;
+}
+
+h1 {
+  font-size: calc(var(--font-size) * 2);
+  font-weight: calc(var(--font-weight) * 0.66);
+  line-height: 0.95;
+}
+
+h2 {
+  font-size: calc(var(--font-size) * 1.5);
+  font-weight: calc(var(--font-weight) * 0.66);
+}
+
+h5 {
+  font-size: calc(var(--font-size) * 0.75);
+  font-weight: calc(var(--font-weight) * 1.66);
+  line-height: var(--line-height);
+}
+
+h1 > bold {
+  font-weight: calc(var(--font-weight) * 2.66);
+}
+
+p,
+a {
+  font-size: 14px;
+  color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 700;
+}
+
+a:hover > small {
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: inside;
+}
+
+// Image URL Fragmet styling, read more about it here https://dzone.com/articles/how-to-style-images-with-markdown
+
+img[src*="#thumb"] {
+  width: 100%;
+  height: 100%;
+}
+
+small {
+  font-size: 14px;
+}
+
+.main-container {
+  padding: 2vw 16vw 6vw 16vw;
+  max-width: 1920px;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 24px;
+  background: white;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  padding: 40px 0;
+}
+
+.reel {
+  height: 640px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10000;
+  font-size: 400%;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.title-link {
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.title-link:hover {
+  color: #686afe;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.icon {
+  width: 24px;
+}
+
+.icon:hover {
+  scale: 1.1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.collection-image {
+  z-index: -100;
+  object-fit: cover;
+}
+
+.separator {
+  margin: 24px 0;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (max-width: 1648px) {
+  .product-item {
+    width: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  .main-container {
+    padding: 6vw;
+  }
+
+  video {
+    height: 80vh;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+  }
+  .sticky {
+    position: initial;
+  }
+}
+
+@media (max-width: 375px) {
+}

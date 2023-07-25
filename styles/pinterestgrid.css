@@ -1,0 +1,10 @@
+.grid-container {
+  column-gap: 32px; /* Adjust the gap between columns */
+  column-count: 3; /* Set the number of columns you want */
+}
+
+.grid-item {
+  display: inline-block;
+  width: 100%; /* This will make each item take up the entire column width */
+  margin-bottom: 32px; /* Adjust the gap between items vertically */
+}
