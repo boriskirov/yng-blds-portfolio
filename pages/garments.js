@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../components/header";
+import Item from "../components/grid-item";
 
 export default function Garments() {
   return (
@@ -120,6 +121,9 @@ export default function Garments() {
                 height={240}
               />
             </div>
+            <Item src="/garments/garments-17.png" width={320} height={240} />
+            <Item src="/garments/garments-18.png" width={320} height={240} />
+            <Item src="/garments/garments-19.png" width={320} height={240} />
           </div>
         </div>
       </main>
