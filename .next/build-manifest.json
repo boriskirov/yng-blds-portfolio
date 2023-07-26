@@ -12,11 +12,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -27,30 +22,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/garments": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
-    ],
-    "/books": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/books.js"
-    ],
-    "/life": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/life.js"
+      "static/chunks/pages/garments.js"
     ],
     "/outdoors": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/outdoors.js"
     ],
-    "/prints": [
+    "/urban": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/prints.js"
+      "static/chunks/pages/urban.js"
     ]
   },
   "ampFirstPages": []
