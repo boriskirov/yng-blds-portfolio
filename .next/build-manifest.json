@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -27,15 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/garments.js"
     ],
-    "/outdoors": [
+    "/life": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/outdoors.js"
-    ],
-    "/urban": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/urban.js"
+      "static/chunks/pages/life.js"
     ]
   },
   "ampFirstPages": []
