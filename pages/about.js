@@ -15,16 +15,19 @@ export default function Contact() {
           <div className="cs5 ce12 grid">
             <p className="cs2 ce12">
               Hey, I’m Boris - a mixed-media artist based out of Amsterdam, The
-              Netherlands. I work with photo 🎞️ | video 🎥 | mixed media 🤖.
-              <br />i always have a camera
+              Netherlands. <br />I work with photo 🎞️ | video 🎥 | mixed media
+              🤖.
             </p>
             <p className="cs2 ce12">
               <br />
               I've been doing photography, videography and mixed media for 10
               years. As a mixed media specialiast I've worked with different
               clients to execute unique and interesting projects for products,
-              events, services and travel destinations. Worked with clients
-              like: FITC Amsterdam, Tea House Sofia, Despark and many others.
+              events, services and travel destinations.
+            </p>
+            <p className="cs2 ce12">
+              <br />
+              📨 Reach out for collaborations via:
             </p>
             <div className="flex cs2 ce12">
               <Link href="https://www.instagram.com/yng.blds/" target="_blank">
