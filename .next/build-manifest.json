@@ -32,15 +32,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
+    "/books": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/books.js"
+    ],
+    "/life": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/life.js"
+    ],
     "/outdoors": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/outdoors.js"
     ],
-    "/urban": [
+    "/prints": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/urban.js"
+      "static/chunks/pages/prints.js"
     ]
   },
   "ampFirstPages": []

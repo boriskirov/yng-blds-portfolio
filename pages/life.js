@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Item from "../components/grid-item";
 import Header from "../components/header";
 
 export default function Life() {
@@ -8,55 +9,15 @@ export default function Life() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12 grid-container">
-            <div class="grid-item">
-              <Image
-                className="card "
-                src="/life/life-1.png"
-                width={320}
-                height={240}
-              />
-            </div>
-            <div class="grid-item">
-              <Image
-                className="card "
-                src="/life/life-2.png"
-                width={320}
-                height={240}
-              />
-            </div>
-
-            <div class="grid-item">
-              <Image
-                className="card "
-                src="/life/life-4.png"
-                width={320}
-                height={240}
-              />
-            </div>
-            <div class="grid-item">
-              <Image
-                className="card"
-                src="/life/life-5.png"
-                width={320}
-                height={240}
-              />
-            </div>
-            <div class="grid-item">
-              <Image
-                className="card "
-                src="/life/life-3.png"
-                width={320}
-                height={240}
-              />
-            </div>
-            <div class="grid-item">
-              <Image
-                className="card"
-                src="/life/life-6.png"
-                width={320}
-                height={240}
-              />
-            </div>
+            <Item src="/life/life-1.png" width={320} height={240} />
+            <Item src="/life/life-2.png" width={320} height={240} />
+            <Item src="/life/life-4.png" width={320} height={240} />
+            <Item src="/life/life-5.png" width={320} height={240} />
+            <Item src="/life/life-3.png" width={320} height={240} />
+            <Item src="/life/life-7.png" width={320} height={240} />
+            <Item src="/life/life-6.png" width={320} height={240} />
+            <Item src="/life/life-8.png" width={320} height={240} />
+            <Item src="/life/life-9.png" width={320} height={240} />
           </div>
         </div>
       </main>
