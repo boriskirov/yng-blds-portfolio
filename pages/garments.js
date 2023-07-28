@@ -9,7 +9,7 @@ export default function Garments() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12 grid-container">
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-1.png"
@@ -17,7 +17,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-5.png"
@@ -25,7 +25,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-2.png"
@@ -33,7 +33,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-4.png"
@@ -41,7 +41,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-3.png"
@@ -49,7 +49,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-16.png"
@@ -57,7 +57,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-15.png"
@@ -65,7 +65,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-8.png"
@@ -73,7 +73,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-9.png"
@@ -81,7 +81,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-10.png"
@@ -89,7 +89,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-11.png"
@@ -97,7 +97,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-12.png"
@@ -105,7 +105,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-13.png"
@@ -113,7 +113,7 @@ export default function Garments() {
                 height={240}
               />
             </div>
-            <div class="grid-item">
+            <div className="grid-item">
               <Image
                 className="card "
                 src="/garments/garments-14.png"

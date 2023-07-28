@@ -9,9 +9,9 @@ export default function Header() {
         </h5>
       </div>
       <nav className="cs10 ce12 nav">
-        <div href="/about" class="dropdown">
-          <button class="dropbtn">Work</button>
-          <ul class="dropdown-content">
+        <div href="/about" className="dropdown">
+          <button className="dropbtn">Work</button>
+          <ul className="dropdown-content">
             <Link href="/outdoors">Outdoors</Link>
             <Link href="/urban">Urban</Link>
             <Link href="/garments">Garments</Link>
