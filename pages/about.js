@@ -16,8 +16,9 @@ export default function Contact() {
           </div>
           <div className="cs5 ce12 grid">
             <p className="cs2 ce12">
-              Hey, I’m Boris - a designer and mixed-media artist currently based
-              out of Amsterdam, The Netherlands. <br />
+              Hey, I’m Boris Kirov / yng.blds [young bloods] - a designer and
+              mixed-media artist currently based out of Amsterdam, The
+              Netherlands. <br />
             </p>
             <p className="cs2 ce12">
               <br />
