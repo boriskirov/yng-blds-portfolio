@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Header from "../components/header";
 import Item from "../components/grid-item";
+import Metadata from "../components/metadata";
 
 export default function Garments() {
   return (
     <div className="main-container grid about-bg">
+      <Metadata />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">

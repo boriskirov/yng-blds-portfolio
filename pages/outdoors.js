@@ -1,9 +1,11 @@
 import Item from "../components/grid-item";
 import Header from "../components/header";
+import Metadata from "../components/metadata";
 
 export default function Outdoors() {
   return (
     <div className="main-container grid about-bg">
+      <Metadata />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">
