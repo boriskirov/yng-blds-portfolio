@@ -8,7 +8,8 @@ export default function Home() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12">
-            <p className="title center">COMING SOON</p>
+            <p className="title center">YNG.BLDS</p>
+            <div className="index-cover"></div>
           </div>
         </div>
       </main>
