@@ -22,6 +22,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/life": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/life.js"
+    ],
     "/outdoors": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

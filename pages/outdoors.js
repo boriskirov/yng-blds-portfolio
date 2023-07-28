@@ -23,6 +23,7 @@ export default function Outdoors() {
 
             <Item src="/outdoors/outdoors-11.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-12.png" width={320} height={240} />
+            <Item src="/outdoors/outdoors-15.png" width={320} height={240} />
           </div>
         </div>
       </main>
