@@ -30,6 +30,10 @@ export default function Life() {
             <Item src="/life/life-17.png" width={320} height={240} />
             <Item src="/life/life-18.png" width={320} height={240} />
             <Item src="/life/life-19.png" width={320} height={240} />
+
+            <Item src="/life/life-21.png" width={320} height={240} />
+            <Item src="/life/life-22.png" width={320} height={240} />
+            <Item src="/life/life-23.png" width={320} height={240} />
           </div>
         </div>
       </main>

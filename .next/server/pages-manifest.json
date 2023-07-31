@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/books": "pages/books.js",
+  "/life": "pages/life.js",
   "/": "pages/index.js",
-  "/about": "pages/about.js",
-  "/outdoors": "pages/outdoors.js"
+  "/urban": "pages/urban.js"
 }
