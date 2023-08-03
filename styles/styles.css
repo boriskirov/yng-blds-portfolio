@@ -128,35 +128,6 @@ small {
   padding: 16px 0;
 }
 
-.title {
-  position: absolute;
-  top: 70%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 100%;
-  text-align: center;
-  z-index: 10000;
-  font-size: 400%;
-  line-height: 1.4;
-  font-weight: 700;
-  letter-spacing: -1px;
-  animation: fadingText 4s;
-  animation-iteration-count: 1;
-  opacity: 0%;
-}
-
-@keyframes fadingText {
-  0% {
-    opacity: 0%;
-  }
-  25% {
-    opacity: 100%;
-  }
-  100% {
-    opacity: 0%;
-  }
-}
-
 .name {
   font-size: 16px;
   font-weight: 700;

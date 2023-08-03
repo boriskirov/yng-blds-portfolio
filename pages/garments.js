@@ -15,13 +15,14 @@ export default function Garments() {
             <Item src="/garments/garments-22.png" width={320} height={240} />
             <Item src="/garments/garments-5.png" width={320} height={240} />
             <Item src="/garments/garments-2.png" width={320} height={240} />
+            <Item src="/garments/garments-27.gif" width={320} height={240} />
             <Item src="/garments/garments-4.png" width={320} height={240} />
             <Item src="/garments/garments-3.png" width={320} height={240} />
             <Item src="/garments/garments-16.png" width={320} height={240} />
             <Item src="/garments/garments-15.png" width={320} height={240} />
             <Item src="/garments/garments-8.png" width={320} height={240} />
             <Item src="/garments/garments-9.png" width={320} height={240} />
-            <Item src="/garments/garments-25.png" width={320} height={240} />
+
             <Item src="/garments/garments-11.png" width={320} height={240} />
             <Item src="/garments/garments-12.png" width={320} height={240} />
             <Item src="/garments/garments-13.png" width={320} height={240} />
@@ -35,6 +36,7 @@ export default function Garments() {
             <Item src="/garments/garments-20.png" width={320} height={240} />
             <Item src="/garments/garments-21.png" width={320} height={240} />
             <Item src="/garments/garments-24.png" width={320} height={240} />
+            <Item src="/garments/garments-25.png" width={320} height={240} />
           </div>
         </div>
       </main>

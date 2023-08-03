@@ -14,7 +14,7 @@ export default function Contact() {
           <div className="cs1 ce4 sticky">
             <Image src="/avatar.png" width={380} height={270} />
           </div>
-          <div className="cs5 ce12 grid">
+          <div className="cs5 ce10 grid">
             <p className="cs2 ce12">
               Hey, I’m Boris Kirov / yng.blds [young bloods] - a designer and
               mixed-media artist currently based out of Amsterdam, The
