@@ -22,10 +22,11 @@ export default function Outdoors() {
             <Item src="/outdoors/outdoors-8.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-9.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-10.png" width={320} height={240} />
-
+            <Item src="/outdoors/outdoors-16.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-11.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-12.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-15.png" width={320} height={240} />
+            <Item src="/outdoors/outdoors-17.png" width={320} height={240} />
           </div>
         </div>
       </main>
