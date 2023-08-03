@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-  font-weight: 700;
+  color: #f32432;
 }
 
 a:hover > small {
@@ -162,6 +162,10 @@ small {
   border: none;
 }
 
+.dropbtn:hover {
+  color: #f32432;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -184,6 +188,7 @@ small {
 
 .dropdown-content a:hover {
   background-color: #ddd;
+  color: #f32432;
 }
 
 .dropdown:hover .dropdown-content {

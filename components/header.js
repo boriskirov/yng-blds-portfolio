@@ -21,7 +21,7 @@ export default function Header() {
         <br />
         <Link href="/prints">Prints</Link>
         <Link href="/books">Books</Link>
-        <Link href="./about">About</Link>
+        <Link href="./about">About / Say Hello</Link>
       </nav>
     </header>
   );
