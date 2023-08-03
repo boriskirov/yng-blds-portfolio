@@ -25,11 +25,13 @@ export default function Garments() {
             <Item src="/garments/garments-11.png" width={320} height={240} />
             <Item src="/garments/garments-12.png" width={320} height={240} />
             <Item src="/garments/garments-13.png" width={320} height={240} />
-            <Item src="/garments/garments-14.png" width={320} height={240} />
+
+            <Item src="/garments/garments-26.png" width={320} height={240} />
             <Item src="/garments/garments-23.png" width={320} height={240} />
             <Item src="/garments/garments-17.png" width={320} height={240} />
             <Item src="/garments/garments-18.png" width={320} height={240} />
             <Item src="/garments/garments-19.png" width={320} height={240} />
+
             <Item src="/garments/garments-20.png" width={320} height={240} />
             <Item src="/garments/garments-21.png" width={320} height={240} />
             <Item src="/garments/garments-24.png" width={320} height={240} />
