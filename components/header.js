@@ -8,7 +8,7 @@ export default function Header() {
           <Link href="/">YNG.BLDS</Link>
         </h5>
       </div>
-      <nav className="cs10 ce12 nav">
+      <nav className="cs9 ce12 nav">
         <div href="/about" className="dropdown">
           <button className="dropbtn">Work</button>
           <ul className="dropdown-content">

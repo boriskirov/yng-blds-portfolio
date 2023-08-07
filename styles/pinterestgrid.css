@@ -1,17 +1,17 @@
 .grid-container {
-  column-gap: 32px; /* Adjust the gap between columns */
+  column-gap: 16px; /* Adjust the gap between columns */
   column-count: 3; /* Set the number of columns you want */
 }
 
 .grid-item {
   display: inline-block;
   width: 100%; /* This will make each item take up the entire column width */
-  margin-bottom: 32px; /* Adjust the gap between items vertically */
+  margin-bottom: 12px; /* Adjust the gap between items vertically */
 }
 
 @media (max-width: 428px) {
   .grid-container {
-    column-gap: 32px; /* Adjust the gap between columns */
+    column-gap: 12px; /* Adjust the gap between columns */
     column-count: 1; /* Set the number of columns you want */
   }
 }

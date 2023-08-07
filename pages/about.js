@@ -10,7 +10,7 @@ export default function Contact() {
       <Header />
 
       <main className="cs1 ce12">
-        <div className="grid">
+        <div className="grid about-body">
           <div className="cs1 ce4 sticky">
             <Image src="/avatar.png" width={380} height={270} />
           </div>
