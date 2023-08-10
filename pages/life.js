@@ -17,7 +17,7 @@ export default function Life() {
             <Item src="/life/life-6.png" width={320} height={240} />
             <Item src="/life/life-15.png" width={320} height={240} />
             <Item src="/life/life-13.png" width={320} height={240} />
-            <Item src="/life/life-29.png" width={320} height={240} />
+            <Item src="/life/life-30.png" width={320} height={240} />
             <Item src="/life/life-14.png" width={320} height={240} />
             <Item src="/life/life-27.png" width={320} height={240} />
             <Item src="/life/life-5.png" width={320} height={240} />
