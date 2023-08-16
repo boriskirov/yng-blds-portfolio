@@ -1,12 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
     <header className="grid cs1 ce12 header sticky">
       <div className="cs1 ce7 flex">
-        <h5 className="name">
-          <Link href="/">YNG.BLDS</Link>
-        </h5>
+        <Link href="/">
+          <Image
+            src="/logo-empty.svg"
+            className="logo"
+            width={65}
+            height={27}
+          />
+        </Link>
       </div>
       <nav className="cs9 ce12 nav">
         <div href="/about" className="dropdown">

@@ -12,10 +12,10 @@ export default function Life() {
           <div className="cs1 ce12 grid-container">
             <Item src="/life/life-2.png" width={320} height={240} />
 
-            <Item src="/life/life-3.png" width={320} height={240} />
             <Item src="/life/life-35.png" width={320} height={240} />
             <Item src="/life/life-6.png" width={320} height={240} />
             <Item src="/life/life-15.png" width={320} height={240} />
+            <Item src="/life/life-38.png" width={320} height={240} />
             <Item src="/life/life-13.png" width={320} height={240} />
             <Item src="/life/life-30.png" width={320} height={240} />
             <Item src="/life/life-14.png" width={320} height={240} />
@@ -28,13 +28,14 @@ export default function Life() {
             <Item src="/life/life-20.png" width={320} height={240} />
             <Item src="/life/life-1.png" width={320} height={240} />
             <Item src="/life/life-16.png" width={320} height={240} />
-
+            <Item src="/life/life-37.png" width={320} height={240} />
             <Item src="/life/life-17.png" width={320} height={240} />
             <Item src="/life/life-18.png" width={320} height={240} />
             <Item src="/life/life-19.png" width={320} height={240} />
-
+            <Item src="/life/life-36.png" width={320} height={240} />
             <Item src="/life/life-28.png" width={320} height={240} />
             <Item src="/life/life-33.png" width={320} height={240} />
+            <Item src="/life/life-3.png" width={320} height={240} />
             <Item src="/life/life-34.png" width={320} height={240} />
           </div>
         </div>

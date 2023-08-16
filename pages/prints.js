@@ -9,7 +9,7 @@ export default function Books() {
       <Header />
       <main className="cs1 ce12">
         <div className="grid">
-          <div className="cs1 ce4 sticky">
+          <div className="cs1 ce4 ">
             <Image src="/prints/prints-1.png" width={380} height={270} />
           </div>
           <div className="cs5 ce12 grid">

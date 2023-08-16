@@ -10,7 +10,7 @@ export default function Books() {
       <Header />
       <main className="cs1 ce12">
         <div className="grid">
-          <div className="cs1 ce4 sticky">
+          <div className="cs1 ce4">
             <Image
               src="/strapped-for-time-cover.png"
               width={380}
@@ -18,11 +18,10 @@ export default function Books() {
             />
           </div>
           <div className="cs5 ce12 grid">
-            <h2 className="cs2 ce12">
-              STRAPPED FOR TIME
-              <br />
-              時間に追われている
-            </h2>
+            <div className="cs2 ce12">
+              <h2>STRAPPED FOR TIME</h2>
+              <h2 className="italic yellow">時間に追われている</h2>
+            </div>
             <p className="cs2 ce12">
               This small monograph is Boris’s trial to express his creativity
               and love for photography. All pictures in “Strapped for time,

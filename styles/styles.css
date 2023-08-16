@@ -90,6 +90,14 @@ small {
   font-size: 14px;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.yellow {
+  color: #e7ff41;
+}
+
 .main-container {
   padding: 2vw 16vw 6vw 16vw;
   max-width: 1920px;
@@ -139,6 +147,15 @@ small {
   font-style: italic;
 }
 
+.logo {
+  background-image: url("/logo.svg");
+  background-repeat: no-repeat;
+}
+
+.logo:hover {
+  background-image: url("/logo-red.svg");
+}
+
 .icon {
   width: 24px;
 }
@@ -169,7 +186,7 @@ small {
 }
 
 .dropbtn:hover {
-  color: #f32432;
+  color: #ff5050;
   cursor: pointer;
 }
 
@@ -190,7 +207,7 @@ small {
 
 .dropdown-content a:hover {
   background-color: #ddd;
-  color: #f32432;
+  color: #ff5050;
 }
 
 .dropdown:hover .dropdown-content {
@@ -202,7 +219,8 @@ small {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 720px;
-  animation: rotateImages 24s infinite;
+  animation: rotateImages 20s infinite;
+  background-size: contain;
 }
 
 @keyframes rotateImages {
