@@ -271,4 +271,8 @@ small {
   .sticky {
     position: sticky;
   }
+  .index-cover {
+    min-height: 240px;
+    background-size: cover;
+  }
 }
