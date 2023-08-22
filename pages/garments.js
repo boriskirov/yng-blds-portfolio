@@ -29,7 +29,7 @@ export default function Garments() {
             <Item src="/garments/garments-12.png" width={320} height={240} />
             <Item src="/garments/garments-13.png" width={320} height={240} />
             <Item src="/garments/garments-32.png" width={320} height={240} />
-
+            <Item src="/garments/garments-36.png" width={320} height={240} />
             <Item src="/garments/garments-23.png" width={320} height={240} />
             <Item src="/garments/garments-17.png" width={320} height={240} />
             <Item src="/garments/garments-18.png" width={320} height={240} />
@@ -38,6 +38,7 @@ export default function Garments() {
             <Item src="/garments/garments-24.png" width={320} height={240} />
             <Item src="/garments/garments-21.png" width={320} height={240} />
             <Item src="/garments/garments-29.png" width={320} height={240} />
+            <Item src="/garments/garments-37.png" width={320} height={240} />
           </div>
         </div>
       </main>
