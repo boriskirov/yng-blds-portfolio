@@ -5,7 +5,7 @@ import Metadata from "../components/metadata";
 export default function Life() {
   return (
     <div className="main-container grid about-bg">
-      <Metadata />
+      <Metadata title="yng.blds" description="Life & Portrait Photography" />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">

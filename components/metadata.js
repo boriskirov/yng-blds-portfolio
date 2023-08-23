@@ -1,10 +1,10 @@
 import Head from "next/head";
 
-const Metadata = ({}) => {
+const Metadata = ({ title, description }) => {
   return (
     <Head>
       {/* Primary Meta Tags */}
-      <title>yng.blds</title>
+      <title>{title}</title>
       <link rel="icon" href="/ico.ico" />
       <link rel="apple-touch-icon" href="/ico.ico" />
       <meta name="title" content="yng.blds" />
@@ -13,6 +13,11 @@ const Metadata = ({}) => {
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />
+      <meta
+        name="og:description"
+        property="og:description"
+        content={description}
+      />
       <meta name="og:title" property="og:title" content="yng.blds" />
       <meta
         property="og:site_name"

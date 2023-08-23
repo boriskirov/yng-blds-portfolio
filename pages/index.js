@@ -4,7 +4,7 @@ import Metadata from "../components/metadata";
 export default function Home() {
   return (
     <div className="main-container grid index-bg">
-      <Metadata />
+      <Metadata title="yng.blds" description="photography & videography" />
       <Header />
 
       <main className="cs1 ce12">

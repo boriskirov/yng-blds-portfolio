@@ -5,7 +5,7 @@ import Metadata from "../components/metadata";
 export default function Books() {
   return (
     <div className="main-container grid about-bg">
-      <Metadata />
+      <Metadata title="yng.blds" description="Prints for sale" />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">

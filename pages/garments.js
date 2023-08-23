@@ -6,7 +6,10 @@ import Metadata from "../components/metadata";
 export default function Garments() {
   return (
     <div className="main-container grid about-bg">
-      <Metadata />
+      <Metadata
+        title="yng.blds"
+        description="Apparel and Clothing Photography"
+      />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">
