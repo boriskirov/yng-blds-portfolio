@@ -24,6 +24,16 @@ const Metadata = ({ title, description }) => {
         content="yng.blds - photography & videography"
       />
       <meta property="og:url" content="https://www.yng-blds.com" />
+      <meta property="og:image" content="/avatar.png" />
+
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://yngblds.vercel.app/" />
+      <meta property="twitter:title" content="yng.blds" />
+      <meta
+        property="twitter:description"
+        content="photography & videography"
+      />
+      <meta property="twitter:image" content="/avatar.png" />
     </Head>
   );
 };
