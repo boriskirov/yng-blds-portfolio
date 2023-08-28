@@ -40,7 +40,7 @@ export default function Contact() {
                   height={24}
                 />
               </Link>
-              <Link href="mailto:borisasenovkirov@gmail.com?subject=Let's collaborate">
+              <Link href="mailto:yngblooods@gmail.com?subject=Let's collaborate">
                 <Image
                   src="/mail.svg"
                   className="icon"
