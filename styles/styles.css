@@ -267,12 +267,41 @@ small {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 428px) {
   .sticky {
     position: sticky;
   }
+
   .index-cover {
-    min-height: 240px;
+    background-image: url("/index-loop/index-cover-mobile-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 562px;
     background-size: cover;
+    animation: rotateImages 20s infinite;
+  }
+
+  @keyframes rotateImages {
+    0% {
+      background-image: url("/index-loop/index-cover-mobile-3.png");
+    }
+    16% {
+      background-image: url("/index-loop/index-cover-mobile-2.png");
+    }
+    32% {
+      background-image: url("/index-loop/index-cover-mobile-1.png");
+    }
+    48% {
+      background-image: url("/index-loop/index-cover-mobile-4.png");
+    }
+    64% {
+      background-image: url("/index-loop/index-cover-mobile-5.png");
+    }
+    80% {
+      background-image: url("/index-loop/index-cover-mobile-6.png");
+    }
+    100% {
+      background-image: url("/index-loop/index-cover-mobile-3.png");
+    }
   }
 }
