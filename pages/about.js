@@ -22,10 +22,12 @@ export default function Contact() {
             </p>
             <p className="cs2 ce12">
               <br />
-              I've been doing photography, videography and mixed media for 10
-              years. Specializing in, but not limited to event coverage,
-              automotive, travel and portraiture photography and videography.
-              I'm available for booking wordwide.
+              My work is situated somewhere between photography, videography and
+              designing. I've been involved in the creative business for more
+              than 10 years. Specializing in, but not limited to campaign
+              shooting, event coverage, automotive, travel and portraiture
+              photography and videography and other brain stuff. I'm available
+              for booking wordwide.
             </p>
             <p className="cs2 ce12">
               <br />
@@ -43,6 +45,14 @@ export default function Contact() {
               <Link href="mailto:yngblooods@gmail.com?subject=Let's collaborate">
                 <Image
                   src="/mail.svg"
+                  className="icon"
+                  width={24}
+                  height={24}
+                />
+              </Link>
+              <Link href="https://bento.me/yngblds">
+                <Image
+                  src="/bento.svg"
                   className="icon"
                   width={24}
                   height={24}
