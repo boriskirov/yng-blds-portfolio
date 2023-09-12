@@ -43,6 +43,7 @@ export default function Urban() {
             <Item src="/urban/urban-30.png" width={320} height={240} />
             <Item src="/urban/urban-31.png" width={320} height={240} />
             <Item src="/urban/urban-32.png" width={320} height={240} />
+            <Item src="/urban/urban-36.png" width={320} height={240} />
           </div>
         </div>
       </main>

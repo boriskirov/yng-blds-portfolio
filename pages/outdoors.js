@@ -31,6 +31,7 @@ export default function Outdoors() {
             <Item src="/outdoors/outdoors-17.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-20.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-22.png" width={320} height={240} />
+            <Item src="/outdoors/outdoors-24.png" width={320} height={240} />
           </div>
         </div>
       </main>
