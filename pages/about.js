@@ -2,6 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
+import { PT_Serif } from "@next/font/google";
+
+const PtSerif = PT_Serif({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: "italic",
+});
 
 export default function Contact() {
   return (
@@ -11,28 +18,32 @@ export default function Contact() {
 
       <main className="cs1 ce12">
         <div className="grid about-body">
-          <div className="cs1 ce4 sticky">
+          <div className="cs1 ce5 sticky">
             <Image src="/avatar.png" width={380} height={270} />
           </div>
-          <div className="cs5 ce10 grid">
-            <p className="cs2 ce12">
-              Hey, I’m Boris Kirov / yng.blds [young bloods] - a designer and
-              mixed-media artist currently based out of Amsterdam, The
-              Netherlands. <br />
-            </p>
-            <p className="cs2 ce12">
+          <div className="cs6 ce12 grid">
+            <div className="cs2 ce12 ">
+              <h2 className={PtSerif.className}>
+                Hey, I’m Boris Kirov / yng.blds [young bloods] - <br />
+              </h2>
+              <h2>
+                a designer and mixed-media artist currently based out of
+                Amsterdam, The Netherlands.
+              </h2>{" "}
+            </div>
+            <h2 className="cs2 ce12">
               <br />
               My work is situated somewhere between photography, videography and
-              designing. I've been involved in the creative business for more
-              than 10 years. Specializing in, but not limited to campaign
-              shooting, event coverage, automotive, travel and portraiture
-              photography and videography and other brain stuff. I'm available
-              for booking wordwide.
-            </p>
-            <p className="cs2 ce12">
+              design. I've been involved in the creative business for more than
+              10 years. Specializing in, but not limited to campaign shooting,
+              event coverage, automotive, travel and portraiture photography and
+              videography and other brain stuff. I'm available for booking
+              wordwide.
+            </h2>
+            <h2 className="cs2 ce12">
               <br />
               📨 Reach out for collaborations via:
-            </p>
+            </h2>
             <div className="flex cs2 ce12">
               <Link href="https://www.instagram.com/yng.blds/" target="_blank">
                 <Image
