@@ -94,6 +94,10 @@ small {
   font-style: italic;
 }
 
+.yng-svg {
+  max-height: 240px;
+}
+
 .yellow {
   color: #e7ff41;
 }
