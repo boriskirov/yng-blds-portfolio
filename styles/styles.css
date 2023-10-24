@@ -96,6 +96,10 @@ small {
 
 .yng-svg {
   max-height: 240px;
+  position: absolute;
+  top: 14%;
+  width: 90%;
+  z-index: -1;
 }
 
 .yellow {
