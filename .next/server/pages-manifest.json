@@ -2,10 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/books": "pages/books.js",
-  "/life": "pages/life.js",
-  "/": "pages/index.js",
-  "/garments": "pages/garments.js",
-  "/about": "pages/about.js",
-  "/prints": "pages/prints.js"
+  "/video": "pages/video.js",
+  "/": "pages/index.js"
 }

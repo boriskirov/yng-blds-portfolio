@@ -22,6 +22,7 @@ export default function Header() {
             <Link href="/urban">Urban</Link>
             <Link href="/garments">Garments</Link>
             <Link href="/life">Life</Link>
+            <Link href="/video">Video</Link>
           </ul>
         </div>
         <br />
