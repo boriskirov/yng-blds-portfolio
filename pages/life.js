@@ -46,6 +46,8 @@ export default function Life() {
             <Item src="/life/life-44.png" width={320} height={240} />
             <Item src="/life/life-46.png" width={320} height={240} />
             <Item src="/life/life-47.png" width={320} height={240} />
+            <Item src="/life/life-48.png" width={320} height={240} />
+            <Item src="/life/life-49.png" width={320} height={240} />
           </div>
         </div>
       </main>

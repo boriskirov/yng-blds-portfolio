@@ -30,7 +30,7 @@ export default function Books() {
               feeling of not having enough time and getting lost with complete
               understanding of time simultaneously.
             </p>
-            <p className="cs2 ce12">Coming early winter 2023</p>
+            <p className="cs2 ce12">Coming late winter 2025</p>
           </div>
         </div>
       </main>

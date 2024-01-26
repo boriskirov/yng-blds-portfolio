@@ -13,7 +13,7 @@ export default function Books() {
             <Image src="/prints/prints-1.png" width={380} height={270} />
           </div>
           <div className="cs5 ce12 grid">
-            <p className="cs2 ce12">Coming early winter 2023</p>
+            <p className="cs2 ce12">Coming mid 2024</p>
           </div>
         </div>
       </main>

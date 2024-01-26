@@ -144,7 +144,6 @@ small {
 }
 
 .sticky {
-  position: sticky;
   top: 0;
   padding: 16px 0;
 }
@@ -270,16 +269,9 @@ small {
     justify-content: space-between;
     margin: 16px 0;
   }
-  .sticky {
-    position: sticky;
-  }
 }
 
 @media (max-width: 428px) {
-  .sticky {
-    position: sticky;
-  }
-
   .index-cover {
     background-image: url("/index-loop/index-cover-mobile-3.png");
     background-position: center;
