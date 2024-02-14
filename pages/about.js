@@ -18,56 +18,70 @@ export default function Contact() {
 
       <main className="cs1 ce12">
         <div className="grid about-body">
+          <div className="cs1 ce12 ">
+            <h1 className={PtSerif.className}>
+              Hi there, I’m Boris / yng.blds [young bloods] - <br />A designer
+              and photographer based between Amsterdam, The Netherlands and
+              Sofia, Bulgaria.
+            </h1>{" "}
+            <br />
+            <h2 className={PtSerif.className}>
+              * Available for freelance work and open to travel.
+            </h2>
+          </div>
           <div className="cs1 ce5 sticky">
             <Image src="/avatar.png" width={380} height={270} />
           </div>
           <div className="cs6 ce12 grid">
-            <div className="cs2 ce12 ">
-              <h2 className={PtSerif.className}>
-                Hey, I’m Boris Kirov / yng.blds [young bloods] - <br />
-              </h2>
-              <h2>
-                a designer and mixed-media artist currently based out of
-                Amsterdam, The Netherlands.
-              </h2>{" "}
-            </div>
             <h2 className="cs2 ce12">
-              <br />
               My work is situated somewhere between photography, videography and
               design. I've been involved in the creative business for more than
-              10 years. Specializing in, but not limited to campaign shooting,
-              event coverage, automotive, travel and portraiture photography and
-              videography and other brain stuff. I'm available for booking
-              wordwide.
-            </h2>
-            <h2 className="cs2 ce12">
+              10 years. With an educational background in Economics and
+              Advertising I can always understand when to lean on the creative
+              and on the practical side of any project.
               <br />
-              📨 Reach out for collaborations via:
+              Specializing in, but not limited to campaign shooting, event
+              coverage, automotive, travel and portraiture photography and
+              videography and other brain stuff.
             </h2>
-            <div className="flex cs2 ce12">
-              <Link href="https://www.instagram.com/yng.blds/" target="_blank">
+            <div className="flex cs2 ce12 flex-column">
+              <Link
+                href="https://www.instagram.com/yng.blds/"
+                target="_blank"
+                className="flex-items-center"
+              >
                 <Image
                   src="/instagram.svg"
                   className="icon"
                   width={24}
                   height={24}
                 />
+                <h2>Instagram</h2>
               </Link>
-              <Link href="mailto:yngblooods@gmail.com?subject=Let's collaborate">
+              <Link
+                href="mailto:yngblooods@gmail.com?subject=Let's collaborate"
+                className="flex-items-center"
+              >
                 <Image
                   src="/mail.svg"
                   className="icon"
                   width={24}
                   height={24}
                 />
+                <h2>Email me</h2>
               </Link>
-              <Link href="https://bento.me/yngblds">
+              <Link
+                href="https://bento.me/yngblds"
+                className="flex-items-center"
+                target="_blank"
+              >
                 <Image
                   src="/bento.svg"
                   className="icon"
                   width={24}
                   height={24}
                 />
+                <h2>Bento</h2>
               </Link>
             </div>
           </div>

@@ -10,11 +10,9 @@ export default function Life() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12 grid-container">
-            <Item src="/life/life-2.png" width={320} height={240} />
-
             <Item src="/life/life-35.png" width={320} height={240} />
             <Item src="/life/life-6.png" width={320} height={240} />
-
+            <Item src="/life/life-50.png" width={320} height={240} />
             <Item src="/life/life-38.png" width={320} height={240} />
             <Item src="/life/life-40.png" width={320} height={240} />
             <Item src="/life/life-13.png" width={320} height={240} />
@@ -47,7 +45,8 @@ export default function Life() {
             <Item src="/life/life-46.png" width={320} height={240} />
             <Item src="/life/life-47.png" width={320} height={240} />
             <Item src="/life/life-48.png" width={320} height={240} />
-            <Item src="/life/life-49.png" width={320} height={240} />
+
+            <Item src="/life/life-51.png" width={320} height={240} />
           </div>
         </div>
       </main>

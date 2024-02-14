@@ -1,0 +1,23 @@
+.overlap {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-height: 100vh;
+}
+.overlap-small {
+  grid-area: 3 / 1 / 7 / 4;
+  z-index: 2;
+  align-self: center;
+}
+
+.overlap-medium {
+  grid-area: 4 / 8 / 6 / 6;
+  z-index: 2;
+  align-self: center;
+}
+.overlap-large {
+  grid-area: 1 / 2 / 5 / 7;
+  z-index: 1;
+  height: 100%;
+}

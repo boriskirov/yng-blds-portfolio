@@ -1,6 +1,7 @@
 import "../styles/fluidigrid.css";
 import "../styles/styles.css";
 import "../styles/pinterestgrid.css";
+import "../styles/overlapping.css";
 
 import { Atkinson_Hyperlegible } from "@next/font/google";
 import { PT_Serif } from "@next/font/google";
