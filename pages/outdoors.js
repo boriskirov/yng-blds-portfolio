@@ -19,12 +19,12 @@ export default function Outdoors() {
             <Item src="/outdoors/outdoors-4.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-5.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-18.png" width={320} height={240} />
-            <Item src="/outdoors/outdoors-23.png" width={320} height={240} />
+
             <Item src="/outdoors/outdoors-6.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-7.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-8.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-9.png" width={320} height={240} />
-            <Item src="/outdoors/outdoors-10.png" width={320} height={240} />
+
             <Item src="/outdoors/outdoors-16.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-11.png" width={320} height={240} />
             <Item src="/outdoors/outdoors-12.png" width={320} height={240} />

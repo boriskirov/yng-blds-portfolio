@@ -4,7 +4,6 @@ import "../styles/pinterestgrid.css";
 import "../styles/overlapping.css";
 
 import { Atkinson_Hyperlegible } from "@next/font/google";
-import { PT_Serif } from "@next/font/google";
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Atkinson_Hyperlegible({
