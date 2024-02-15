@@ -5,7 +5,6 @@ import "../styles/overlapping.css";
 
 import { Atkinson_Hyperlegible } from "@next/font/google";
 
-// If loading a variable font, you don't need to specify the font weight
 const inter = Atkinson_Hyperlegible({
   subsets: ["latin"],
   weight: ["400", "700"],

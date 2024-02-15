@@ -27,10 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/about.js"
     ],
+    "/garments": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/garments.js"
+    ],
     "/people": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/people.js"
+    ],
+    "/urban": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/urban.js"
     ]
   },
   "ampFirstPages": []
