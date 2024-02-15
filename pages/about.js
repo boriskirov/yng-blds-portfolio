@@ -29,10 +29,10 @@ export default function Contact() {
               * Available for freelance work and open to travel.
             </h2>
           </div>
-          <div className="cs1 ce5 sticky">
-            <Image src="/avatar.png" width={380} height={270} />
+          <div className="cs1 ce4 sticky">
+            <Image src="/avatar1.png" width={322} height={334} />
           </div>
-          <div className="cs6 ce12 grid">
+          <div className="cs5 ce12 grid">
             <h2 className="cs2 ce12">
               My work is situated somewhere between photography, videography and
               design. I've been involved in the creative business for more than
