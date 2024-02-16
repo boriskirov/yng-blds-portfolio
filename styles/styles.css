@@ -233,6 +233,14 @@ small {
   background-size: contain;
 }
 
+details > summary {
+  list-style-type: "ツ";
+}
+
+details[open] > summary {
+  list-style-type: "ツ";
+}
+
 @keyframes rotateImages {
   0% {
     background-image: url("/index-loop/index-cover-3.png");

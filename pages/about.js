@@ -33,7 +33,7 @@ export default function Contact() {
             <Image src="/avatar1.png" width={322} height={334} />
           </div>
           <div className="cs5 ce12 grid">
-            <h2 className="cs2 ce12">
+            <h2 className="cs1 ce12">
               My work is situated somewhere between photography, videography and
               design. I've been involved in the creative business for more than
               10 years. With an educational background in Economics and
@@ -44,7 +44,7 @@ export default function Contact() {
               coverage, automotive, travel and portraiture photography and
               videography and other brain stuff.
             </h2>
-            <div className="flex cs2 ce12 flex-column">
+            <div className="flex cs1 ce12 flex-column">
               <Link
                 href="https://www.instagram.com/yng.blds/"
                 target="_blank"
@@ -84,6 +84,21 @@ export default function Contact() {
                 <h2>Bento</h2>
               </Link>
             </div>
+          </div>
+          <div className="cs5 ce12">
+            <details open>
+              <summary>Features & Mentions: </summary>
+              <ul>
+                <li>Upphotographers</li>
+                <li>instadenbosch</li>
+                <li>FramePress Magazine</li>
+                <li>Dutch Analog</li>
+                <li>Shoot It With Film</li>
+                <li>The Film Public</li>
+                <li>36h_studio</li>
+                <li>Vice</li>
+              </ul>
+            </details>
           </div>
         </div>
       </main>
