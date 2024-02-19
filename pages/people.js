@@ -16,20 +16,21 @@ export default function People() {
             <Item src="/life/life-40.png" width={320} height={240} />
             <Item src="/life/life-53.png" width={320} height={240} />
             <Item src="/life/life-30.png" width={320} height={240} />
-            <Item src="/life/life-14.png" width={320} height={240} />
 
+            <Item src="/life/life-56.png" width={320} height={240} />
             <Item src="/life/life-5.png" width={320} height={240} />
-            <Item src="/life/life-9.png" width={320} height={240} />
+            <Item src="/life/life-54.png" width={320} height={240} />
+
             <Item src="/life/life-8.png" width={320} height={240} />
-
+            <Item src="/life/life-57.png" width={320} height={240} />
             <Item src="/life/life-12.png" width={320} height={240} />
-
+            <Item src="/life/life-55.png" width={320} height={240} />
             <Item src="/life/life-1.png" width={320} height={240} />
 
             <Item src="/life/life-37.png" width={320} height={240} />
             <Item src="/life/life-52.png" width={320} height={240} />
-            <Item src="/life/life-18.png" width={320} height={240} />
 
+            <Item src="/life/life-9.png" width={320} height={240} />
             <Item src="/life/life-36.png" width={320} height={240} />
 
             <Item src="/life/life-33.png" width={320} height={240} />
