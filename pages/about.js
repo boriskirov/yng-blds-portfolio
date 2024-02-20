@@ -20,9 +20,9 @@ export default function Contact() {
         <div className="grid about-body">
           <div className="cs1 ce12 ">
             <h1 className={PtSerif.className}>
-              Hi there, I’m Boris / yng.blds [young bloods] - <br />A designer
-              and photographer based between Amsterdam, The Netherlands and
-              Sofia, Bulgaria.
+              Hi there, I’m Boris ツ / yng.blds [young bloods] - <br />A
+              designer and photographer based between Amsterdam, The Netherlands
+              and Sofia, Bulgaria.
             </h1>{" "}
             <br />
             <h2 className={PtSerif.className}>
@@ -38,11 +38,12 @@ export default function Contact() {
               design. I've been involved in the creative business for more than
               10 years. With an educational background in Economics and
               Advertising I can always understand when to lean on the creative
-              and on the practical side of any project.
+              and when on the practical side of any project, so we can move
+              forward.
               <br />
               Specializing in, but not limited to campaign shooting, event
               coverage, automotive, travel and portraiture photography and
-              videography and other brain stuff.
+              videography, and other brain stuff ツ.
             </h2>
             <div className="flex cs1 ce12 flex-column">
               <Link

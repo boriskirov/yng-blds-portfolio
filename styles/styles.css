@@ -234,11 +234,11 @@ small {
 }
 
 details > summary {
-  list-style-type: "ツ";
+  list-style-type: "► ";
 }
 
 details[open] > summary {
-  list-style-type: "ツ";
+  list-style-type: "▼ ";
 }
 
 @keyframes rotateImages {
