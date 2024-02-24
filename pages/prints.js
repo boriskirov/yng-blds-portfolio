@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
+import Link from "next/link";
 
 export default function Books() {
   return (
@@ -10,10 +11,28 @@ export default function Books() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce4 ">
-            <Image src="/prints/prints-1.png" width={380} height={270} />
+            {/* <Image src="/prints/prints-1.png" width={380} height={270} /> */}
+            <Image src="/test.gif" width={380} height={470} />
           </div>
           <div className="cs5 ce12 grid">
-            <p className="cs2 ce12">Coming mid 2024</p>
+            <h2 className="cs2 ce12">
+              My Darkroom shop is coming <strong>`mid 2024`</strong>
+            </h2>
+            <div className="cs2 ce12">
+              <Link
+                href="https://www.youngbloods.com"
+                className="align-items-center"
+                target="_blank"
+              >
+                <Image
+                  src="/darkroom.svg"
+                  className="icon"
+                  width={16}
+                  height={16}
+                />
+                Visit webshop
+              </Link>
+            </div>
           </div>
         </div>
       </main>

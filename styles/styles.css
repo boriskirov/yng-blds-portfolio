@@ -37,7 +37,7 @@ hr {
 }
 
 h1 {
-  font-size: calc(var(--font-size) * 4);
+  font-size: calc(var(--font-size) * 3.25);
   font-weight: calc(var(--font-weight) * 0.66);
 }
 
@@ -168,6 +168,7 @@ small {
 
 .icon {
   width: 24px;
+  padding-right: 8px;
 }
 
 .icon:hover {
@@ -177,6 +178,11 @@ small {
 .center {
   display: flex;
   justify-content: center;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
 }
 
 .collection-image {

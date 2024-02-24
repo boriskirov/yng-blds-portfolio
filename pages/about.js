@@ -84,6 +84,19 @@ export default function Contact() {
                 />
                 <h2>Bento</h2>
               </Link>
+              <Link
+                href="https://bento.me/yngblds"
+                className="flex-items-center"
+                target="_blank"
+              >
+                <Image
+                  src="/darkroom.svg"
+                  className="icon"
+                  width={24}
+                  height={24}
+                />
+                <h2>Darkoom webshop</h2>
+              </Link>
             </div>
           </div>
           <div className="cs5 ce12">

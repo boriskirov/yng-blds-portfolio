@@ -27,10 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/people": [
+    "/books": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/people.js"
+      "static/chunks/pages/books.js"
+    ],
+    "/prints": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/prints.js"
     ]
   },
   "ampFirstPages": []
