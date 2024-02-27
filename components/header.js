@@ -22,20 +22,18 @@ export default function Header() {
           />
         </Link>
       </div>
-      <nav className="cs9 ce12 nav">
+      <nav className="cs10 ce12 nav">
         <div href="/about" className="dropdown">
           <button className="dropbtn">Work</button>
           <ul className="dropdown-content">
-            <Link href="/outdoors">Outdoors</Link>
-            <Link href="/urban">Urban</Link>
+            <Link href="/travel">Travel</Link>
             <Link href="/garments">Garments</Link>
             <Link href="/people">People</Link>
             <Link href="/video">Video</Link>
           </ul>
         </div>
         <br />
-        <Link href="/prints">Prints</Link>
-        <Link href="/books">Books</Link>
+        <Link href="/shop">Shop</Link>
         <Link href="./about">About / Say Hello ツ</Link>
       </nav>
     </header>

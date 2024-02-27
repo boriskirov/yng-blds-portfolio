@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Metadata from "../components/metadata";
 import Link from "next/link";
 
-export default function Books() {
+export default function Shop() {
   return (
     <div className="main-container grid about-bg">
       <Metadata title="yng.blds" description="Prints for sale" />

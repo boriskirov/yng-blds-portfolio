@@ -4,7 +4,7 @@ export default function Item(src) {
   return (
     <div className="grid-item">
       <Image
-        className="card "
+        className="card"
         src={src}
         width={320}
         height={240}
