@@ -29,7 +29,7 @@ export default function People() {
             <Item src="/life/life-58.png" width={320} height={240} />
             <Item src="/life/life-37.png" width={320} height={240} />
             <Item src="/life/life-52.png" width={320} height={240} />
-
+            <Item src="/life/life-63.jpg" width={320} height={240} />
             <Item src="/life/life-62.jpg" width={320} height={240} />
             <Item src="/life/life-36.png" width={320} height={240} />
 
