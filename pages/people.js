@@ -19,29 +19,29 @@ export default function People() {
 
             <Item src="/life/life-56.png" width={320} height={240} />
             <Item src="/life/life-5.png" width={320} height={240} />
-            <Item src="/life/life-54.png" width={320} height={240} />
 
             <Item src="/life/life-61.jpg" width={320} height={240} />
-            <Item src="/life/life-57.png" width={320} height={240} />
+            <Item src="/life/life-54.png" width={320} height={240} />
+
             <Item src="/life/life-12.png" width={320} height={240} />
             <Item src="/life/life-55.png" width={320} height={240} />
             <Item src="/life/life-1.png" width={320} height={240} />
             <Item src="/life/life-58.png" width={320} height={240} />
             <Item src="/life/life-37.png" width={320} height={240} />
             <Item src="/life/life-52.png" width={320} height={240} />
-            <Item src="/life/life-63.jpg" width={320} height={240} />
+            <Item src="/life/life-39.png" width={320} height={240} />
             <Item src="/life/life-62.jpg" width={320} height={240} />
-            <Item src="/life/life-36.png" width={320} height={240} />
 
             <Item src="/life/life-33.png" width={320} height={240} />
-            <Item src="/life/life-59.png" width={320} height={240} />
-            <Item src="/life/life-34.png" width={320} height={240} />
-            <Item src="/life/life-39.png" width={320} height={240} />
+            <Item src="/life/life-63.jpg" width={320} height={240} />
+
             <Item src="/life/life-60.png" width={320} height={240} />
             <Item src="/life/life-45.png" width={320} height={240} />
-
+            <Item src="/life/life-59.png" width={320} height={240} />
             <Item src="/life/life-46.png" width={320} height={240} />
             <Item src="/life/life-47.png" width={320} height={240} />
+            <Item src="/life/life-36.png" width={320} height={240} />
+            <Item src="/life/life-34.png" width={320} height={240} />
 
             <Item src="/life/life-51.png" width={320} height={240} />
           </div>
