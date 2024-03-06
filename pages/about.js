@@ -103,6 +103,7 @@ export default function Contact() {
             <details open>
               <summary>Features & Mentions: </summary>
               <ul>
+                <li>Atlas Obscura</li>
                 <li>Upphotographers</li>
                 <li>instadenbosch</li>
                 <li>FramePress Magazine</li>
@@ -111,6 +112,7 @@ export default function Contact() {
                 <li>The Film Public</li>
                 <li>36h_studio</li>
                 <li>Vice</li>
+                <li>Bored Panda</li>
               </ul>
             </details>
           </div>
