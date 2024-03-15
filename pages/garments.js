@@ -14,6 +14,7 @@ export default function Garments() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12 grid-container">
+            <Item src="/garments/garments-47.jpg" width={320} height={240} />
             <Item src="/garments/garments-22.png" width={320} height={240} />
             <Item src="/garments/garments-5.png" width={320} height={240} />
 
