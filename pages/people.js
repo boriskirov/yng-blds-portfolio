@@ -18,6 +18,7 @@ export default function People() {
             <Item src="/life/life-30.png" width={320} height={240} />
 
             <Item src="/life/life-56.png" width={320} height={240} />
+            <Item src="/life/life-66.png" width={320} height={240} />
 
             <Item src="/life/life-61.jpg" width={320} height={240} />
             <Item src="/life/life-54.png" width={320} height={240} />
