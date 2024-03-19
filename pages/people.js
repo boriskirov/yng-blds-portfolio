@@ -24,11 +24,11 @@ export default function People() {
             <Item src="/life/life-54.png" width={320} height={240} />
             <Item src="/life/life-33.png" width={320} height={240} />
             <Item src="/life/life-45.png" width={320} height={240} />
-            <Item src="/life/life-60.png" width={320} height={240} />
+            <Item src="/life/life-60.jpg" width={320} height={240} />
             <Item src="/life/life-55.png" width={320} height={240} />
-            <Item src="/life/life-1.png" width={320} height={240} />
+            <Item src="/life/life-1.jpg" width={320} height={240} />
             <Item src="/life/life-58.png" width={320} height={240} />
-            <Item src="/life/life-37.png" width={320} height={240} />
+            <Item src="/life/life-37.jpg" width={320} height={240} />
 
             <Item src="/life/life-62.jpg" width={320} height={240} />
 
