@@ -27,9 +27,9 @@ export default function Header() {
           <button className="dropbtn">Work</button>
           <ul className="dropdown-content">
             <Link href="/urban">Urban</Link>
+            <Link href="/people">People</Link>
             <Link href="/outdoors">Outdoors</Link>
             <Link href="/garments">Garments</Link>
-            <Link href="/people">People</Link>
             <Link href="/video">Video</Link>
           </ul>
         </div>

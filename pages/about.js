@@ -102,7 +102,7 @@ export default function Contact() {
           <div className="cs5 ce12">
             <details open>
               <summary>Features & Mentions: </summary>
-              <ul>
+              <ul className="features-mentions">
                 <li>Atlas Obscura</li>
                 <li>Upphotographers</li>
                 <li>instadenbosch</li>
