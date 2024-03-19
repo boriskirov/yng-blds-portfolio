@@ -20,7 +20,7 @@ export default function Shop() {
             </h2>
             <div className="cs2 ce12">
               <Link
-                href="https://www.youngbloods.com"
+                href="https://youngbloods.darkroom.com/"
                 className="align-items-center"
                 target="_blank"
               >
