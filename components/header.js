@@ -35,6 +35,9 @@ export default function Header() {
         </div>
         <br />
         <Link href="/shop">Shop</Link>
+        <Link href="https://photonotes.substack.com/" target="_blank">
+          Blog
+        </Link>
         <Link href="./about">About / Say Hello ツ</Link>
       </nav>
     </header>

@@ -173,7 +173,7 @@ small {
 
 .icon {
   width: 24px;
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 .icon:hover {
