@@ -1,0 +1,42 @@
+import Link from "next/link";
+import Image from "next/image";
+
+import { Atkinson_Hyperlegible } from "@next/font/google";
+
+// If loading a variable font, you don't need to specify the font weight
+const inter = Atkinson_Hyperlegible({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+export default function PreOrderNow({ text }) {
+  return (
+    <div
+      style={{
+        position: "fixed",
+        left: "0",
+        bottom: "0",
+        width: "100%",
+        backgroundColor: "#e23d3d",
+        color: "white",
+        textAlign: "center",
+      }}
+    >
+      <div
+        className="cs1 ce12"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <Link href="200-postcards">
+          {" "}
+          <h2
+            style={{
+              fontWeight: "500",
+            }}
+          >
+            {text}
+          </h2>
+        </Link>
+      </div>
+    </div>
+  );
+}
