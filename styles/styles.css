@@ -251,6 +251,13 @@ details[open] > summary {
   list-style-type: "▼ ";
 }
 
+.cover {
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
 @keyframes rotateImages {
   0% {
     background-image: url("/index-loop/index-cover-3.png");

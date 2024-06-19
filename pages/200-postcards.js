@@ -13,7 +13,7 @@ export default function TwoHundredPostcards() {
       <main className="cs1 ce12" style={{ height: "100vh" }}>
         <div className="grid">
           <div
-            className="cs1 ce12"
+            className="cs1 ce12 cover"
             style={{
               backgroundImage: `url(${backgroundImage.src})`,
               backgroundPosition: "center",
@@ -23,7 +23,7 @@ export default function TwoHundredPostcards() {
             }}
           ></div>
           <div
-            className="cs1 ce12"
+            className="cs1 ce12 cover"
             style={{
               backgroundImage: `url(${bookOpen.src})`,
               backgroundPosition: "center",
