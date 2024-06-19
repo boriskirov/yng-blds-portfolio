@@ -2,23 +2,37 @@ import Image from "next/image";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
 import backgroundImage from "../public/200-postcards-transparent.png";
+import bookOpen from "../public/200-postcards-open.png";
 import PreOrderNow from "../components/pre-order-now";
 
 export default function TwoHundredPostcards() {
   return (
-    <div className="main-container grid index-bg">
+    <div className="main-container grid">
       <Metadata title="yng.blds" description="200 Postcards" />
       <Header />
-      <main className="cs1 ce12">
-        <div
-          className="main-container grid about-bg"
-          style={{
-            backgroundImage: `url(${backgroundImage.src})`,
-            backgroundPosition: "center",
-            backgroundSize: "100% auto",
-            backgroundRepeat: "no-repeat",
-          }}
-        ></div>
+      <main className="cs1 ce12" style={{ height: "100vh" }}>
+        <div className="grid">
+          <div
+            className="cs1 ce12"
+            style={{
+              backgroundImage: `url(${backgroundImage.src})`,
+              backgroundPosition: "center",
+              backgroundSize: "140% auto",
+              backgroundRepeat: "no-repeat",
+              height: "70vh",
+            }}
+          ></div>
+          <div
+            className="cs1 ce12"
+            style={{
+              backgroundImage: `url(${bookOpen.src})`,
+              backgroundPosition: "center",
+              backgroundSize: "110% auto",
+              backgroundRepeat: "no-repeat",
+              height: "120vh",
+            }}
+          ></div>
+        </div>
         <PreOrderNow text="PRE-ORDER NOW" />
       </main>
     </div>

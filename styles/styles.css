@@ -297,7 +297,6 @@ details[open] > summary {
     background-image: url("/index-loop/index-cover-mobile-3.png");
     background-position: center;
     background-repeat: no-repeat;
-
     background-size: cover;
     animation: rotateImages 20s infinite;
   }
