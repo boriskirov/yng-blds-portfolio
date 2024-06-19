@@ -3,9 +3,9 @@ import "../styles/styles.css";
 import "../styles/pinterestgrid.css";
 import "../styles/overlapping.css";
 
-import { Atkinson_Hyperlegible } from "@next/font/google";
+import { Space_Grotesk } from "@next/font/google";
 
-const inter = Atkinson_Hyperlegible({
+const inter = Space_Grotesk({
   subsets: ["latin"],
   weight: ["400", "700"],
 });

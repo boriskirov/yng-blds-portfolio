@@ -17,14 +17,19 @@ export default function PreOrderNow({ text }) {
         left: "0",
         bottom: "0",
         width: "100%",
-        backgroundColor: "#e23d3d",
+        backgroundColor: "#f24646b2",
         color: "white",
         textAlign: "center",
       }}
     >
       <div
         className="cs1 ce12"
-        style={{ display: "flex", justifyContent: "center" }}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          height: "50px",
+          alignItems: "center",
+        }}
       >
         <Link href="200-postcards">
           {" "}

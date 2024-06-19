@@ -12,17 +12,12 @@ const inter = Atkinson_Hyperlegible({
 export default function Header() {
   return (
     <header className="grid cs1 ce12 header sticky">
-      <div className="cs1 ce7 flex">
+      <div className="cs1 ce12 flex center">
         <Link href="/" className={inter.className}>
-          <Image
-            src="/logo-empty.svg"
-            className="logo"
-            width={65}
-            height={27}
-          />
+          <h1>BORIS KIROV</h1>
         </Link>
       </div>
-      <nav className="cs10 ce12 nav">
+      <nav className="cs4 ce9 nav">
         <div href="/about" className="dropdown">
           <button className="dropbtn">Work</button>
           <ul className="dropdown-content">
@@ -38,7 +33,7 @@ export default function Header() {
         <Link href="https://photonotes.substack.com/" target="_blank">
           Blog
         </Link>
-        <Link href="./about">About / Say Hello ツ</Link>
+        <Link href="./about">About ツ</Link>
       </nav>
     </header>
   );

@@ -58,7 +58,7 @@ h1 > bold {
 
 p,
 a {
-  font-size: 14px;
+  font-size: 20px;
   color: #f2f2f2;
 }
 
@@ -67,7 +67,7 @@ a {
 }
 
 a:hover {
-  color: #f32432;
+  color: #d0d0d0;
 }
 
 a:hover > small {
@@ -153,7 +153,7 @@ small {
 
 .sticky {
   top: 0;
-  padding: 16px 0;
+  padding: 16px 16px;
 }
 
 .name {
@@ -203,18 +203,18 @@ small {
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .dropbtn:hover {
-  color: #ff5050;
+  color: #dddddde0;
   cursor: pointer;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1d1;
   min-width: 112px;
   z-index: 1000;
 }
@@ -228,7 +228,6 @@ small {
 
 .dropdown-content a:hover {
   background-color: #ddd;
-  color: #ff5050;
 }
 
 .dropdown:hover .dropdown-content {
@@ -239,9 +238,9 @@ small {
   background-image: url("/index-loop/index-cover-3.png");
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 720px;
+  min-height: 100vh;
   animation: rotateImages 20s infinite;
-  background-size: contain;
+  background-size: cover;
 }
 
 details > summary {
@@ -298,7 +297,7 @@ details[open] > summary {
     background-image: url("/index-loop/index-cover-mobile-3.png");
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 562px;
+
     background-size: cover;
     animation: rotateImages 20s infinite;
   }
