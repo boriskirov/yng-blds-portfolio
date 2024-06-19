@@ -5,7 +5,7 @@ import PreOrderNow from "../components/pre-order-now";
 
 export default function Home() {
   return (
-    <div className="main-container grid index-bg index-cover">
+    <div className="main-container grid index-cover cover">
       <Metadata title="yng.blds" description="photography & videography" />
       <Header />
       <main className="cs1 ce12">
