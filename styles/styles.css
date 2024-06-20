@@ -275,6 +275,13 @@ details[open] > summary {
   list-style-type: "▼ ";
 }
 
+.cover {
+  background-size: 140% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
 @media (max-width: 1648px) {
   .product-item {
     width: 40%;
@@ -290,6 +297,10 @@ details[open] > summary {
     justify-content: space-between;
     margin: 16px 0;
   }
+
+  .cover {
+    background-size: 200%;
+  }
 }
 
 @media (max-width: 428px) {
@@ -304,6 +315,14 @@ details[open] > summary {
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+  }
+
+  .cover {
+    background-size: 290%;
+  }
+
+  .sticky {
+    padding: 0;
   }
 
   @keyframes rotateImages {

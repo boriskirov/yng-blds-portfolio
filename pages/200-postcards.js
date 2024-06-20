@@ -16,24 +16,16 @@ export default function TwoHundredPostcards() {
             className="cs1 ce12 cover"
             style={{
               backgroundImage: `url(${backgroundImage.src})`,
-              backgroundPosition: "center",
-              backgroundSize: "140% auto",
-              backgroundRepeat: "no-repeat",
-              height: "70vh",
             }}
           ></div>
           <div
             className="cs1 ce12 cover"
             style={{
               backgroundImage: `url(${bookOpen.src})`,
-              backgroundPosition: "center",
-              backgroundSize: "110% auto",
-              backgroundRepeat: "no-repeat",
-              height: "120vh",
             }}
           ></div>
         </div>
-        <PreOrderNow text="PRE-ORDER NOW" />
+        <PreOrderNow text="Available for pre-order soon!" />
       </main>
     </div>
   );

@@ -17,9 +17,14 @@ export default function PreOrderNow({ text }) {
         left: "0",
         bottom: "0",
         width: "100%",
+        height: "74px",
         backgroundColor: "#f24646b2",
         color: "white",
         textAlign: "center",
+        alignItems: "center",
+        display: "flex",
+
+        justifyContent: "center",
       }}
     >
       <div

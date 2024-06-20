@@ -10,7 +10,7 @@ export default function Shop() {
       <Metadata title="yng.blds" description="Prints for sale" />
       <Header />
       <main className="cs1 ce12">
-        <PreOrderNow text="200 Postcards PRE-ORDER NOW" />
+        <PreOrderNow text="Book: '200 Postcards' will be available for pre-order soon" />
         <div className="grid">
           <div className="cs1 ce4">
             <Image src="/shop/shop-1.png" width={380} height={470} />
