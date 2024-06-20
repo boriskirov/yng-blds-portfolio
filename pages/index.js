@@ -1,6 +1,6 @@
 import Header from "../components/header";
+
 import Metadata from "../components/metadata";
-import Image from "next/image";
 import PreOrderNow from "../components/pre-order-now";
 
 export default function Home() {
