@@ -325,6 +325,10 @@ details[open] > summary {
     padding: 0;
   }
 
+  .title {
+    font-size: 36px;
+  }
+
   @keyframes rotateImages {
     0% {
       background-image: url("/index-loop/index-cover-mobile-3.png");

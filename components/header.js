@@ -14,7 +14,7 @@ export default function Header() {
     <header className="grid cs1 ce12 header sticky">
       <div className="cs1 ce12 flex center">
         <Link href="/" className={inter.className}>
-          <h1>BORIS KIROV</h1>
+          <h1 className="title">BORIS KIROV</h1>
         </Link>
       </div>
       <nav className="cs4 ce9 nav">
