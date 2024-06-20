@@ -18,34 +18,28 @@ export default function Contact() {
 
       <main className="cs1 ce12">
         <div className="grid about-body">
-          <div className="cs1 ce12 ">
-            <h1 className={PtSerif.className}>
-              Hi there, I’m Boris ツ / yng.blds [young bloods] - <br />A
-              designer and photographer based between Amsterdam, The Netherlands
-              and Sofia, Bulgaria.
-            </h1>{" "}
-            <br />
+          <div className="cs2 ce12 ">
             <h2 className={PtSerif.className}>
+              Hi there, I’m Boris ツ / yng.blds [young bloods]. <br />A designer
+              and photographer based between Amsterdam, The Netherlands and
+              Sofia, Bulgaria.
+            </h2>{" "}
+            <br />
+            <small className={PtSerif.className}>
               * Available for freelance work and open to travel.
-            </h2>
+            </small>
           </div>
-          <div className="cs1 ce4 sticky">
+          <div className="cs2 ce5 sticky">
             <Image src="/avatar1.png" width={322} height={334} />
           </div>
-          <div className="cs5 ce12 grid">
+          <div className="cs7 ce10 grid">
             <h2 className="cs1 ce12">
-              My work is situated somewhere between photography, videography and
-              design. I've been involved in the creative business for more than
-              10 years. With an educational background in Economics and
-              Advertising I can always understand when to lean on the creative
-              and when on the practical side of any project, so we can move
-              forward.
-              <br />
-              Specializing in, but not limited to campaign shooting, event
-              coverage, automotive, travel and portraiture photography and
-              videography, and other brain stuff ツ.
+              Born and raised in Sofia, Bulgaria and always between Amsterdam
+              and Sofia. I care for details, colours and emotions by creating
+              imagery across lifestyle, landscape, architecture, still life,
+              fashion and other brain stuff ツ.
             </h2>
-            <div className="flex cs1 ce12 flex-column">
+            <div className="flex cs1 ce12">
               <Link
                 href="https://www.instagram.com/yng.blds/"
                 target="_blank"
@@ -57,7 +51,6 @@ export default function Contact() {
                   width={24}
                   height={24}
                 />
-                <h2>Instagram</h2>
               </Link>
               <Link
                 href="mailto:yngblooods@gmail.com?subject=Let's collaborate"
@@ -69,7 +62,6 @@ export default function Contact() {
                   width={24}
                   height={24}
                 />
-                <h2>Email me</h2>
               </Link>
               <Link
                 href="https://bento.me/yngblds"
@@ -82,7 +74,6 @@ export default function Contact() {
                   width={24}
                   height={24}
                 />
-                <h2>Bento</h2>
               </Link>
               <Link
                 href="https://bento.me/yngblds"
@@ -95,7 +86,6 @@ export default function Contact() {
                   width={24}
                   height={24}
                 />
-                <h2>Darkoom webshop</h2>
               </Link>
               <Link
                 href="https://bento.me/yngblds"
@@ -108,11 +98,10 @@ export default function Contact() {
                   width={24}
                   height={24}
                 />
-                <h2>Photonotes newsletter</h2>
               </Link>
             </div>
           </div>
-          <div className="cs5 ce12">
+          <div className="cs2 ce12">
             <details open>
               <summary>Features & Mentions: </summary>
               <ul className="features-mentions">
