@@ -14,7 +14,7 @@ export default function TwoHundredPostcards() {
       <main className="cs1 ce12">
         <div className="grid">
           <div
-            className="cs1 ce7 cover"
+            className="cs1 ce6 cover"
             style={{
               backgroundImage: `url(${backgroundImage.src})`,
             }}
@@ -22,17 +22,19 @@ export default function TwoHundredPostcards() {
           <div className="cs8 ce11">
             <p>
               "200 postcards" is a curated selection of photos taken between
-              2019 and 2024. They are meant to showcase the importance of family
-              and friends, the connection we always have with them.
+              2019 and 2024. The decision behind making this book is to embrace
+              the journey of self-expression and connection with the world. The
+              life left behind, the present one, and the life we strive for.
             </p>
             <br />
             <ul>
+              <li>Swiss binded 200 gr / m² cover</li>
               <li>212 pages with 130 gr / m² recycled paper</li>
               <li>Crafted and printed in The Netherlands</li>
               <li>Handy format (160mm X 210mm)</li>
             </ul>
             <br />
-            <p>Pre-orders are going to be available soon</p>
+            <p>Pre-orders are available soon</p>
             <br />
             {/* <h2>€22.00</h2> */}
             <br />
@@ -50,7 +52,7 @@ export default function TwoHundredPostcards() {
               PRE-ORDER{" "}
             </Link>
           </div>
-          <div className="cs1 ce12 flex center">
+          <div className="cs1 ce12 flex center" style={{ marginTop: "24px" }}>
             <Image src="/slider.svg" className="icon" width={24} height={24} />
           </div>
           <div

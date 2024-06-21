@@ -16,28 +16,41 @@ export default function Shop() {
         />
         <div className="grid">
           <div className="cs1 ce4">
-            <Image src="/shop/shop-1.png" width={380} height={470} />
-            <h2>Book: 200 Postcards</h2>
-            <small>
-              <Link href="/200-postcards">Pre-order now</Link>
-            </small>
+            <Link href="/200-postcards">
+              <Image src="/shop/shop-1.png" width={380} height={470} />
+              <h2>Book: 200 Postcards</h2>
+              <Link
+                href="/200-postcards"
+                style={{ color: "rgba(249, 62, 62, 0.76)" }}
+              >
+                Pre-order now
+              </Link>
+            </Link>
           </div>
 
           <div className="cs5 ce8">
-            <Image src="/shop/shop-2.png" width={380} height={470} />
-            <h2>Poster: "Sunset in Centrale Markt"</h2>
-            <small>
-              <Link href="https://youngbloods.darkroom.com/" target="_blank">
-                Buy now
-              </Link>
-            </small>
+            <Link href="https://youngbloods.darkroom.com/" target="_blank">
+              <Image src="/shop/shop-2.png" width={380} height={470} />
+              <h2>Poster: "Sunset in Centrale Markt"</h2>
+              <small>
+                <Link
+                  href="https://youngbloods.darkroom.com/"
+                  target="_blank"
+                  style={{ color: "rgba(249, 62, 62, 0.76)" }}
+                >
+                  Buy now
+                </Link>
+              </small>
+            </Link>
           </div>
 
           <div className="cs9 ce12">
             <Image src="/shop/shop-3.png" width={380} height={470} />
             <h2>Book: "Strapped for time"</h2>
             <small>
-              <Link href="/shop">Not available</Link>
+              <Link style={{ color: "rgba(116, 116, 116, 0.76)" }} href="/shop">
+                Not available
+              </Link>
             </small>
           </div>
         </div>
