@@ -8,7 +8,10 @@ export default function Home() {
       <Metadata title="yng.blds" description="photography & videography" />
       <Header />
       <main className="cs1 ce12">
-        <PreOrderNow text="Book: '200 Postcards' will be available for pre-order soon" />
+        <PreOrderNow
+          text="Book: '200 Postcards' will be available for pre-order soon"
+          href={"200-postcards"}
+        />
       </main>
     </div>
   );

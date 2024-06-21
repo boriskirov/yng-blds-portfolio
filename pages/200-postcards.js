@@ -1,8 +1,10 @@
 import Header from "../components/header";
 import Metadata from "../components/metadata";
 import backgroundImage from "../public/200-postcards-transparent.png";
-import bookOpen from "../public/200-postcards-open.png";
+
 import PreOrderNow from "../components/pre-order-now";
+import Link from "next/link";
+import Slider from "../components/slider";
 
 export default function TwoHundredPostcards() {
   return (
@@ -34,28 +36,35 @@ export default function TwoHundredPostcards() {
             <br />
             <h2>€22.00</h2>
             <br />
-            <button
-              disabled
+            <Link
+              href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
+              target="_blank"
               style={{
                 padding: "12px 24px",
                 fontSize: "20px",
-                fontWeight: "bold",
+                fontWeight: "normal",
+                backgroundColor: "rgba(249, 62, 62, 0.76)",
+                color: "f2f2f2",
               }}
             >
-              Pre-order
-            </button>
+              PRE-ORDER{" "}
+            </Link>
           </div>
           <div
-            className="cs1 ce12 cover"
+            className="cs1 ce12"
             style={{
-              backgroundImage: `url(${bookOpen.src})`,
-              backgroundColor: "#ffffffc2",
-              padding: "64px",
-              backgroundSize: "120%",
+              backgroundColor: "#ffffff",
+              padding: "24px",
             }}
-          ></div>
+          >
+            <Slider />
+          </div>
         </div>
-        <PreOrderNow text="Available for pre-order soon!" />
+        <PreOrderNow
+          text="Available for pre-order soon!"
+          href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
+          target={"_blank"}
+        />
       </main>
     </div>
   );

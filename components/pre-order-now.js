@@ -9,7 +9,7 @@ const inter = Atkinson_Hyperlegible({
   weight: ["400", "700"],
 });
 
-export default function PreOrderNow({ text }) {
+export default function PreOrderNow({ text, href, target }) {
   return (
     <div
       style={{
@@ -36,7 +36,7 @@ export default function PreOrderNow({ text }) {
           alignItems: "center",
         }}
       >
-        <Link href="200-postcards">
+        <Link href={href} target={target}>
           {" "}
           <h2
             style={{
