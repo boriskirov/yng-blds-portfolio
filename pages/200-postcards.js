@@ -30,8 +30,8 @@ export default function TwoHundredPostcards() {
             <ul>
               <li>Swiss binded 200 gr / m² cover</li>
               <li>212 pages with 130 gr / m² recycled paper</li>
-              <li>Crafted and printed in The Netherlands</li>
-              <li>Handy format (160mm X 210mm)</li>
+              <li>Coffee table format (160mm X 210mm)</li>
+              <li>Crafted and printed in Amsterdam, The Netherlands</li>
             </ul>
             <br />
             <p>Pre-orders are available soon</p>
