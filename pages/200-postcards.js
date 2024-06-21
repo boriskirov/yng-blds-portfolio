@@ -1,7 +1,7 @@
 import Header from "../components/header";
 import Metadata from "../components/metadata";
 import backgroundImage from "../public/200-postcards-transparent.png";
-
+import Image from "next/image";
 import PreOrderNow from "../components/pre-order-now";
 import Link from "next/link";
 import Slider from "../components/slider";
@@ -27,14 +27,14 @@ export default function TwoHundredPostcards() {
             </p>
             <br />
             <ul>
-              <li>212 pages with 120gr recycled paper</li>
+              <li>212 pages with 130 gr / m² recycled paper</li>
               <li>Crafted and printed in The Netherlands</li>
               <li>Handy format (160mm X 210mm)</li>
             </ul>
             <br />
             <p>Pre-orders are going to be available soon</p>
             <br />
-            <h2>€22.00</h2>
+            {/* <h2>€22.00</h2> */}
             <br />
             <Link
               href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
@@ -49,6 +49,9 @@ export default function TwoHundredPostcards() {
             >
               PRE-ORDER{" "}
             </Link>
+          </div>
+          <div className="cs1 ce12 flex center">
+            <Image src="/slider.svg" className="icon" width={24} height={24} />
           </div>
           <div
             className="cs1 ce12"
