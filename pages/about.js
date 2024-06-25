@@ -18,21 +18,10 @@ export default function Contact() {
 
       <main className="cs1 ce12">
         <div className="grid about-body">
-          <div className="cs2 ce12 ">
-            <h2 className={PtSerif.className}>
-              Hi there, I’m Boris ツ / yng.blds [young bloods]. <br />A designer
-              and photographer based between Amsterdam, The Netherlands and
-              Sofia, Bulgaria.
-            </h2>{" "}
-            <br />
-            <small className={PtSerif.className}>
-              * Available for freelance work and open to travel.
-            </small>
-          </div>
-          <div className="cs2 ce5 sticky">
+          <div className="cs2 ce6 sticky">
             <Image src="/avatar1.png" width={322} height={334} />
           </div>
-          <div className="cs7 ce10 grid">
+          <div className="cs7 ce11 grid">
             <h2 className="cs1 ce12">
               Born and raised in Sofia, Bulgaria and always between Amsterdam
               and Sofia. I care for details, colours and emotions by creating
@@ -101,10 +90,13 @@ export default function Contact() {
               </Link>
             </div>
           </div>
-          <div className="cs2 ce12">
+          <div className="cs7 ce11">
             <details open>
               <summary>Features & Mentions: </summary>
               <ul className="features-mentions">
+                <li>mnfst</li>
+                <li>The Maker Market</li>
+                <li>Haarlem City Blog</li>
                 <li>Atlas Obscura</li>
                 <li>Upphotographers</li>
                 <li>instadenbosch</li>
