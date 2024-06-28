@@ -5,6 +5,7 @@ import Image from "next/image";
 import PreOrderNow from "../components/pre-order-now";
 import Link from "next/link";
 import Slider from "../components/slider";
+import EmailForm from "../components/email-form";
 
 export default function TwoHundredPostcards() {
   return (
@@ -51,6 +52,9 @@ export default function TwoHundredPostcards() {
             >
               PRE-ORDER{" "}
             </Link>
+          </div>
+          <div className="cs1 ce12">
+            <EmailForm />
           </div>
           <div className="cs1 ce12 flex center" style={{ marginTop: "24px" }}>
             <Image
