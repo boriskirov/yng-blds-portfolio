@@ -4,8 +4,8 @@ import bookOpen3 from "../public/book-open-grid-3.png";
 
 export default function Slider() {
   return (
-    <div class="slider">
-      <div class="slides">
+    <div className="slider">
+      <div className="slides">
         <div id="slide-3">
           {" "}
           <div

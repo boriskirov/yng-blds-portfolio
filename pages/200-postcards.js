@@ -53,7 +53,13 @@ export default function TwoHundredPostcards() {
             </Link>
           </div>
           <div className="cs1 ce12 flex center" style={{ marginTop: "24px" }}>
-            <Image src="/slider.svg" className="icon" width={24} height={24} />
+            <Image
+              src="/slider.svg"
+              alt="slider"
+              className="icon"
+              width={24}
+              height={24}
+            />
           </div>
           <div
             className="cs1 ce12"
