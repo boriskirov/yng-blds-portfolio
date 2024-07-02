@@ -2,13 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
-import { PT_Serif } from "@next/font/google";
-
-const PtSerif = PT_Serif({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  style: "italic",
-});
 
 export default function Contact() {
   return (
