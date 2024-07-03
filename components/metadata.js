@@ -33,7 +33,6 @@ const Metadata = ({ title, description, image }) => {
         property="twitter:description"
         content="photography & videography"
       />
-      <meta property="twitter:image" content="/avatar.png" />
     </Head>
   );
 };
