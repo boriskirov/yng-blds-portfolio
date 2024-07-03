@@ -5,7 +5,11 @@ import Metadata from "../components/metadata";
 export default function People() {
   return (
     <div className="main-container grid about-bg">
-      <Metadata title="yng.blds" description="Life & Portrait Photography" />
+      <Metadata
+        title="yng.blds"
+        description="Life & Portrait Photography"
+        image="/avatar.png"
+      />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">

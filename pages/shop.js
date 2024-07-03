@@ -7,7 +7,7 @@ import PreOrderNow from "../components/pre-order-now";
 export default function Shop() {
   return (
     <div className="main-container grid index-bg">
-      <Metadata title="yng.blds" description="Prints for sale" />
+      <Metadata title="Shop" description="Shop" />
       <Header />
       <main className="cs1 ce12">
         <PreOrderNow

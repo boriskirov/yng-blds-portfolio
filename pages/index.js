@@ -5,7 +5,11 @@ import PreOrderNow from "../components/pre-order-now";
 export default function Home() {
   return (
     <div className="main-container grid index-cover cover">
-      <Metadata title="yng.blds" description="photography & videography" />
+      <Metadata
+        title="Boris Kirov | yng.blds"
+        description="Photography & videography"
+        image="/avatar.png"
+      />
       <Header />
       <main className="cs1 ce12">
         <PreOrderNow

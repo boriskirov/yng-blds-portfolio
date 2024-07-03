@@ -5,7 +5,11 @@ import Metadata from "../components/metadata";
 export default function Video() {
   return (
     <div className="main-container grid about-bg">
-      <Metadata title="yng.blds" description="Videography" />
+      <Metadata
+        title="yng.blds"
+        description="Videography"
+        image="/avatar.png"
+      />
       <Header />
       <main className="cs1 ce12">
         <div className="grid ">

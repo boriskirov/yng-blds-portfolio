@@ -9,6 +9,7 @@ export default function Garments() {
       <Metadata
         title="yng.blds"
         description="Apparel and Clothing Photography"
+        image="/avatar.png"
       />
       <Header />
       <main className="cs1 ce12">

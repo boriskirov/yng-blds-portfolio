@@ -6,7 +6,7 @@ import Metadata from "../components/metadata";
 export default function Contact() {
   return (
     <div className="main-container grid about-bg">
-      <Metadata />
+      <Metadata title="About" image="/avatar.png" />
       <Header />
 
       <main className="cs1 ce12">

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const Metadata = ({ title, description }) => {
+const Metadata = ({ title, description, image }) => {
   return (
     <Head>
       {/* Primary Meta Tags */}
@@ -24,7 +24,7 @@ const Metadata = ({ title, description }) => {
         content="yng.blds - photography & videography"
       />
       <meta property="og:url" content="https://www.yng-blds.com" />
-      <meta property="og:image" content="/avatar.png" />
+      <meta property="og:image" content={image} />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://yngblds.vercel.app/" />

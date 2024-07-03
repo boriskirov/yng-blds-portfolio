@@ -9,7 +9,11 @@ import Slider from "../components/slider";
 export default function TwoHundredPostcards() {
   return (
     <div className="main-container grid">
-      <Metadata title="yng.blds" description="200 Postcards" />
+      <Metadata
+        title="200 Postcards by Boris Kirov"
+        description="200 Postcards"
+        image="/book-open-grid-3.png"
+      />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">
