@@ -10,8 +10,8 @@ export default function TwoHundredPostcards() {
   return (
     <div className="main-container grid">
       <Metadata
-        title="200 Postcards by Boris Kirov"
-        description="200 Postcards"
+        title="200 Postcards"
+        description="200 Postcards photobook by Boris Kirov"
         image="/book-open-grid-3.png"
       />
       <Header />
