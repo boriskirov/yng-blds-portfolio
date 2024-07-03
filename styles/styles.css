@@ -276,10 +276,17 @@ details[open] > summary {
 }
 
 .cover {
-  background-size: 140% auto;
+  background-size: 180% auto;
   background-position: center;
   background-repeat: no-repeat;
   height: 70vh;
+}
+
+.inner-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-size: 100% auto;
 }
 
 @media (max-width: 1648px) {

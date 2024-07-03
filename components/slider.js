@@ -21,11 +21,11 @@ export default function Slider() {
         </div>
         <div id="slide-1">
           <div
-            className="cover"
+            className="inner-cover"
             style={{
               backgroundImage: `url(${bookOpen.src})`,
               backgroundColor: "#ffffffc2",
-              backgroundSize: "120% auto",
+              backgroundSize: "100%% auto",
               padding: "64px",
               width: "100%",
             }}
@@ -34,11 +34,11 @@ export default function Slider() {
         <div id="slide-2">
           {" "}
           <div
-            className="cover"
+            className="inner-cover"
             style={{
               backgroundImage: `url(${bookOpen2.src})`,
               backgroundColor: "#ffffffc2",
-              backgroundSize: "120% auto",
+              backgroundSize: "100%% auto",
               padding: "64px",
               width: "100%",
             }}

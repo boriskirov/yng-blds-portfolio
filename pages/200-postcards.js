@@ -1,6 +1,6 @@
 import Header from "../components/header";
 import Metadata from "../components/metadata";
-import backgroundImage from "../public/200-postcards-transparent.png";
+import backgroundImage from "../public/photo-book-loop.gif";
 import Image from "next/image";
 import PreOrderNow from "../components/pre-order-now";
 import Link from "next/link";
@@ -15,6 +15,7 @@ export default function TwoHundredPostcards() {
         <div className="grid">
           <div
             className="cs1 ce6 cover"
+            loop="infinite"
             style={{
               backgroundImage: `url(${backgroundImage.src})`,
             }}
@@ -22,21 +23,23 @@ export default function TwoHundredPostcards() {
           <div className="cs8 ce11">
             <p>
               "200 postcards" is a curated selection of photos taken between
-              2019 and 2024. The decision behind making this book is to embrace
-              the journey of self-expression and connection with the world. The
-              life left behind, the present one, and the life we strive for.
+              2019-2024. They are the result of the constant search on how to
+              stay connected to my roots, family and friends. By signing up, it
+              means you want to pre-order my book:
             </p>
             <br />
             <ul>
-              <li>Swiss binded 200 gr / m² cover</li>
-              <li>212 pages with 130 gr / m² recycled paper</li>
-              <li>Coffee table format (160mm X 210mm)</li>
+              <li>Thread binded Munken Lynx Rough 300 gr/ m² cover</li>
+              <li>
+                212 pages with Munken Lynx Rough 120 gr/ m² recycled paper
+              </li>
+              <li>Coffee table format (160 x 230 mm)</li>
               <li>Crafted and printed in Amsterdam, The Netherlands</li>
             </ul>
             <br />
             <p>Pre-orders are available soon</p>
             <br />
-            {/* <h2>€22.00</h2> */}
+            {/* <h2>€35.00</h2> */}
             <br />
             <Link
               href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
