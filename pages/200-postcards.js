@@ -18,7 +18,7 @@ export default function TwoHundredPostcards() {
       <main className="cs1 ce12">
         <div className="grid">
           <div
-            className="cs1 ce6 cover"
+            className="cs1 ce6 shop-cover"
             loop="infinite"
             style={{
               backgroundImage: `url(${backgroundImage.src})`,

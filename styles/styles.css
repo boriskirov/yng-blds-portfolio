@@ -276,7 +276,21 @@ details[open] > summary {
 }
 
 .cover {
-  background-size: 180% auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+.cover-main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
+.shop-cover {
+  background-size: 220% auto;
   background-position: center;
   background-repeat: no-repeat;
   height: 70vh;
@@ -304,10 +318,6 @@ details[open] > summary {
     justify-content: space-between;
     margin: 16px 0;
   }
-
-  .cover {
-    background-size: 290%;
-  }
 }
 
 @media (max-width: 428px) {
@@ -324,8 +334,13 @@ details[open] > summary {
     background-size: cover;
   }
 
-  .cover {
+  .cover,
+  .cover-main {
     height: 40vh;
+  }
+
+  .shop-cover {
+    background-size: 320% auto;
   }
 
   .sticky {
