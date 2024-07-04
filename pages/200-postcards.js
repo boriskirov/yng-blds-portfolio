@@ -33,7 +33,11 @@ export default function TwoHundredPostcards() {
             </p>
             <br />
             <ul>
-              <li>Thread binded Munken Lynx Rough 300 gr/ m² cover</li>
+              <li>
+                {" "}
+                Sewn with bare spine in Swiss softcover Munken Lynx Rough 300
+                gr/ m² cover
+              </li>
               <li>
                 212 pages with Munken Lynx Rough 120 gr/ m² recycled paper
               </li>
