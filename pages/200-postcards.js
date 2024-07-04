@@ -12,7 +12,7 @@ export default function TwoHundredPostcards() {
       <Metadata
         title="200 Postcards"
         description="200 Postcards photobook by Boris Kirov"
-        image="/book-open-grid-3.png"
+        image="/200-post-meta.png"
       />
       <Header />
       <main className="cs1 ce12">
