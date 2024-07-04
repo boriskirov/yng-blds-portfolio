@@ -40,8 +40,8 @@ export default function TwoHundredPostcards() {
               <li>Coffee table format (160 x 230 mm)</li>
               <li>Crafted and printed in Amsterdam, The Netherlands</li>
             </ul>
-            <br />
-            <p>Pre-orders are available soon</p>
+            {/* <br />
+            <p>Pre-orders are available soon</p> */}
             <br />
             <h2>€35.00</h2>
             <br />
