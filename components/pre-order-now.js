@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 import { Atkinson_Hyperlegible } from "@next/font/google";
 
@@ -37,7 +36,6 @@ export default function PreOrderNow({ text, href, target }) {
         }}
       >
         <Link href={href} target={target}>
-          {" "}
           <h2
             style={{
               fontWeight: "500",
