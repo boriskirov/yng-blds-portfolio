@@ -43,7 +43,7 @@ export default function TwoHundredPostcards() {
             <br />
             <p>Pre-orders are available soon</p>
             <br />
-            {/* <h2>€35.00</h2> */}
+            <h2>€35.00</h2>
             <br />
             <Link
               href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
