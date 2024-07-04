@@ -18,7 +18,7 @@ const Metadata = ({ title, description, image }) => {
         property="og:description"
         content={description}
       />
-      <meta name="og:title" property="og:title" content="yng.blds" />
+      <meta name="og:title" property="og:title" content={title} />
       <meta
         property="og:site_name"
         content="yng.blds - photography & videography"
