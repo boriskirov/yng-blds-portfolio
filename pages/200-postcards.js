@@ -79,7 +79,7 @@ export default function TwoHundredPostcards() {
           </div>
         </div>
         <PreOrderNow
-          text="Available for pre-order soon!"
+          text="Available for pre-order now!"
           href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
           target={"_blank"}
         />
