@@ -87,7 +87,10 @@ export default function Contact() {
             <details open>
               <summary>Features & Mentions: </summary>
               <ul className="features-mentions">
+                <li>Art Cage Budapest</li>
+                <li>EyeShot Magazine</li>
                 <li>mnfst</li>
+                <li>Cheetah bikes</li>
                 <li>The Maker Market</li>
                 <li>Haarlem City Blog</li>
                 <li>Atlas Obscura</li>
