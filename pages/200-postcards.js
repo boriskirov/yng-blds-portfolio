@@ -26,10 +26,12 @@ export default function TwoHundredPostcards() {
           ></div>
           <div className="cs8 ce11">
             <p>
-              "200 postcards" is a curated selection of photos taken between
-              2019-2024. In this book you will find 200 images taken after
-              moving abroad and looking for ways how to stay connected to your
-              friends, family and roots.
+              200 postcards is a curated selection of moments between 2019-2024.
+              Living abroad means leaving behind everyting you know and hold
+              dear. Social media helps us stay connected to our friends and
+              family, but with time the gap gets bigger. This book contains 200
+              images meant to be shared, as every memory is more valuable when
+              shared.
             </p>
             <br />
             <ul>
