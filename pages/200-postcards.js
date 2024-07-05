@@ -27,9 +27,9 @@ export default function TwoHundredPostcards() {
           <div className="cs8 ce11">
             <p>
               "200 postcards" is a curated selection of photos taken between
-              2019-2024. They are the result of the constant search on how to
-              stay connected to my roots, family and friends. By signing up, it
-              means you want to pre-order my book:
+              2019-2024. In this book you will find 200 images taken after
+              moving abroad and looking for ways how to stay connected to your
+              friends, family and roots.
             </p>
             <br />
             <ul>
@@ -62,6 +62,12 @@ export default function TwoHundredPostcards() {
             >
               PRE-ORDER{" "}
             </Link>
+            <br />
+            <br />
+            <small>
+              By signing up, it means you want to pre-order and purchase my
+              book.
+            </small>
           </div>
           <div className="cs1 ce12 flex center" style={{ marginTop: "24px" }}>
             <Image
