@@ -339,6 +339,10 @@ details[open] > summary {
     height: 40vh;
   }
 
+  .innner-cover {
+    background-size: 170% auto;
+  }
+
   .shop-cover {
     background-size: 320% auto;
   }
