@@ -299,7 +299,6 @@ details[open] > summary {
 .inner-cover {
   background-position: center;
   background-repeat: no-repeat;
-  height: 70vh;
   background-size: 100% auto;
 }
 
@@ -339,7 +338,7 @@ details[open] > summary {
     height: 40vh;
   }
 
-  .innner-cover {
+  .inner-cover {
     background-size: 170% auto;
   }
 
