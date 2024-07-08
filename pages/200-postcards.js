@@ -29,7 +29,7 @@ export default function TwoHundredPostcards() {
               "200 Postcards" is a curated selection of photographs taken
               between 2019-2024 from different places. Every image in the book
               is playing a role of a postcard, that you might send to your
-              closest friends and family. Relynig on social media doesn’t always
+              closest friends and family. Relying on social media doesn’t always
               bridge the gap that time creates between us, so this book is
               trying to fight that. All photographs are created to be shared,
               because every memory is more valuable when shared.
