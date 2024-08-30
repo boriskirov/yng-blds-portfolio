@@ -69,7 +69,8 @@ export default function TwoHundredPostcards() {
             <br />
             <small>
               * By signing up, it means you want to pre-order and purchase my
-              book.
+              book. Free delivery in Amsterdam, the rest of the world shipping
+              costs are excluded.
             </small>
           </div>
           <div className="cs1 ce12 flex center" style={{ marginTop: "24px" }}>

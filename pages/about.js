@@ -87,6 +87,12 @@ export default function Contact() {
             <details open>
               <summary>Features & Mentions: </summary>
               <ul className="features-mentions">
+                <li>Dolomite</li>
+                <li>Ferrino Italy</li>
+                <li>North Face</li>
+                <li>#FR2</li>
+                <li>That Divine</li>
+                <li>Negative Feed</li>
                 <li>Art Cage Budapest</li>
                 <li>EyeShot Magazine</li>
                 <li>mnfst</li>

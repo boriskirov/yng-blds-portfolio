@@ -11,7 +11,7 @@ export default function Shop() {
       <Header />
       <main className="cs1 ce12">
         <PreOrderNow
-          text="Book: '200 Postcards' will be available for pre-order soon"
+          text="Book: '200 Postcards' available for pre-order soon"
           href={"200-postcards"}
         />
         <div className="grid">
