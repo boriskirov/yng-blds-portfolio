@@ -47,10 +47,9 @@ export default function TwoHundredPostcards() {
               <li>Coffee table format (160 x 230 mm)</li>
               <li>Crafted and printed in Amsterdam, The Netherlands</li>
             </ul>
-            {/* <br />
-            <p>Pre-orders are available soon</p> */}
             <br />
-            <h2>€35.00</h2>
+
+            <h1>€35.00</h1>
             <br />
             <Link
               href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
@@ -63,14 +62,16 @@ export default function TwoHundredPostcards() {
                 color: "f2f2f2",
               }}
             >
-              PRE-ORDER{" "}
+              ORDER NOW{" "}
             </Link>
             <br />
             <br />
+            <p>3 books left</p>
+            <br />
             <small>
-              * By signing up, it means you want to pre-order and purchase my
-              book. Free delivery in Amsterdam, the rest of the world shipping
-              costs are excluded.
+              * By signing up, it means you want to order and purchase my book.
+              Free delivery in Amsterdam, the rest of the world shipping costs
+              are excluded.
             </small>
           </div>
           <div className="cs1 ce12 flex center" style={{ marginTop: "24px" }}>
@@ -93,7 +94,7 @@ export default function TwoHundredPostcards() {
           </div>
         </div>
         <PreOrderNow
-          text="Available for pre-order now!"
+          text="3 books left, available for order."
           href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
           target={"_blank"}
         />

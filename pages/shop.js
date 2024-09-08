@@ -11,7 +11,7 @@ export default function Shop() {
       <Header />
       <main className="cs1 ce12">
         <PreOrderNow
-          text="Book: '200 Postcards' available for pre-order soon"
+          text="Book: '200 Postcards' available for order now"
           href={"200-postcards"}
         />
         <div className="grid">
@@ -19,12 +19,16 @@ export default function Shop() {
             <Link href="/200-postcards">
               <Image src="/shop/shop-1.png" width={380} height={470} />
               <h2>Book: 200 Postcards</h2>
-              <Link
-                href="/200-postcards"
-                style={{ color: "rgba(249, 62, 62, 0.76)" }}
-              >
-                Pre-order now
-              </Link>
+              <div className="flex space-between">
+                <Link
+                  href="/200-postcards"
+                  style={{ color: "rgba(249, 62, 62, 0.76)" }}
+                >
+                  Order now
+                </Link>
+
+                <small>• 3 books left •</small>
+              </div>
             </Link>
           </div>
 

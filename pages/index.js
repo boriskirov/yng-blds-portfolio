@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <main className="cs1 ce12">
         <PreOrderNow
-          text="Book: '200 Postcards' available for pre-order now"
+          text="Book: '200 Postcards' available for order now"
           href={"200-postcards"}
         />
       </main>
