@@ -66,7 +66,7 @@ export default function TwoHundredPostcards() {
             </Link>
             <br />
             <br />
-            <p>3 books left</p>
+            <p>2 books left</p>
             <br />
             <small>
               * By signing up, it means you want to order and purchase my book.
@@ -94,7 +94,7 @@ export default function TwoHundredPostcards() {
           </div>
         </div>
         <PreOrderNow
-          text="3 books left, available for order."
+          text="2 books left, available for order."
           href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
           target={"_blank"}
         />

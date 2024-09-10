@@ -27,7 +27,7 @@ export default function Shop() {
                   Order now
                 </Link>
 
-                <small>• 3 books left •</small>
+                <small>• 2 books left •</small>
               </div>
             </Link>
           </div>
