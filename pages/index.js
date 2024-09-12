@@ -11,12 +11,7 @@ export default function Home() {
         image="/avatar.png"
       />
       <Header />
-      <main className="cs1 ce12">
-        <PreOrderNow
-          text="Book: '200 Postcards' available for order now"
-          href={"200-postcards"}
-        />
-      </main>
+      <main className="cs1 ce12"></main>
     </div>
   );
 }

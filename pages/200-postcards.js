@@ -52,7 +52,7 @@ export default function TwoHundredPostcards() {
             <h1>€35.00</h1>
             <br />
             <Link
-              href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
+              href={"/200-postcards"}
               target="_blank"
               style={{
                 padding: "12px 24px",
@@ -62,11 +62,9 @@ export default function TwoHundredPostcards() {
                 color: "f2f2f2",
               }}
             >
-              ORDER NOW{" "}
+              Sold out{" "}
             </Link>
             <br />
-            <br />
-            <p>2 books left</p>
             <br />
             <small>
               * By signing up, it means you want to order and purchase my book.
@@ -93,11 +91,11 @@ export default function TwoHundredPostcards() {
             <Slider />
           </div>
         </div>
-        <PreOrderNow
+        {/* <PreOrderNow
           text="2 books left, available for order."
           href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
           target={"_blank"}
-        />
+        /> */}
       </main>
     </div>
   );

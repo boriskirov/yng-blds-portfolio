@@ -11,7 +11,7 @@ export default function Shop() {
       <Header />
       <main className="cs1 ce12">
         <PreOrderNow
-          text="Book: '200 Postcards' available for order now"
+          text="Book: '200 Postcards' available for Sold out"
           href={"200-postcards"}
         />
         <div className="grid">
@@ -24,10 +24,8 @@ export default function Shop() {
                   href="/200-postcards"
                   style={{ color: "rgba(249, 62, 62, 0.76)" }}
                 >
-                  Order now
+                  Sold out
                 </Link>
-
-                <small>• 2 books left •</small>
               </div>
             </Link>
           </div>
