@@ -10,10 +10,6 @@ export default function Shop() {
       <Metadata title="Shop" description="Shop" />
       <Header />
       <main className="cs1 ce12">
-        <PreOrderNow
-          text="Book: '200 Postcards' available for Sold out"
-          href={"200-postcards"}
-        />
         <div className="grid">
           <div className="cs1 ce4">
             <Link href="/200-postcards">
