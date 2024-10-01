@@ -84,9 +84,20 @@ export default function Contact() {
             </div>
           </div>
           <div className="cs7 ce11">
-            <details open>
-              <summary>Features & Mentions: </summary>
-              <ul className="features-mentions">
+            <details closed>
+              <summary>Features, Mentions & Collaborations: </summary>
+              <br />
+              <small>
+                Camera Japan • Dolomite • Ferrino Italy • North Face • #FR2 •
+                That Divine • raredub •The Alchemist • Boldy James • Negative
+                Feed • Art Cage Budapest • EyeShot Magazine • mnfst • Cheetah
+                bikes • The Maker Market • Haarlem City Blog • Atlas Obscura •
+                Upphotographers • instadenbosch • FramePress Magazine • Dutch
+                Analog • Shoot It With Film • 36h studio • Vice • Bored Panda
+              </small>
+              {/* <ul className="features-mentions">
+                <li>Camera Japan</li>
+                <li>Haarlem City Blog</li>
                 <li>Dolomite</li>
                 <li>Ferrino Italy</li>
                 <li>North Face</li>
@@ -109,7 +120,7 @@ export default function Contact() {
                 <li>36h_studio</li>
                 <li>Vice</li>
                 <li>Bored Panda</li>
-              </ul>
+              </ul> */}
             </details>
           </div>
         </div>
