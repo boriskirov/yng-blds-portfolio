@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="main-container grid index-cover cover-main">
       <Metadata
-        title="Boris Kirov | yng.blds"
+        title="Boris Kirov"
         description="Photography & videography"
         image="/avatar.png"
       />

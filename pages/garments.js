@@ -7,7 +7,7 @@ export default function Garments() {
   return (
     <div className="main-container grid about-bg">
       <Metadata
-        title="yng.blds"
+        title="Boris Kirov"
         description="Apparel and Clothing Photography"
         image="/avatar.png"
       />
@@ -18,7 +18,7 @@ export default function Garments() {
             <Item src="/garments/garments-47.jpg" width={320} height={240} />
             <Item src="/garments/garments-22.png" width={320} height={240} />
             <Item src="/garments/garments-5.png" width={320} height={240} />
-
+            <Item src="/garments/garments-45.png" width={320} height={240} />
             <Item src="/garments/garments-27.gif" width={320} height={240} />
             <Item src="/garments/garments-4.png" width={320} height={240} />
             <Item src="/garments/garments-3.png" width={320} height={240} />

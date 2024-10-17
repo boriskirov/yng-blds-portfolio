@@ -6,7 +6,7 @@ export default function Outdoors() {
   return (
     <div className="main-container grid about-bg">
       <Metadata
-        title="yng.blds"
+        title="Boris Kirov"
         description="Outdoors & Nature Photography"
         image="/avatar.png"
       />
