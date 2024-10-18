@@ -13,21 +13,38 @@ export default function Video() {
       <Header />
       <main className="cs1 ce12">
         <div className="grid ">
-          <div className="cs1 ce12 flex">
-            <VideoPlayer src="/video/ferrino.mp4" />
-            <VideoPlayer src="/video/allure-kitchen.mp4" />
-            <VideoPlayer src="/video/ferrino-3.mp4" />
+          <div className="cs1 ce12 grid">
+            <div className="cs1 ce4">
+              <VideoPlayer src="/video/ferrino.mp4" />
+            </div>
+            <div className="cs5 ce8">
+              <VideoPlayer src="/video/allure-kitchen.mp4" />
+            </div>
+            <div className="cs9 ce12">
+              <VideoPlayer src="/video/ferrino-3.mp4" />
+            </div>
           </div>
-          <div className="cs1 ce12 flex">
-            <VideoPlayer src="/video/barcelona.mp4" />
-            <VideoPlayer src="/video/hertogen.mp4" />
-            <VideoPlayer src="/video/onoe-caponoe.mp4" />
-            <VideoPlayer src="/video/florence.mp4" />
+          <div className="cs1 ce12 grid">
+            <div className="cs1 ce4">
+              <VideoPlayer src="/video/barcelona.mp4" />
+            </div>
+            <div className="cs5 ce8">
+              <VideoPlayer src="/video/hertogen.mp4" />
+            </div>
+            <div className="cs9 ce12">
+              <VideoPlayer src="/video/onoe-caponoe.mp4" />
+            </div>
           </div>
-          <div className="cs1 ce12 flex">
-            <VideoPlayer src="/video/madzhata.mp4" />
-            <VideoPlayer src="/video/divane-9.mp4" />
-            <VideoPlayer src="/video/rumbaba.mp4" />
+          <div className="cs1 ce12 grid">
+            <div className="cs1 ce4">
+              <VideoPlayer src="/video/madzhata.mp4" />
+            </div>
+            <div className="cs5 ce8">
+              <VideoPlayer src="/video/divane-9.mp4" />
+            </div>
+            <div className="cs9 ce12">
+              <VideoPlayer src="/video/rumbaba.mp4" />
+            </div>
           </div>
         </div>
       </main>
