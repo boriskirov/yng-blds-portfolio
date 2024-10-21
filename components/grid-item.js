@@ -6,8 +6,8 @@ export default function Item(src) {
       <Image
         className="card"
         src={src}
-        width={320}
-        height={240}
+        width={1080}
+        height={1080}
         placeholder="blur"
         blurDataURL="/image-loader.png"
       />

@@ -11,10 +11,10 @@ export default function Contact() {
 
       <main className="cs1 ce12">
         <div className="grid about-body">
-          <div className="cs2 ce6 sticky">
-            <Image src="/avatar1.png" width={322} height={334} />
+          <div className="cs1 ce8 sticky">
+            <Image src="/avatar1.png" width={1920} height={1920} />
           </div>
-          <div className="cs7 ce11 grid">
+          <div className="cs9 ce12 grid">
             <h2 className="cs1 ce12">ABOUT / CONTACT</h2>
             <small className="cs1 ce12">
               Born and raised in Sofia, Bulgaria and always between Amsterdam
@@ -40,9 +40,8 @@ export default function Contact() {
               </Link>
             </div>
             <div className="cs1 ce12">
-              <details open>
+              <details closed="true">
                 <summary>Features, Mentions & Collaborations: </summary>
-                <br />
                 <small>
                   Camera Japan • Dolomite • Ferrino Italy • North Face • #FR2 •
                   That Divine • raredub •The Alchemist • Boldy James • Negative
