@@ -24,7 +24,7 @@ export default function Contact() {
             </small>
             <div className="cs1 ce12">
               <Link
-                href="mailto:yngblooods@gmail.com?subject=Let's collaborate"
+                href="mailto:info@boriskirov.photos?subject=Let's collaborate"
                 className="flex-items-center"
               >
                 info@boriskirov.photos
