@@ -16,7 +16,7 @@ export default function Garments() {
         <div className="grid">
           <div className="cs1 ce12 grid-container">
             <Item src="/garments/garments-4.jpg" width={320} height={240} />
-            <Item src="/garments/garments-22.png" width={320} height={240} />
+            <Item src="/garments/garments-22.jpg" width={320} height={240} />
             <Item src="/garments/garments-5.png" width={320} height={240} />
             <Item src="/garments/garments-45.png" width={320} height={240} />
             <Item src="/garments/garments-27.gif" width={320} height={240} />
@@ -28,11 +28,11 @@ export default function Garments() {
             <Item src="/garments/garments-9.jpg" width={320} height={240} />
             <Item src="/garments/garments-11.png" width={320} height={240} />
             <Item src="/garments/garments-12.png" width={320} height={240} />
+            <Item src="/garments/garments-48.jpg" width={320} height={240} />
             <Item src="/garments/garments-13.png" width={320} height={240} />
             <Item src="/garments/garments-43.png" width={320} height={240} />
             <Item src="/garments/garments-36.png" width={320} height={240} />
             <Item src="/garments/garments-23.png" width={320} height={240} />
-
             <Item src="/garments/garments-33.png" width={320} height={240} />
             <Item src="/garments/garments-42.png" width={320} height={240} />
             <Item src="/garments/garments-46.jpg" width={320} height={240} />
