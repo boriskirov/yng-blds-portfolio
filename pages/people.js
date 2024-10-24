@@ -24,7 +24,6 @@ export default function People() {
             <Item src="/life/life-69.jpg" width={320} height={240} />
             <Item src="/life/life-56.png" width={320} height={240} />
             <Item src="/life/life-66.png" width={320} height={240} />
-
             <Item src="/life/life-50.png" width={320} height={240} />
             <Item src="/life/life-33.png" width={320} height={240} />
             <Item src="/life/life-70.jpg" width={320} height={240} />
@@ -37,7 +36,6 @@ export default function People() {
             <Item src="/life/life-62.jpg" width={320} height={240} />
             <Item src="/life/life-63.jpg" width={320} height={240} />
             <Item src="/life/life-54.png" width={320} height={240} />
-
             <Item src="/life/life-12.png" width={320} height={240} />
             <Item src="/life/life-64.jpg" width={320} height={240} />
             <Item src="/life/life-59.png" width={320} height={240} />

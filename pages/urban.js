@@ -13,7 +13,6 @@ export default function Urban() {
             <Item src="/urban/urban-3.png" width={320} height={240} />
             <Item src="/urban/urban-4.png" width={320} height={240} />
             <Item src="/urban/urban-5.png" width={320} height={240} />
-
             <Item src="/urban/urban-10.png" width={320} height={240} />
             <Item src="/urban/urban-6.png" width={320} height={240} />
             <Item src="/urban/urban-9.png" width={320} height={240} />
@@ -28,7 +27,6 @@ export default function Urban() {
             <Item src="/urban/urban-13.png" width={320} height={240} />
             <Item src="/urban/urban-14.png" width={320} height={240} />
             <Item src="/urban/urban-15.png" width={320} height={240} />
-
             <Item src="/urban/urban-38.png" width={320} height={240} />
             <Item src="/urban/urban-17.png" width={320} height={240} />
             <Item src="/urban/urban-19.png" width={320} height={240} />

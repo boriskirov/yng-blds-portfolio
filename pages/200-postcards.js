@@ -45,6 +45,7 @@ export default function TwoHundredPostcards() {
                 212 pages with Munken Lynx Rough 120 gr/ m² recycled paper
               </li>
               <li>Coffee table format (160 x 230 mm)</li>
+              <li>Custom designed postage and ink stamped</li>
               <li>Crafted and printed in Amsterdam, The Netherlands</li>
             </ul>
             <br />
