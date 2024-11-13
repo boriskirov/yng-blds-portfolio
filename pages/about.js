@@ -43,12 +43,13 @@ export default function Contact() {
               <details closed="true">
                 <summary>Features, Mentions & Collaborations: </summary>
                 <small>
-                  Camera Japan • Dolomite • Ferrino Italy • North Face • #FR2 •
-                  That Divine • raredub •The Alchemist • Boldy James • Negative
-                  Feed • Art Cage Budapest • EyeShot Magazine • mnfst • Cheetah
-                  bikes • The Maker Market • Haarlem City Blog • Atlas Obscura •
-                  Upphotographers • instadenbosch • FramePress Magazine • Dutch
-                  Analog • Shoot It With Film • 36h studio • Vice • Bored Panda
+                  Wesley Verhoeve • Camera Japan • Dolomite • Ferrino Italy •
+                  North Face • #FR2 • That Divine • raredub •The Alchemist •
+                  Boldy James • Negative Feed • Art Cage Budapest • EyeShot
+                  Magazine • mnfst • Cheetah bikes • The Maker Market • Haarlem
+                  City Blog • Atlas Obscura • Upphotographers • instadenbosch •
+                  FramePress Magazine • Dutch Analog • Shoot It With Film • 36h
+                  studio • Vice • Bored Panda
                 </small>
               </details>
             </div>
