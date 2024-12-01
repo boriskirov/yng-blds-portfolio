@@ -17,10 +17,10 @@ export default function Contact() {
           <div className="cs9 ce12 grid">
             <h2 className="cs1 ce12">ABOUT / CONTACT</h2>
             <small className="cs1 ce12">
-              Born and raised in Sofia, Bulgaria and always between Amsterdam
-              and Sofia. I care for details, colours and emotions by creating
-              imagery across lifestyle, landscape, architecture, still life,
-              fashion and other brain stuff ツ.
+              Born and raised in Sofia, Bulgaria and now living in Amsterdam,
+              The Netherlands. I care for details, colours and emotions by
+              creating visual imagery & concept across lifestyle, outdoors,
+              fashion, still life and other brain stuff ツ.
             </small>
             <div className="cs1 ce12">
               <Link
