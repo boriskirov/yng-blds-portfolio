@@ -10,6 +10,7 @@ const VideoPlayer = ({ src, width, height, controls }) => {
       preload="metadata"
       type="video/mp4"
       autoPlay
+      muted
     />
   );
 };
