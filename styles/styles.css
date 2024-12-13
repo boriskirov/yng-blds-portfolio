@@ -30,6 +30,7 @@ video {
   width: 100%;
   object-fit: cover;
   padding: 16px;
+  height: 720px;
 }
 
 hr {

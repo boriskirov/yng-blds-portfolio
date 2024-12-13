@@ -9,6 +9,7 @@ const VideoPlayer = ({ src, width, height, controls }) => {
       controls={true}
       preload="metadata"
       type="video/mp4"
+      autoPlay
     />
   );
 };
