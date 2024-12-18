@@ -1,6 +1,7 @@
 import Item from "../components/grid-item";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
+import Link from "next/link";
 
 export default function People() {
   return (
@@ -14,6 +15,9 @@ export default function People() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12 grid-container">
+            <Link href="/projects/power-of-love-of-power">
+              <Item src="/life/life-71.jpg" width={320} height={240} />
+            </Link>
             <Item src="/life/life-35.png" width={320} height={240} />
             <Item src="/life/life-68.jpg" width={320} height={240} />
             <Item src="/life/life-38.png" width={320} height={240} />
