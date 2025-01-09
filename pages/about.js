@@ -43,6 +43,7 @@ export default function Contact() {
               <details closed="true">
                 <summary>Features, Mentions & Collaborations: </summary>
                 <small>
+                  outside.details • analogue.amsterdam • advanced.research •
                   Wesley Verhoeve • Camera Japan • Dolomite • Ferrino Italy •
                   North Face • #FR2 • That Divine • raredub •The Alchemist •
                   Boldy James • Negative Feed • Art Cage Budapest • EyeShot

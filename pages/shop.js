@@ -12,9 +12,25 @@ export default function Shop() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce4">
+            <Link href="/shop">
+              <Image src="/shop/shop-4.png" width={380} height={470} />
+              <small>Preset</small>
+              <h2>"Punchy Haze"</h2>
+              <small>
+                <Link
+                  style={{ color: "rgba(116, 116, 116, 0.76)" }}
+                  href="/shop"
+                >
+                  Coming soon
+                </Link>
+              </small>
+            </Link>
+          </div>
+          <div className="cs5 ce8">
             <Link href="/200-postcards">
               <Image src="/shop/shop-1.png" width={380} height={470} />
-              <h2>Book: 200 Postcards</h2>
+              <small>Preset</small>
+              <h2>200 Postcards</h2>
               <div className="flex space-between">
                 <Link
                   href="/200-postcards"
@@ -25,11 +41,11 @@ export default function Shop() {
               </div>
             </Link>
           </div>
-
-          <div className="cs5 ce8">
+          <div className="cs9 ce12">
             <Link href="https://youngbloods.darkroom.com/" target="_blank">
               <Image src="/shop/shop-2.png" width={380} height={470} />
-              <h2>Poster: "Sunset in Centrale Markt"</h2>
+              <small>Poster</small>
+              <h2>"Sunset in Centrale Markt"</h2>
               <small>
                 <Link
                   href="https://youngbloods.darkroom.com/"
@@ -40,16 +56,6 @@ export default function Shop() {
                 </Link>
               </small>
             </Link>
-          </div>
-
-          <div className="cs9 ce12">
-            <Image src="/shop/shop-3.png" width={380} height={470} />
-            <h2>Book: "Strapped for time"</h2>
-            <small>
-              <Link style={{ color: "rgba(116, 116, 116, 0.76)" }} href="/shop">
-                Not available
-              </Link>
-            </small>
           </div>
         </div>
       </main>
