@@ -297,6 +297,18 @@ details[open] > summary {
   height: 70vh;
 }
 
+.image-wrapper {
+  background-color: #f4f4f403;
+}
+
+.shop-image {
+  transition: transform 0.3s ease;
+}
+
+.shop-image:hover {
+  transform: scale(1.05);
+}
+
 .inner-cover {
   background-position: center;
   background-repeat: no-repeat;

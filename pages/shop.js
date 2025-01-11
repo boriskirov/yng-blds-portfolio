@@ -11,9 +11,38 @@ export default function Shop() {
       <Header />
       <main className="cs1 ce12">
         <div className="grid">
-          <div className="cs1 ce4">
+          <div className="cs1 ce3">
             <Link href="/shop">
-              <Image src="/shop/shop-4.png" width={380} height={470} />
+              <div className="image-wrapper">
+                <Image
+                  src="/shop/shop-5.png"
+                  width={380}
+                  height={470}
+                  className="shop-image"
+                />
+              </div>
+              <small>Preset</small>
+              <h2>"Vibrant Daylight"</h2>
+              <small>
+                <Link
+                  style={{ color: "rgba(116, 116, 116, 0.76)" }}
+                  href="/shop"
+                >
+                  Coming soon
+                </Link>
+              </small>
+            </Link>
+          </div>
+          <div className="cs4 ce6">
+            <Link href="/shop">
+              <div className="image-wrapper">
+                <Image
+                  src="/shop/shop-4.png"
+                  width={380}
+                  height={470}
+                  className="shop-image"
+                />
+              </div>
               <small>Preset</small>
               <h2>"Punchy Haze"</h2>
               <small>
@@ -26,9 +55,16 @@ export default function Shop() {
               </small>
             </Link>
           </div>
-          <div className="cs5 ce8">
+          <div className="cs7 ce9">
             <Link href="/200-postcards">
-              <Image src="/shop/shop-1.png" width={380} height={470} />
+              <div className="image-wrapper">
+                <Image
+                  src="/shop/shop-1.png"
+                  width={380}
+                  height={470}
+                  className="shop-image"
+                />
+              </div>
               <small>Preset</small>
               <h2>200 Postcards</h2>
               <div className="flex space-between">
@@ -41,9 +77,16 @@ export default function Shop() {
               </div>
             </Link>
           </div>
-          <div className="cs9 ce12">
+          <div className="cs10 ce12">
             <Link href="https://youngbloods.darkroom.com/" target="_blank">
-              <Image src="/shop/shop-2.png" width={380} height={470} />
+              <div className="image-wrapper">
+                <Image
+                  src="/shop/shop-2.png"
+                  width={380}
+                  height={470}
+                  className="shop-image"
+                />
+              </div>
               <small>Poster</small>
               <h2>"Sunset in Centrale Markt"</h2>
               <small>
