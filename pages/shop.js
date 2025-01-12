@@ -65,7 +65,7 @@ export default function Shop() {
                   className="shop-image"
                 />
               </div>
-              <small>Preset</small>
+              <small>Book</small>
               <h2>200 Postcards</h2>
               <div className="flex space-between">
                 <Link
