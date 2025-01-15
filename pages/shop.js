@@ -87,7 +87,7 @@ export default function Shop() {
                   className="shop-image"
                 />
               </div>
-              <small>Poster</small>
+              <small>Print</small>
               <h2>"Sunset in Centrale Markt"</h2>
               <small>
                 <Link
