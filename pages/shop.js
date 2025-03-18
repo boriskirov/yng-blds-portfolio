@@ -13,6 +13,26 @@ export default function Shop() {
           <div className="cs1 ce3">
             <div className="image-wrapper">
               <Image
+                src="/shop/shop-6.png"
+                width={380}
+                height={470}
+                className="shop-image"
+              />
+            </div>
+            <small>Zine</small>
+            <h2>Summer in the city</h2>
+            <Link
+              href="https://bit.ly/750summers"
+              target="_blank"
+              className="cs1 ce3"
+            >
+              Coming soon
+            </Link>
+          </div>
+
+          <div className="cs4 ce6">
+            <div className="image-wrapper">
+              <Image
                 src="/shop/shop-5.png"
                 width={380}
                 height={470}
@@ -26,7 +46,7 @@ export default function Shop() {
             </Link>
           </div>
 
-          <div className="cs4 ce6">
+          <div className="cs7 ce9">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-4.png"
@@ -42,7 +62,7 @@ export default function Shop() {
             </Link>
           </div>
 
-          <div className="cs7 ce9">
+          <div className="cs10 ce12">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-1.png"
@@ -58,7 +78,7 @@ export default function Shop() {
             </Link>
           </div>
 
-          <div className="cs10 ce12">
+          <div className="cs1 ce3">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-2.png"
