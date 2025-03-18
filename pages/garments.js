@@ -23,6 +23,8 @@ export default function Garments() {
             <Item src="/garments/garments-27.gif" width={320} height={240} />
             <Item src="/garments/garments-3.png" width={320} height={240} />
             <Item src="/garments/garments-15.png" width={320} height={240} />
+            <Item src="/garments/garments-52.png" width={320} height={240} />
+            <Item src="/garments/garments-53.png" width={320} height={240} />
             <Item src="/garments/garments-50.jpg" width={320} height={240} />
             <Item src="/garments/garments-49.jpg" width={320} height={240} />
             <Item src="/garments/garments-11.png" width={320} height={240} />

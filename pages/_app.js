@@ -4,7 +4,7 @@ import "../styles/pinterestgrid.css";
 import "../styles/overlapping.css";
 import "../styles/slider.css";
 
-import { Space_Grotesk } from "@next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
 const inter = Space_Grotesk({
   subsets: ["latin"],

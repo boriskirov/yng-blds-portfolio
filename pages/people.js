@@ -22,10 +22,12 @@ export default function People() {
             <Item src="/life/life-68.jpg" width={320} height={240} />
             <Item src="/life/life-38.png" width={320} height={240} />
             <Item src="/life/life-67.png" width={320} height={240} />
+            <Item src="/life/life-72.png" width={320} height={240} />
             <Item src="/life/life-40.png" width={320} height={240} />
             <Item src="/life/life-53.png" width={320} height={240} />
             <Item src="/life/life-30.png" width={320} height={240} />
             <Item src="/life/life-69.jpg" width={320} height={240} />
+            <Item src="/life/life-61.jpg" width={320} height={240} />
             <Item src="/life/life-56.png" width={320} height={240} />
             <Item src="/life/life-66.png" width={320} height={240} />
             <Item src="/life/life-50.png" width={320} height={240} />
@@ -48,7 +50,6 @@ export default function People() {
             <Item src="/life/life-36.png" width={320} height={240} />
             <Item src="/life/life-34.png" width={320} height={240} />
             <Item src="/life/life-51.png" width={320} height={240} />
-            <Item src="/life/life-61.jpg" width={320} height={240} />
           </div>
         </div>
       </main>

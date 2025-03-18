@@ -2,7 +2,6 @@ import Image from "next/image";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
 import Link from "next/link";
-import PreOrderNow from "../components/pre-order-now";
 
 export default function Shop() {
   return (
@@ -12,92 +11,66 @@ export default function Shop() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce3">
-            <Link href="/shop">
-              <div className="image-wrapper">
-                <Image
-                  src="/shop/shop-5.png"
-                  width={380}
-                  height={470}
-                  className="shop-image"
-                />
-              </div>
-              <small>Preset</small>
-              <h2>"Vibrant Daylight"</h2>
-              <small>
-                <Link
-                  style={{ color: "rgba(116, 116, 116, 0.76)" }}
-                  href="/shop"
-                >
-                  Coming soon
-                </Link>
-              </small>
+            <div className="image-wrapper">
+              <Image
+                src="/shop/shop-5.png"
+                width={380}
+                height={470}
+                className="shop-image"
+              />
+            </div>
+            <small>Preset</small>
+            <h2>"Vibrant Daylight"</h2>
+            <Link href="/shop" className="cs1 ce3">
+              Coming soon
             </Link>
           </div>
+
           <div className="cs4 ce6">
-            <Link href="/shop">
-              <div className="image-wrapper">
-                <Image
-                  src="/shop/shop-4.png"
-                  width={380}
-                  height={470}
-                  className="shop-image"
-                />
-              </div>
-              <small>Preset</small>
-              <h2>"Punchy Haze"</h2>
-              <small>
-                <Link
-                  style={{ color: "rgba(116, 116, 116, 0.76)" }}
-                  href="/shop"
-                >
-                  Coming soon
-                </Link>
-              </small>
+            <div className="image-wrapper">
+              <Image
+                src="/shop/shop-4.png"
+                width={380}
+                height={470}
+                className="shop-image"
+              />
+            </div>
+            <small>Preset</small>
+            <h2>"Punchy Haze"</h2>
+            <Link href="/shop" className="cs1 ce3">
+              Coming soon
             </Link>
           </div>
+
           <div className="cs7 ce9">
-            <Link href="/200-postcards">
-              <div className="image-wrapper">
-                <Image
-                  src="/shop/shop-1.png"
-                  width={380}
-                  height={470}
-                  className="shop-image"
-                />
-              </div>
-              <small>Book</small>
-              <h2>200 Postcards</h2>
-              <div className="flex space-between">
-                <Link
-                  href="/200-postcards"
-                  style={{ color: "rgba(249, 62, 62, 0.76)" }}
-                >
-                  Sold out
-                </Link>
-              </div>
+            <div className="image-wrapper">
+              <Image
+                src="/shop/shop-1.png"
+                width={380}
+                height={470}
+                className="shop-image"
+              />
+            </div>
+            <small>Preset</small>
+            <h2>"200 Postcards"</h2>
+            <Link href="/200-postcards" className="cs1 ce3">
+              Sold out
             </Link>
           </div>
+
           <div className="cs10 ce12">
-            <Link href="https://youngbloods.darkroom.com/" target="_blank">
-              <div className="image-wrapper">
-                <Image
-                  src="/shop/shop-2.png"
-                  width={380}
-                  height={470}
-                  className="shop-image"
-                />
-              </div>
-              <small>Print</small>
-              <h2>"Sunset in Centrale Markt"</h2>
-              <small>
-                <Link
-                  href="https://youngbloods.darkroom.com/"
-                  target="_blank"
-                  style={{ color: "rgba(249, 62, 62, 0.76)" }}
-                >
-                  Buy now
-                </Link>
-              </small>
+            <div className="image-wrapper">
+              <Image
+                src="/shop/shop-2.png"
+                width={380}
+                height={470}
+                className="shop-image"
+              />
+            </div>
+            <small>Preset</small>
+            <h2>"Sunset in Centrale Markt"</h2>
+            <Link href="https://youngbloods.darkroom.com/" className="cs1 ce3">
+              Coming soon
             </Link>
           </div>
         </div>

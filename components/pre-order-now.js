@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Atkinson_Hyperlegible } from "@next/font/google";
+import { Atkinson_Hyperlegible } from "next/font/google";
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Atkinson_Hyperlegible({
