@@ -324,12 +324,46 @@ details[open] > summary {
   height: 100%;
 }
 
+.blog-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-container {
+  padding: 6vw 24vw;
+}
+
+.blog-date {
+  padding: 2px;
+  background: #620909;
+  width: fit-content;
+}
+
+.blog-text {
+  margin: 12px 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.blog-image {
+  width: 50%;
+  align-self: center;
+}
+
 @media (max-width: 1648px) {
   .product-item {
     width: 40%;
   }
 }
 @media (max-width: 1024px) {
+  .blog-container {
+    padding: 2vw 6vw;
+  }
+
+  .blog-image {
+    width: 100%;
+  }
+
   .main-container {
     padding: 6vw;
   }
