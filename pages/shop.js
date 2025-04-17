@@ -21,10 +21,44 @@ export default function Shop() {
             </div>
             <small>Zine</small>
             <h2>Summer in the city</h2>
-            <small className="cs1 ce3">Coming soon</small>
+            <small className="cs1 ce3 red small">
+              Second Edition in May 2025
+            </small>
           </Link>
 
           <Link href="/shop" className="cs4 ce6">
+            <div className="image-wrapper">
+              <Image
+                src="/shop/shop-7.png"
+                width={380}
+                height={470}
+                className="shop-image"
+              />
+            </div>
+            <small>Preset</small>
+            <h2>"Popeye Style"</h2>
+            <small href="/shop" className="cs1 ce3 red small">
+              Coming soon
+            </small>
+          </Link>
+
+          <Link href="/shop" className="cs7 ce9">
+            <div className="image-wrapper">
+              <Image
+                src="/shop/shop-8.png"
+                width={380}
+                height={470}
+                className="shop-image"
+              />
+            </div>
+            <small>Preset</small>
+            <h2>"Blue Hour"</h2>
+            <small href="/shop" className="cs1 ce3 red small">
+              Coming soon
+            </small>
+          </Link>
+
+          <Link href="/shop" className="cs10 ce12">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-5.png"
@@ -35,12 +69,12 @@ export default function Shop() {
             </div>
             <small>Preset</small>
             <h2>"Vibrant Daylight"</h2>
-            <small href="/shop" className="cs1 ce3">
+            <small href="/shop" className="cs1 ce3 red small">
               Coming soon
             </small>
           </Link>
 
-          <Link href="/shop" className="cs7 ce9">
+          <Link href="/shop" className="cs1 ce3">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-4.png"
@@ -51,10 +85,10 @@ export default function Shop() {
             </div>
             <small>Preset</small>
             <h2>"Punchy Haze"</h2>
-            <small className="cs1 ce3">Coming soon</small>
+            <small className="cs1 ce3 red small">Coming soon</small>
           </Link>
 
-          <Link href="/200-postcards" className="cs10 ce12">
+          <Link href="/200-postcards" className="cs4 ce6">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-1.png"
@@ -65,13 +99,13 @@ export default function Shop() {
             </div>
             <small>Preset</small>
             <h2>"200 Postcards"</h2>
-            <small className="cs1 ce3">Sold out</small>
+            <small className="cs1 ce3 red small">Sold out</small>
           </Link>
 
           <Link
             href="https://youngbloods.darkroom.com/"
             target="_blank"
-            className="cs1 ce3"
+            className="cs7 ce9"
           >
             <div className="image-wrapper">
               <Image
@@ -83,7 +117,7 @@ export default function Shop() {
             </div>
             <small>Preset</small>
             <h2>"Sunset in Centrale Markt"</h2>
-            <small className="cs1 ce3">Coming soon</small>
+            <small className="cs1 ce3 red small">Order now</small>
           </Link>
         </div>
       </main>

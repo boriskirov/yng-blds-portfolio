@@ -92,6 +92,10 @@ small {
   font-size: 14px;
 }
 
+.small {
+  font-size: 16px;
+}
+
 .italic {
   font-style: italic;
 }
@@ -106,6 +110,10 @@ small {
 
 .yellow {
   color: #e7ff41;
+}
+
+.red {
+  color: #e84848;
 }
 
 .main-container {
