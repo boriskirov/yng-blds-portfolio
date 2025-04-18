@@ -1,5 +1,8 @@
 :root {
   --font-size: 16px;
+  --red-1: rgba(255, 0, 0, 0.15);
+  --red-2: rgb(255, 40, 40);
+  --transparent-1: #ffffff0d;
 }
 
 body {
@@ -59,20 +62,16 @@ h1 > bold {
 
 p,
 a {
-  font-size: 20px;
+  font-size: 14px;
   color: #f2f2f2;
+}
+
+nav > a {
+  font-size: 20px;
 }
 
 a {
   text-decoration: none;
-}
-
-a:hover {
-  color: #d0d0d0;
-}
-
-a:hover > small {
-  font-weight: 400;
 }
 
 img {
@@ -86,14 +85,6 @@ li {
 }
 
 // Image URL Fragmet styling, read more about it here https://dzone.com/articles/how-to-style-images-with-markdown
-
-small {
-  font-size: 12px;
-}
-
-.small {
-  font-size: 14px;
-}
 
 .italic {
   font-style: italic;
@@ -112,7 +103,11 @@ small {
 }
 
 .red {
-  color: #e84848;
+  color: var(--red-2);
+  background: var(--red-1);
+  padding: 2px 4px;
+  font-size: 14px;
+  width: fit-content;
 }
 
 .main-container {
@@ -139,6 +134,7 @@ small {
 
 .flex-column {
   flex-direction: column;
+  gap: 6px;
 }
 
 .about-body {
@@ -305,7 +301,7 @@ details[open] > summary {
 }
 
 .image-wrapper {
-  background-color: #f4f4f403;
+  background-color: var(--transparent-1);
 }
 
 .shop-image {
@@ -333,13 +329,15 @@ details[open] > summary {
 }
 
 .blog-date {
-  padding: 2px;
-  background: #620909;
+  padding: 2px 6px;
+  border-radius: 2px;
+  background: var(--red-1);
+  color: var(--red-2);
   width: fit-content;
 }
 
 .blog-text {
-  margin: 12px 0px;
+  margin: 12px 0 24px 0;
   font-size: 18px;
   font-weight: 200;
 }
@@ -353,6 +351,10 @@ details[open] > summary {
   width: 100%;
   text-align: center;
   padding: 30px;
+}
+
+.blog-icon {
+  width: 48px;
 }
 
 @media (max-width: 1648px) {

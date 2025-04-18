@@ -10,8 +10,8 @@ export default function Shop() {
       <Header />
       <main className="cs1 ce12">
         <div className="grid">
-          <Link href="/summer-in-the-city" className="cs1 ce3">
-            <div className="image-wrapper">
+          <Link href="/summer-in-the-city" className="cs1 ce3 flex flex-column">
+            <div className="image-wrapper ">
               <Image
                 src="/shop/shop-6.png"
                 width={380}
@@ -19,14 +19,14 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small className="small">Zine</small>
+            <small>Zine</small>
             <h2>Summer in the city</h2>
             <small className="cs1 ce3 red small">
               Second Edition in May 2025
             </small>
           </Link>
 
-          <Link href="/shop" className="cs4 ce6">
+          <Link href="/shop" className="cs4 ce6 flex flex-column">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-7.png"
@@ -42,7 +42,7 @@ export default function Shop() {
             </small>
           </Link>
 
-          <Link href="/shop" className="cs7 ce9">
+          <Link href="/shop" className="cs7 ce9 flex flex-column">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-8.png"
@@ -58,7 +58,7 @@ export default function Shop() {
             </small>
           </Link>
 
-          <Link href="/shop" className="cs10 ce12">
+          <Link href="/shop" className="cs10 ce12 flex flex-column">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-5.png"
@@ -74,7 +74,7 @@ export default function Shop() {
             </small>
           </Link>
 
-          <Link href="/shop" className="cs1 ce3">
+          <Link href="/shop" className="cs1 ce3 flex flex-column">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-4.png"
@@ -88,7 +88,7 @@ export default function Shop() {
             <small className="cs1 ce3 red small">Coming soon</small>
           </Link>
 
-          <Link href="/200-postcards" className="cs4 ce6">
+          <Link href="/200-postcards" className="cs4 ce6 flex flex-column">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-1.png"
@@ -105,7 +105,7 @@ export default function Shop() {
           <Link
             href="https://youngbloods.darkroom.com/"
             target="_blank"
-            className="cs7 ce9"
+            className="cs7 ce9 flex flex-column"
           >
             <div className="image-wrapper">
               <Image

@@ -1,6 +1,7 @@
 import { Client } from "@notionhq/client";
 import Metadata from "../components/metadata";
 import Header from "../components/header";
+import Daynote from "../public/daynotes.svg";
 
 export default function Daynotes({ results }) {
   const getDatabaseDisplay = () => {
@@ -34,6 +35,20 @@ export default function Daynotes({ results }) {
       <Metadata title="Daynotes" description="Daynotes" />
       <Header />
       <div className="blog-container">{getDatabaseDisplay()}</div>
+      <footer className="blog-container">
+        <img
+          src="/daynotes.svg"
+          alt="Daynotes icon"
+          width={24}
+          height={24}
+          className="blog-icon"
+        />{" "}
+        <p>
+          Daynotes are a lightweight, almost daily, from time to time journaling
+          method, like microblogging which I use to reflect and observe my own
+          thoughts and behavior.
+        </p>
+      </footer>
     </div>
   );
 }

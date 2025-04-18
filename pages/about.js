@@ -24,7 +24,7 @@ export default function Contact() {
             </small>
             <small className="cs1 ce12">
               I'm also writing almost-daily notes and post a random photo with
-              them, as microblog.
+              them, as a microblog.
             </small>
 
             <div className="cs1 ce12">

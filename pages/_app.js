@@ -1,8 +1,8 @@
-import "../styles/fluidigrid.css";
 import "../styles/styles.css";
 import "../styles/pinterestgrid.css";
 import "../styles/overlapping.css";
 import "../styles/slider.css";
+import "../styles/fluidigrid.css";
 
 import { Raleway } from "next/font/google";
 
