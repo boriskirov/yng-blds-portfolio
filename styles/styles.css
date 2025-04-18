@@ -362,7 +362,7 @@ details[open] > summary {
 }
 @media (max-width: 1024px) {
   .blog-container {
-    padding: 2vw 6vw;
+    padding: 0;
   }
 
   .blog-image {
