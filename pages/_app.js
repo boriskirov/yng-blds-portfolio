@@ -4,11 +4,11 @@ import "../styles/pinterestgrid.css";
 import "../styles/overlapping.css";
 import "../styles/slider.css";
 
-import { Space_Grotesk } from "next/font/google";
+import { Raleway } from "next/font/google";
 
-const inter = Space_Grotesk({
+const inter = Raleway({
   subsets: ["latin"],
-  weight: ["400", "700"],
+  weight: ["200", "400", "700"],
 });
 
 export default function MyApp({ Component, pageProps }) {

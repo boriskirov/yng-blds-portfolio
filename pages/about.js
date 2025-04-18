@@ -22,23 +22,11 @@ export default function Contact() {
               creating visual imagery & concept across lifestyle, outdoors,
               fashion, still life and other brain stuff ツ.
             </small>
-            <div className="cs1 ce12">
-              <Link
-                href="mailto:info@boriskirov.photos?subject=Let's collaborate"
-                className="flex-items-center"
-              >
-                info@boriskirov.photos
-              </Link>
-            </div>
-            <div className="cs1 ce12">
-              <Link
-                href="https://www.instagram.com/yng.blds/"
-                target="_blank"
-                className="flex-items-center"
-              >
-                Instagram
-              </Link>
-            </div>
+            <small className="cs1 ce12">
+              I'm also writing almost-daily notes and post a random photo with
+              them, as microblog.
+            </small>
+
             <div className="cs1 ce12">
               <details closed="true">
                 <summary>Features, Mentions & Collaborations: </summary>
@@ -56,6 +44,26 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        <footer className="flex">
+          {" "}
+          <div className="cs1 ce12">
+            <Link
+              href="mailto:info@boriskirov.photos?subject=Let's collaborate"
+              className="flex-items-center"
+            >
+              info@boriskirov.photos
+            </Link>
+          </div>
+          <div className="cs1 ce12">
+            <Link
+              href="https://www.instagram.com/yng.blds/"
+              target="_blank"
+              className="flex-items-center"
+            >
+              Instagram
+            </Link>
+          </div>
+        </footer>
       </main>
     </div>
   );

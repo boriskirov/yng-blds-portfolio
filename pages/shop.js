@@ -19,7 +19,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small>Zine</small>
+            <small className="small">Zine</small>
             <h2>Summer in the city</h2>
             <small className="cs1 ce3 red small">
               Second Edition in May 2025
@@ -35,7 +35,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small>Preset</small>
+            <small className="small">Preset</small>
             <h2>"Popeye Style"</h2>
             <small href="/shop" className="cs1 ce3 red small">
               Coming soon
@@ -51,7 +51,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small>Preset</small>
+            <small className="small">Preset</small>
             <h2>"Blue Hour"</h2>
             <small href="/shop" className="cs1 ce3 red small">
               Coming soon
@@ -67,7 +67,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small>Preset</small>
+            <small className="small">Preset</small>
             <h2>"Vibrant Daylight"</h2>
             <small href="/shop" className="cs1 ce3 red small">
               Coming soon
@@ -83,7 +83,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small>Preset</small>
+            <small className="small">Preset</small>
             <h2>"Punchy Haze"</h2>
             <small className="cs1 ce3 red small">Coming soon</small>
           </Link>
@@ -97,7 +97,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small>Preset</small>
+            <small className="small">Preset</small>
             <h2>"200 Postcards"</h2>
             <small className="cs1 ce3 red small">Sold out</small>
           </Link>
@@ -115,7 +115,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small>Preset</small>
+            <small className="small">Preset</small>
             <h2>"Sunset in Centrale Markt"</h2>
             <small className="cs1 ce3 red small">Order now</small>
           </Link>
