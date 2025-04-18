@@ -357,6 +357,12 @@ details[open] > summary {
   width: 48px;
 }
 
+.blog-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (max-width: 1648px) {
   .product-item {
     width: 40%;

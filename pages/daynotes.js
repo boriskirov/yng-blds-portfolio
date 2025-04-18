@@ -35,7 +35,7 @@ export default function Daynotes({ results }) {
       <Metadata title="Daynotes" description="Daynotes" />
       <Header />
       <div className="blog-container">{getDatabaseDisplay()}</div>
-      <footer className="blog-container">
+      <footer className="blog-container blog-footer">
         <img
           src="/daynotes.svg"
           alt="Daynotes icon"
