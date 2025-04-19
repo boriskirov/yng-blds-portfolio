@@ -44,9 +44,9 @@ export default function Daynotes({ results }) {
           className="blog-icon"
         />{" "}
         <p>
-          Daynotes are a lightweight, almost daily, from time to time journaling
-          method, like microblogging which I use to reflect and observe my own
-          thoughts and behavior.
+          Daynotes is a lightweight, almost daily, from time to time,
+          low-friction journaling method, like microblogging which I use to
+          reflect and observe my own thoughts and behavior.
         </p>
       </footer>
     </div>

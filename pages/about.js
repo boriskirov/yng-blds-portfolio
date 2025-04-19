@@ -23,8 +23,9 @@ export default function Contact() {
               fashion, still life and other brain stuff ツ.
             </small>
             <small className="cs1 ce12">
-              I'm also writing almost-daily notes and post a random photo with
-              them, as a microblog.
+              I'm also writing low-friction microblogging tumblr looking notes
+              called Daynote. I also post a random photo with them, to capture
+              and reflect on my own thoughts, feelings and experiences.
             </small>
 
             <div className="cs1 ce12">
