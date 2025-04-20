@@ -45,7 +45,8 @@ export default function Daynotes({ results }) {
         <p>
           Daynotes is a lightweight, almost daily, from time to time,
           low-friction journaling method, like microblogging which I use to
-          reflect and observe my own thoughts and behavior.
+          reflect and observe my own thoughts and behavior. And yes, RSS is
+          supported.
         </p>
       </footer>
     </div>

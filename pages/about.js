@@ -15,17 +15,35 @@ export default function Contact() {
             <Image src="/avatar1.png" width={1920} height={1920} />
           </div>
           <div className="cs9 ce12 grid">
-            <h2 className="cs1 ce12">ABOUT / CONTACT</h2>
+            <h2 className="cs1 ce12">ABOUT ME</h2>
             <small className="cs1 ce12">
               Born and raised in Sofia, Bulgaria and now living in Amsterdam,
               The Netherlands. I care for details, colours and emotions by
-              creating visual imagery & concept across lifestyle, outdoors,
+              creating visual imagery & concepts across lifestyle, outdoors,
               fashion, still life and other brain stuff ツ.
             </small>
             <small className="cs1 ce12">
-              I'm also writing low-friction microblogging tumblr looking notes
-              called Daynote. I also post a random photo with them, to capture
-              and reflect on my own thoughts, feelings and experiences.
+              Photography, writing and active lifestyle like walking, running,
+              cycling and tennis, I have been keeping those interests with me
+              along the way, and they are now an essential part of my
+              personality. In 2024, I published my first own photobook called
+              <small className="red">"200 Postcards"</small>, which is now sold
+              out, and will never be republished again.
+            </small>
+            <small className="cs1 ce12">
+              Since 2015 I have been in the world of tech, as a product and
+              software designer. I completely embraced tech, and I started to
+              built my own things. Basically when I want something like this
+              website, I just build it from scratch. This website runs because
+              of GitHub, NextJS, Vercel, Notion as a database, and RSS.
+            </small>
+            <small className="cs1 ce12">
+              I'm also a published writer, but that was in 2015, when I was
+              writing short fiction stories. Now I'm doing low-friction
+              microblogging tumblr looking notes called
+              <small className="red">Daynotes</small>. I also post a random
+              photo with them, to capture and reflect on my own thoughts,
+              feelings and experiences.
             </small>
 
             <div className="cs1 ce12">
@@ -62,6 +80,16 @@ export default function Contact() {
               className="flex-items-center"
             >
               Instagram
+            </Link>
+          </div>
+          <div className="cs1 ce12">
+            <Link
+              href="/feed.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-items-center"
+            >
+              RSS feed
             </Link>
           </div>
         </footer>
