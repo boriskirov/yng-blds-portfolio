@@ -7,6 +7,12 @@ const Metadata = ({ title, description, image }) => {
       <title>{title}</title>
       <link rel="icon" href="/ico.ico" />
       <link rel="apple-touch-icon" href="/ico.ico" />
+      <link
+        rel="alternate"
+        type="application/rss+xml"
+        title="RSS Feed"
+        href="/feed.xml"
+      />
       <meta name="title" content="yng.blds" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="author" content="yng.blds" />

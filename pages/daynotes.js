@@ -1,7 +1,6 @@
 import { Client } from "@notionhq/client";
 import Metadata from "../components/metadata";
 import Header from "../components/header";
-import Daynote from "../public/daynotes.svg";
 
 export default function Daynotes({ results }) {
   const getDatabaseDisplay = () => {
