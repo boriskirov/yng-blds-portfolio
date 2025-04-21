@@ -26,7 +26,7 @@ export default function Contact() {
               Photography, writing and active lifestyle like walking, running,
               cycling and tennis, I have been keeping those interests with me
               along the way, and they are now an essential part of my
-              personality. In 2024, I published my first own photobook called
+              personality. In 2024, I published my first photobook called
               <small className="red">"200 Postcards"</small>, which is now sold
               out, and will never be republished again.
             </small>
@@ -38,14 +38,13 @@ export default function Contact() {
               of GitHub, NextJS, Vercel, Notion as a database, and RSS.
             </small>
             <small className="cs1 ce12">
-              I'm also a published writer, but that was in 2015, when I was
-              writing short fiction stories. Now I'm doing low-friction
+              I'm also a published writer, but that was in 2014, when I was
+              writing short fiction stories. Now I'm taking low-friction
               microblogging tumblr looking notes called
-              <small className="red">Daynotes</small>. I also post a random
-              photo with them, to capture and reflect on my own thoughts,
-              feelings and experiences.
+              <small className="red">Daynotes</small>. I also post a photo with
+              them, to capture and reflect on my own thoughts, feelings and
+              experiences.
             </small>
-
             <div className="cs1 ce12">
               <details closed="true">
                 <summary>Features, Mentions & Collaborations: </summary>
