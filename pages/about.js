@@ -26,8 +26,8 @@ export default function Contact() {
               Photography, writing and active lifestyle like walking, running,
               cycling and tennis. I have been keeping those interests with me
               along the way, and they are now an essential part of my
-              personality. After my first 5 years living in Amsterdam, in 2024,
-              I self-published my first photobook.
+              personality. After my first 5 years living in Amsterdam, in 2024 I
+              self-published my first photobook
               <small className="red">"200 Postcards"</small>, which is now sold
               out, and it will never be republished again.
             </small>
