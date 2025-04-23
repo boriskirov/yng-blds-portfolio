@@ -7,6 +7,7 @@ export default function Daynotes({ results }) {
     return results.map((blog) => {
       const date = blog.properties.Date?.date?.start;
       const text = blog.properties.Text?.rich_text?.[0]?.plain_text;
+      // const title = blog.properties.Title?.title?.[0]?.plain_text || "Untitled";
       const image =
         blog.properties.Photo?.files?.[0]?.external?.url ||
         blog.properties.Photo?.files?.[0]?.file?.url;
@@ -45,8 +46,9 @@ export default function Daynotes({ results }) {
         <p>
           Daynotes is a lightweight, almost daily, from time to time,
           low-friction journaling method, like microblogging which I use to
-          reflect and observe my own thoughts and behavior. And yes, RSS is
-          supported.
+          reflect and observe my own thoughts and behavior. It's another form of
+          figuring things out and also keep in touch with myself and people
+          around me. And yes, RSS is supported, because you never know.
         </p>
       </footer>
     </div>

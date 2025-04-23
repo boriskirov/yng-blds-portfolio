@@ -26,20 +26,22 @@ export default function Contact() {
               Photography, writing and active lifestyle like walking, running,
               cycling and tennis, I have been keeping those interests with me
               along the way, and they are now an essential part of my
-              personality. In 2024, I published my first photobook called
+              personality. In 2024, I self-published my first photobook.
               <small className="red">"200 Postcards"</small>, which is now sold
-              out, and will never be republished again.
+              out, will never be republished again.
             </small>
             <small className="cs1 ce12">
               Since 2015 I have been in the world of tech, as a product and
-              software designer. I completely embraced tech, and I started to
-              built my own things. Basically when I want something like this
-              website, I just build it from scratch. This website runs because
-              of GitHub, NextJS, Vercel, Notion as a database, and RSS.
+              software designer. Because of my endless curiosity it was
+              impossible not to start figuring out how the internet and
+              computers work. Now I build my own things. Basically when I want
+              something like this website, I just build it from scratch. This
+              website runs because of GitHub, NextJS, Vercel, Notion as a
+              database, and RSS.
             </small>
             <small className="cs1 ce12">
-              I'm also a published writer, but that was in 2014, when I was
-              writing short fiction stories. Now I'm taking low-friction
+              I'm also a published writer, but that was between 2012-2014, when
+              I was writing short fiction stories. Now I'm taking low-friction
               microblogging tumblr looking notes called
               <small className="red">Daynotes</small>. I also post a photo with
               them, to capture and reflect on my own thoughts, feelings and
