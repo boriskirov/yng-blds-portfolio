@@ -24,11 +24,12 @@ export default function Contact() {
             </small>
             <small className="cs1 ce12">
               Photography, writing and active lifestyle like walking, running,
-              cycling and tennis, I have been keeping those interests with me
+              cycling and tennis. I have been keeping those interests with me
               along the way, and they are now an essential part of my
-              personality. In 2024, I self-published my first photobook.
+              personality. After my first 5 years living in Amsterdam, in 2024,
+              I self-published my first photobook.
               <small className="red">"200 Postcards"</small>, which is now sold
-              out, will never be republished again.
+              out, and it will never be republished again.
             </small>
             <small className="cs1 ce12">
               Since 2015 I have been in the world of tech, as a product and
