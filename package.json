@@ -9,8 +9,9 @@
     "@notionhq/client": "^2.3.0",
     "axios": "^1.7.2",
     "next": "^15.3.0",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
+    "react-notion-x": "^7.3.0",
     "rss": "^1.2.2",
     "sharp": "^0.34.1"
   }

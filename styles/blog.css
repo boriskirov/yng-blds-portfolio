@@ -1,0 +1,37 @@
+.post-divider {
+  border: 0.25px solid #232323;
+}
+
+.post-list-item {
+  list-style-type: none;
+}
+
+.post-date {
+  padding: 2px 6px;
+  border-radius: 2px;
+  background: var(--red-1);
+  color: var(--red-2);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.post-item {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.post-cover-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  clip-path: polygon(0 15%, 100% 15%, 100% 85%, 0 85%);
+  border-radius: 8px;
+}
+
+.post-tag {
+  margin: 2px;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
