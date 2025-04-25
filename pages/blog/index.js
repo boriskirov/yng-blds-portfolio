@@ -25,13 +25,18 @@ export default function BlogList({ posts }) {
 
             const tags = post?.properties?.Tags?.multi_select || [];
 
+            const number = post?.properties?.Number?.number || null;
+
             return (
               <li key={post.id} className="post-list-item">
                 <Link href={`/blog/${slug}`} className="post-item">
                   <div className="flex flex-column">
                     <h3>{title}</h3>
                     <span>{description}</span>
-                    <small className="post-date">{date}</small>
+                    <div className="flex post-metadata">
+                      {number !== null && <small>#{number}•</small>}
+                      <small className="post-date">{date}</small>
+                    </div>
                   </div>
                   <img
                     src={coverUrl}
@@ -41,9 +46,9 @@ export default function BlogList({ posts }) {
                 </Link>
                 <div>
                   {tags.map((tag) => (
-                    <small key={tag.id} className="post-tag">
+                    <span key={tag.id} className="post-tag">
                       {tag.name}
-                    </small>
+                    </span>
                   ))}
                 </div>
                 <hr className="post-divider" />

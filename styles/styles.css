@@ -89,6 +89,22 @@ li {
   list-style: inside;
 }
 
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+s {
+  text-decoration: line-through;
+}
+
 // Image URL Fragmet styling, read more about it here https://dzone.com/articles/how-to-style-images-with-markdown
 
 .italic {

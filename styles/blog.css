@@ -6,6 +6,27 @@
   list-style-type: none;
 }
 
+.post-metadata {
+  align-self: flex-start;
+}
+
+.post-title {
+  margin: 24px 0 4px 0;
+}
+
+.post-image img {
+  width: 100%;
+  height: 640px;
+  object-fit: cover; /* Makes sure even vertical images fill horizontally */
+  object-position: center center;
+  display: block;
+}
+
+.post-link {
+  text-decoration: underline;
+  font-size: 18px;
+}
+
 .post-date {
   padding: 2px 6px;
   border-radius: 2px;
@@ -30,8 +51,20 @@
   border-radius: 8px;
 }
 
+.post-tags {
+  margin-top: 32px;
+}
+
 .post-tag {
   margin: 2px;
-  padding: 2px 6px;
+  padding: 2px 4px;
   border-radius: 2px;
+  font-size: 12px;
+  background: var(--transparent-1);
+}
+
+p {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5em;
 }

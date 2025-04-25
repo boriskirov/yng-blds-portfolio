@@ -1,48 +1,76 @@
 import { getAllPosts, getPostBySlug, getPageContent } from "../../lib/blog";
 import { getTitle } from "../../lib/utils";
+import Link from "next/link";
+import { renderText } from "../../lib/renderText";
 
 export default function BlogPost({ post, blocks }) {
   const title = getTitle(post);
   const date = post?.properties?.Date?.date?.start || "No date";
+  const tags = post?.properties?.Tags?.multi_select || [];
+  const coverUrl = post?.cover?.external?.url || post?.cover?.file?.url || null;
 
   return (
-    <div className="p-6 max-w-3xl mx-auto">
-      <h1 className="text-3xl font-bold mb-2">{title}</h1>
-      <p className="text-gray-500 mb-6">{date}</p>
+    <div className="main-container">
+      <div className="post-image">
+        {coverUrl && (
+          <div className="relative w-full h-80 mb-8">
+            <img
+              src={coverUrl}
+              alt={title}
+              className="w-full h-full object-cover rounded-lg shadow"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-20 rounded-lg" />
+          </div>
+        )}
+      </div>
+      <div className="blog-container">
+        <Link href="./">Go Back</Link>
 
-      <div className="space-y-4 mt-6">
-        {blocks.map((block) => {
-          const type = block.type;
-          const value = block[type];
+        <h1 className="post-title">{title}</h1>
+        <small>{date}</small>
+        <div className="flex post-tags">
+          {tags.map((tag) => (
+            <span key={tag.id} className="post-tag">
+              {tag.name}
+            </span>
+          ))}
+        </div>
 
-          // Skip empty rich_text blocks
-          if (!value || !value.rich_text || value.rich_text.length === 0)
+        <hr className="post-divider" />
+
+        <div>
+          {blocks.map((block) => {
+            const type = block.type;
+            const value = block[type];
+
+            if (type === "divider") {
+              return <hr key={block.id} className="post-divider" />;
+            }
+
+            // Skip empty rich_text blocks
+            if (!value || !value.rich_text || value.rich_text.length === 0)
+              return null;
+
+            const text = value.rich_text.map((t) => t.plain_text).join("");
+
+            if (block.type === "paragraph") {
+              const textArray = block.paragraph?.rich_text;
+              if (!textArray || textArray.length === 0) return null;
+
+              return <p key={block.id}>{renderText(textArray)}</p>;
+            }
+
+            if (type === "heading_1") {
+              return <h1 key={block.id}>{text}</h1>;
+            }
+
+            if (type === "heading_2") {
+              return <h2 key={block.id}>{text}</h2>;
+            }
+
             return null;
-
-          const text = value.rich_text.map((t) => t.plain_text).join("");
-
-          if (type === "paragraph") {
-            return <p key={block.id}>{text}</p>;
-          }
-
-          if (type === "heading_1") {
-            return (
-              <h1 key={block.id} className="text-2xl font-bold">
-                {text}
-              </h1>
-            );
-          }
-
-          if (type === "heading_2") {
-            return (
-              <h2 key={block.id} className="text-xl font-semibold">
-                {text}
-              </h2>
-            );
-          }
-
-          return null;
-        })}
+          })}
+        </div>
       </div>
     </div>
   );
