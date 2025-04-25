@@ -67,6 +67,7 @@
   align-items: center;
   font-size: 14px;
   color: #989898;
+  margin: 24px 0;
 }
 
 p {
@@ -86,5 +87,10 @@ p {
   .post-cover-image {
     width: 100%;
     clip-path: polygon(0 5%, 100% 5%, 100% 95%, 0 95%);
+  }
+
+  .post-image img {
+    height: 320px;
+    margin: 12px 0;
   }
 }
