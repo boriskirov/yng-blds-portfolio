@@ -43,6 +43,32 @@ export default function BlogPost({ post, blocks }) {
               return <hr key={block.id} className="post-divider" />;
             }
 
+            if (block.type === "image") {
+              const value = block.image;
+              const imageUrl =
+                value.type === "external" ? value.external.url : value.file.url;
+
+              const caption = value.caption?.[0]?.plain_text || "";
+
+              return (
+                <figure
+                  key={block.id}
+                  className="flex flex-column post-image-caption "
+                >
+                  <img
+                    src={imageUrl}
+                    alt={caption}
+                    loading="lazy"
+                    style={{
+                      objectFit: "cover",
+                      objectPosition: "center center",
+                    }}
+                  />
+                  {caption && <figcaption>{caption}</figcaption>}
+                </figure>
+              );
+            }
+
             // Skip empty rich_text blocks
             if (!value || !value.rich_text || value.rich_text.length === 0)
               return null;

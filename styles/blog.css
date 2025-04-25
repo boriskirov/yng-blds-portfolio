@@ -63,6 +63,12 @@
   background: var(--transparent-1);
 }
 
+.post-image-caption {
+  align-items: center;
+  font-size: 14px;
+  color: #989898;
+}
+
 p {
   margin-bottom: 24px;
   font-size: 18px;
