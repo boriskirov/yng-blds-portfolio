@@ -13,13 +13,9 @@ export default function BlogPost({ post, blocks }) {
     <div className="main-container">
       <div className="post-image">
         {coverUrl && (
-          <div className="relative w-full h-80 mb-8">
-            <img
-              src={coverUrl}
-              alt={title}
-              className="w-full h-full object-cover rounded-lg shadow"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-20 rounded-lg" />
+          <div>
+            <img src={coverUrl} alt={title} />
+            <div />
           </div>
         )}
       </div>

@@ -68,3 +68,17 @@ p {
   font-size: 18px;
   line-height: 1.5em;
 }
+
+@media (max-width: 1024px) {
+  .align-center {
+    align-self: flex-start;
+  }
+  .post-item {
+    flex-direction: column-reverse;
+  }
+
+  .post-cover-image {
+    width: 100%;
+    clip-path: polygon(0 5%, 100% 5%, 100% 95%, 0 95%);
+  }
+}

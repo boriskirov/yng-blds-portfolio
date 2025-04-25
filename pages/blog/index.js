@@ -30,7 +30,7 @@ export default function BlogList({ posts }) {
             return (
               <li key={post.id} className="post-list-item">
                 <Link href={`/blog/${slug}`} className="post-item">
-                  <div className="flex flex-column">
+                  <div className="flex flex-column align-center">
                     <h3>{title}</h3>
                     <span>{description}</span>
                     <div className="flex post-metadata">
