@@ -1,6 +1,7 @@
 import { Client } from "@notionhq/client";
 import Metadata from "../components/metadata";
 import Header from "../components/header";
+import SubscribeForm from "../components/subscribe";
 
 export default function Daynotes({ results }) {
   const getDatabaseDisplay = () => {
@@ -34,23 +35,21 @@ export default function Daynotes({ results }) {
     <div className="main-container">
       <Metadata title="Daynotes" description="Daynotes" />
       <Header />
-      <div className="blog-container">{getDatabaseDisplay()}</div>
-      <footer className="blog-container blog-footer">
-        <img
-          src="/daynotes.svg"
-          alt="Daynotes icon"
-          width={24}
-          height={24}
-          className="blog-icon"
-        />{" "}
-        <p>
-          Daynotes is a lightweight, almost daily, from time to time,
-          low-friction journaling method, like microblogging which I use to
-          reflect and observe my own thoughts and behavior. It's another form of
-          figuring things out and also keep in touch with myself and people
-          around me. And yes, RSS is supported, because you never know.
-        </p>
-      </footer>
+      <div className="blog-container">
+        <div className="blog-footer flex flex-column daynotes-wrapper">
+          <small>
+            Daynotes is a lightweight, almost daily, from time to time,
+            low-friction journaling method. It's microblogging which I use to
+            reflect and observe my own thoughts and behavior. If you appreciate
+            my writing and photography, feel free to subscribe for my blog.
+          </small>
+          <SubscribeForm />
+        </div>
+        <div>{getDatabaseDisplay()}</div>
+        <div className="blog-footer">
+          <p>You have reached the end ...</p>
+        </div>
+      </div>
     </div>
   );
 }

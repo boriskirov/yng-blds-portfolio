@@ -76,6 +76,29 @@ p {
   line-height: 1.5em;
 }
 
+.subscribe-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe-form * {
+  padding: 8px;
+  margin-right: 8px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.subscribe-form > button {
+  width: 35%;
+  background: #4ea5e4;
+  font-weight: bold;
+}
+
+.subscribe-form > button:hover {
+  background: #3788c2;
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
   .align-center {
     align-self: flex-start;
@@ -92,5 +115,9 @@ p {
   .post-image img {
     height: 320px;
     margin: 12px 0;
+  }
+
+  .subscribe-form > button {
+    width: 45%;
   }
 }

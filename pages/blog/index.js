@@ -1,11 +1,20 @@
 import { getAllPosts } from "../../lib/blog";
 import Link from "next/link";
+import Metadata from "../../components/metadata";
+import Header from "../../components/header";
+import SubscribeForm from "../../components/subscribe";
 
 export default function BlogList({ posts }) {
   return (
     <div className="main-container">
+      <Metadata title="About" image="/avatar.png" />
+      <Header />
       <div className="blog-container">
-        <h1>Blog</h1>
+        <p>
+          Welcome to my space where I write about on photography, walking,
+          cycling and other brain stuff. It's also a newsletter ツ.
+        </p>
+        <SubscribeForm />
         <ul className="flex flex-column">
           {posts.map((post) => {
             const title =
