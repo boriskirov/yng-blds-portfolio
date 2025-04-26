@@ -72,5 +72,5 @@ export default function BlogList({ posts }) {
 
 export async function getStaticProps() {
   const posts = await getAllPosts();
-  return { props: { posts } };
+  return { props: { posts }, revalidate: 60 };
 }

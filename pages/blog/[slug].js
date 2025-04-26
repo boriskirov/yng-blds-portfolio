@@ -123,12 +123,11 @@ export async function getStaticProps({ params }) {
   const post = await getPostBySlug(params.slug);
   const blocks = await getPageContent(post.id);
 
-  console.log("Fetched blocks:", blocks); // 👈 Add this
-
   return {
     props: {
       post,
       blocks,
     },
+    revalidate: 60,
   };
 }
