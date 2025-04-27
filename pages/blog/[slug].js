@@ -108,7 +108,7 @@ export async function getStaticPaths() {
       if (typeof slug === "string") {
         return { params: { slug } };
       }
-      return null;
+      return { paths, fallback: false };
     })
     .filter(Boolean);
 
