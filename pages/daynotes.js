@@ -40,8 +40,12 @@ export default function Daynotes({ results }) {
           <small>
             Daynotes is a lightweight, almost daily, from time to time,
             low-friction journaling method. It's microblogging which I use to
-            reflect and observe my own thoughts and behavior. If you appreciate
-            my writing and photography, feel free to subscribe for my blog.
+            reflect and observe my own thoughts and behavior.
+          </small>
+          <br />
+          <small>
+            If you want to support my writing and photography, feel free to
+            subscribe for my blog. I work on bigger essays from time to time.
           </small>
           <SubscribeForm />
         </div>

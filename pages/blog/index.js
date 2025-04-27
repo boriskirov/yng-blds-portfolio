@@ -10,11 +10,14 @@ export default function BlogList({ posts }) {
       <Metadata title="About" image="/avatar.png" />
       <Header />
       <div className="blog-container">
-        <p>
-          Welcome to my space where I write about on photography, walking,
-          cycling and other brain stuff. It's also a newsletter ツ.
-        </p>
-        <SubscribeForm />
+        <div className="blog-footer flex flex-column daynotes-wrapper">
+          <small>
+            If you want to support my writing and photography, subscribe for my
+            blog. I work on bigger essays all walking, photography, culture and
+            movement lifestyle.
+          </small>
+          <SubscribeForm />
+        </div>
         <ul className="flex flex-column">
           {posts.map((post) => {
             const title =
