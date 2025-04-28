@@ -82,7 +82,6 @@ p {
 }
 
 .subscribe-form * {
-  padding: 8px;
   margin-right: 8px;
   width: 100%;
   border-radius: 2px;
@@ -90,6 +89,7 @@ p {
 
 .subscribe-form > button {
   width: 35%;
+  height: 36px;
   background: #4ea5e4;
   font-weight: bold;
 }
@@ -97,6 +97,31 @@ p {
 .subscribe-form > button:hover {
   background: #3788c2;
   cursor: pointer;
+}
+
+.subscribe-form > div > input {
+  padding: 8px;
+  height: 36px;
+}
+
+.subscribe-selection {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.subscribe-selection > label {
+  display: flex;
+  align-items: center; /* Align checkbox and text vertically */
+  width: 50%; /* Make labels flexible half-width */
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.subscribe-selection > label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
 
 @media (max-width: 1024px) {
