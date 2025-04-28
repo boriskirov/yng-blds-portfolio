@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
   if (!daynotesDatabaseId || !blogDatabaseId) {
     throw new Error(
-      "Missing NOTION_DAYNOTES_DATABASE_ID or NOTION_BLOG_DATABASE_ID in environment variables."
+      "Missing NOTION_DATABASE_ID or NOTION_DATABASE_BLOG_ID in environment variables."
     );
   }
 
@@ -27,8 +27,25 @@ export default async function handler(req, res) {
     page_size: 100,
   });
 
+  // 🛠 Force set "Type" manually
+  const daynotes = daynotesResponse.results.map((post) => ({
+    ...post,
+    properties: {
+      ...post.properties,
+      Type: { select: { name: "daynote" } }, // Inject daynote type
+    },
+  }));
+
+  const blogs = blogResponse.results.map((post) => ({
+    ...post,
+    properties: {
+      ...post.properties,
+      Type: { select: { name: "blog" } }, // Inject blog type
+    },
+  }));
+
   // Merge posts
-  const allPosts = [...daynotesResponse.results, ...blogResponse.results];
+  const allPosts = [...daynotes, ...blogs];
 
   // Sort by Date descending
   const sortedPosts = allPosts.sort((a, b) => {
