@@ -83,6 +83,7 @@ p {
 
 .subscribe-form * {
   margin-right: 8px;
+  padding: 0px 12px;
   width: 100%;
   border-radius: 2px;
 }
@@ -110,18 +111,29 @@ p {
   margin: 0;
 }
 
+.subscribe-content {
+  padding: 0;
+}
+
 .subscribe-selection > label {
   display: flex;
   align-items: center; /* Align checkbox and text vertically */
   width: 50%; /* Make labels flexible half-width */
   font-size: 14px;
   margin-top: 12px;
+  padding: 0;
 }
 
 .subscribe-selection > label input[type="checkbox"] {
   width: 16px;
   height: 16px;
   margin-right: 8px;
+}
+
+.subscribe-sucesss {
+  background: #49d1494d;
+  padding: 12px;
+  border-radius: 4px;
 }
 
 @media (max-width: 1024px) {

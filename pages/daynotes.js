@@ -44,14 +44,18 @@ export default function Daynotes({ results }) {
           </small>
           <br />
           <small>
-            If you want to support my writing and photography, feel free to
-            subscribe for my blog. I work on bigger essays from time to time.
+            If you want to support me, subscribe. Daynotes happen few times a
+            month.
           </small>
           <SubscribeForm />
         </div>
         <div>{getDatabaseDisplay()}</div>
-        <div className="blog-footer">
-          <p>You have reached the end ...</p>
+        <div className="blog-footer flex flex-column daynotes-wrapper">
+          <small>
+            If you reached that point, my guess is you liked it. You can
+            subscribe and support my writing and photography.
+          </small>
+          <SubscribeForm />
         </div>
       </div>
     </div>
