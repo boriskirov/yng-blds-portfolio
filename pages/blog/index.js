@@ -12,9 +12,9 @@ export default function BlogList({ posts }) {
       <div className="blog-container">
         <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
-            If you want to support my writing and photography, subscribe for my
-            blog. Here I work on bigger essays all walking, photography, culture
-            and movement. Happens once a mont.
+            If you want to support my writing and photography, you can
+            subscribe. Here I work on longer essays all movement, photography,
+            and culture. Happens once or twice a month.
           </small>
           <SubscribeForm />
         </div>

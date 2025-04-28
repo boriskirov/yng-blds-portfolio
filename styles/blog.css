@@ -93,6 +93,7 @@ p {
   height: 36px;
   background: #4ea5e4;
   font-weight: bold;
+  margin-right: 0px;
 }
 
 .subscribe-form > button:hover {
@@ -118,7 +119,7 @@ p {
 .subscribe-selection > label {
   display: flex;
   align-items: center; /* Align checkbox and text vertically */
-  width: 50%; /* Make labels flexible half-width */
+  width: 35%; /* Make labels flexible half-width */
   font-size: 14px;
   margin-top: 12px;
   padding: 0;
@@ -156,5 +157,9 @@ p {
 
   .subscribe-form > button {
     width: 55%;
+  }
+
+  .subscribe-selection {
+    width: 200%;
   }
 }
