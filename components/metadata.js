@@ -10,7 +10,7 @@ const Metadata = ({ title, description, image }) => {
       <link
         rel="alternate"
         type="application/rss+xml"
-        title="RSS Feed"
+        title="Boris Kirov"
         href="/feed.xml"
       />
       <meta name="title" content="yng.blds" />
