@@ -8,6 +8,8 @@ export default function Daynotes({ results }) {
     return results.map((blog) => {
       const date = blog.properties.Date?.date?.start;
       const text = blog.properties.Text?.rich_text?.[0]?.plain_text;
+      const number = blog?.properties?.Number?.number || null;
+
       // const title = blog.properties.Title?.title?.[0]?.plain_text || "Untitled";
       const image =
         blog.properties.Photo?.files?.[0]?.external?.url ||
@@ -15,7 +17,10 @@ export default function Daynotes({ results }) {
 
       return (
         <div className="blog-card" key={blog.id}>
-          {date && <small className="blog-date">{date}</small>}
+          <div className="flex daynote-metadata ">
+            {number && <strong># {number}</strong>}
+            {date && <small className="blog-date">{date}</small>}
+          </div>
           {text && <p className="blog-text">{text}</p>}
           {image && (
             <img

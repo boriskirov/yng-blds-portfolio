@@ -7,7 +7,7 @@
 
 body {
   height: 100%;
-  background-color: #101010;
+  background-color: #1d1d1d;
   color: #f2f2f2;
   word-break: break-word;
   overflow-x: hidden;
@@ -388,6 +388,14 @@ details[open] > summary {
 }
 
 .daynotes-wrapper > * {
+  width: 100%;
+}
+
+.daynote-metadata {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
   width: 100%;
 }
 
