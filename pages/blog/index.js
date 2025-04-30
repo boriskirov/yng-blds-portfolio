@@ -12,9 +12,17 @@ export default function BlogList({ posts }) {
       <div className="blog-container">
         <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
-            If you want to support my writing and photography, you can
-            subscribe. Here I work on longer essays all movement, photography,
-            and culture. Happens once or twice a month.
+            Etáp is a bulgarian word that means:{" "}
+            <em>
+              a specific moment, phase or stage in the process of something.
+            </em>{" "}
+            As everything in life is temporary, and the world moves on. Knowing
+            that, this blog is all about the different stages of photography,
+            movement and creativity.
+            <br />
+            <br />
+            You can support my writing and photography, by subscribing. You will
+            get longer essays all movement, photography, and creativity.
           </small>
           <SubscribeForm />
         </div>

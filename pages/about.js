@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
+import SubscribeForm from "../components/subscribe";
 
 export default function Contact() {
   return (
@@ -9,12 +10,12 @@ export default function Contact() {
       <Metadata title="About" image="/avatar.png" />
       <Header />
 
-      <main className="cs1 ce12">
+      <main className="cs1 ce12 blog-container">
         <div className="grid about-body">
-          <div className="cs1 ce8 sticky">
+          <div className="cs1 ce12">
             <Image src="/avatar1.png" width={1920} height={1920} />
           </div>
-          <div className="cs9 ce12 grid">
+          <div className="cs1 ce12 grid">
             <h2 className="cs1 ce12">ABOUT ME</h2>
             <small className="cs1 ce12">
               Born and raised in Sofia, Bulgaria and now living in Amsterdam,
@@ -42,12 +43,23 @@ export default function Contact() {
             </small>
             <small className="cs1 ce12">
               I'm also a published writer, but that was between 2012-2014, when
-              I was writing short fiction stories. Now I'm taking low-friction
-              microblogging tumblr looking notes called
+              I was writing short fiction stories and travel essays. Now I'm
+              taking low-friction microblogging tumblr looking notes called
               <small className="red">Daynotes</small>. I also post a photo with
               them, to capture and reflect on my own thoughts, feelings and
-              experiences.
+              experiences. There is also <small className="red">Etáp</small>{" "}
+              which is my newsletter for longer essays around photography,
+              movement and creatitity.
             </small>
+            <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
+              <small className="cs1 ce12">
+                You can support me, by subscribing. Daynotes is more frequent
+                and short form of a newsletter, while Etáp is happening every
+                once in a while and is longer.
+              </small>
+              <SubscribeForm />
+            </div>
+
             <div className="cs1 ce12">
               <details closed="true">
                 <summary>Features, Mentions & Collaborations: </summary>

@@ -110,6 +110,7 @@ p {
   display: flex;
   padding: 0;
   margin: 0;
+  width: 140%;
 }
 
 .subscribe-content {
@@ -119,7 +120,7 @@ p {
 .subscribe-selection > label {
   display: flex;
   align-items: center; /* Align checkbox and text vertically */
-  width: 35%; /* Make labels flexible half-width */
+  width: auto;
   font-size: 14px;
   margin-top: 12px;
   padding: 0;
