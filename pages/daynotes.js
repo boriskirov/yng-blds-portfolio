@@ -8,7 +8,7 @@ export default function Daynotes({ results }) {
     return results.map((blog) => {
       const date = blog.properties.Date?.date?.start;
       const text = blog.properties.Text?.rich_text?.[0]?.plain_text;
-      const number = blog?.properties?.Number?.number || null;
+      const number = blog.properties.Number?.rich_text?.[0]?.plain_text;
 
       // const title = blog.properties.Title?.title?.[0]?.plain_text || "Untitled";
       const image =
@@ -44,14 +44,11 @@ export default function Daynotes({ results }) {
         <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
             Daynotes is a lightweight, almost daily, from time to time,
-            low-friction journaling method. It's microblogging which I use to
-            reflect and observe my own thoughts and behavior.
+            low-friction journaling method, with a pop-up twist. It happens in
+            seasons, and in between I take breaks to get new inspiration.
           </small>
           <br />
-          <small>
-            If you want to support me, subscribe. Daynotes happen few times a
-            month.
-          </small>
+          <small>If you want to support me, subscribe.</small>
           <SubscribeForm />
         </div>
         <div>{getDatabaseDisplay()}</div>
