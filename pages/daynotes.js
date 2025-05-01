@@ -51,7 +51,9 @@ export default function Daynotes({ results }) {
             in seasons, and in between I take breaks to get new inspiration.
           </small>
           <br />
-          <small>If you want to support me, subscribe.</small>
+          <small>
+            If you want to recieve those as emails, you know what to do.
+          </small>
           <SubscribeForm />
         </div>
         <div>{getDatabaseDisplay()}</div>

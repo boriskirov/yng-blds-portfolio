@@ -16,13 +16,12 @@ export default function BlogList({ posts }) {
             <em>
               a specific moment, phase or stage in the process of something.
             </em>{" "}
-            As everything in life is temporary, and the world moves on. Knowing
-            that, this blog is all about the different stages of photography,
+            As everything in life is temporary, and the world moves on. I will
+            use this space to write longer photo essays related to photography,
             movement and creativity.
             <br />
             <br />
-            You can support my writing and photography, by subscribing. You will
-            get longer essays all movement, photography, and creativity.
+            If you want to recieve those as emails, you know what to do.
           </small>
           <SubscribeForm />
         </div>
