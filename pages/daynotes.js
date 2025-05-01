@@ -38,14 +38,17 @@ export default function Daynotes({ results }) {
 
   return (
     <div className="main-container">
-      <Metadata title="Daynotes" description="Daynotes" />
+      <Metadata
+        title="Daynotes"
+        description="Lightweigth, low-friction journaling technique newsletter with a pop-up twist. "
+      />
       <Header />
       <div className="blog-container">
         <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
             Daynotes is a lightweight, almost daily, from time to time,
-            low-friction journaling method, with a pop-up twist. It happens in
-            seasons, and in between I take breaks to get new inspiration.
+            low-friction journaling technique, with a pop-up twist. It happens
+            in seasons, and in between I take breaks to get new inspiration.
           </small>
           <br />
           <small>If you want to support me, subscribe.</small>

@@ -47,7 +47,7 @@ export default function SubscribeForm() {
         <div className="subscribe-selection">
           <label>
             <input type="checkbox" name="fields[subscribe_blog]" value="Yes" />{" "}
-            Etáp Newsletter
+            Photo Essays
           </label>
           <label>
             <input
