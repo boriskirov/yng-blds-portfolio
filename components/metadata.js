@@ -13,9 +13,9 @@ const Metadata = ({ title, description, image }) => {
         title="Boris Kirov"
         href="/feed.xml"
       />
-      <meta name="title" content="yng.blds" />
+      <meta name="title" content="Boris Kirov" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="author" content="yng.blds" />
+      <meta name="author" content="Boris Kirov" />
 
       {/* Open Graph */}
       <meta property="og:type" content="website" />
@@ -27,17 +27,17 @@ const Metadata = ({ title, description, image }) => {
       <meta name="og:title" property="og:title" content={title} />
       <meta
         property="og:site_name"
-        content="yng.blds - photography & videography"
+        content="Boris Kirov- movement, photography & brain stuff"
       />
       <meta property="og:url" content="https://www.yng-blds.com" />
       <meta property="og:image" content={image} />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://yngblds.vercel.app/" />
-      <meta property="twitter:title" content="yng.blds" />
+      <meta property="twitter:url" content="https://boriskirov.photos/" />
+      <meta property="twitter:title" content="Boris Kirov" />
       <meta
         property="twitter:description"
-        content="photography & videography"
+        content="Boris Kirov- movement, photography & brain stuff"
       />
     </Head>
   );
