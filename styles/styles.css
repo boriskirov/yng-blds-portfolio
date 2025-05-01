@@ -363,9 +363,15 @@ details[open] > summary {
   font-weight: 200;
 }
 
-.blog-image {
+.blog-image.portrait {
   width: 50%;
   align-self: center;
+}
+
+.blog-image.landscape {
+  width: 100%;
+  align-self: center;
+  object-fit: cover;
 }
 
 .blog-separator {

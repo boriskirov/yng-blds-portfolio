@@ -2,6 +2,7 @@ import { Client } from "@notionhq/client";
 import Metadata from "../components/metadata";
 import Header from "../components/header";
 import SubscribeForm from "../components/subscribe";
+import AutoOrientedImage from "../components/AutoOrientedImage";
 
 export default function Daynotes({ results }) {
   const getDatabaseDisplay = () => {
@@ -10,26 +11,18 @@ export default function Daynotes({ results }) {
       const text = blog.properties.Text?.rich_text?.[0]?.plain_text;
       const number = blog.properties.Number?.rich_text?.[0]?.plain_text;
 
-      // const title = blog.properties.Title?.title?.[0]?.plain_text || "Untitled";
       const image =
         blog.properties.Photo?.files?.[0]?.external?.url ||
         blog.properties.Photo?.files?.[0]?.file?.url;
 
       return (
         <div className="blog-card" key={blog.id}>
-          <div className="flex daynote-metadata ">
+          <div className="flex daynote-metadata">
             {number && <strong># {number}</strong>}
             {date && <small className="blog-date">{date}</small>}
           </div>
           {text && <p className="blog-text">{text}</p>}
-          {image && (
-            <img
-              className="blog-image"
-              src={image}
-              alt="Daynote image"
-              style={{ maxWidth: "100%", borderRadius: "8px" }}
-            />
-          )}
+          {image && <AutoOrientedImage src={image} alt="Daynote image" />}
           <small className="blog-separator">***</small>
         </div>
       );
@@ -40,7 +33,7 @@ export default function Daynotes({ results }) {
     <div className="main-container">
       <Metadata
         title="Daynotes"
-        description="Lightweigth, low-friction journaling technique newsletter with a pop-up twist. "
+        description="Lightweigth, low-friction journaling technique newsletter with a pop-up twist."
       />
       <Header />
       <div className="blog-container">
@@ -52,7 +45,7 @@ export default function Daynotes({ results }) {
           </small>
           <br />
           <small>
-            If you want to recieve those as emails, you know what to do.
+            If you want to receive those as emails, you know what to do.
           </small>
           <SubscribeForm />
         </div>
