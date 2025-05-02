@@ -415,7 +415,7 @@ details[open] > summary {
     padding: 0;
   }
 
-  .blog-image {
+  .blog-image.portrait {
     width: 100%;
   }
 

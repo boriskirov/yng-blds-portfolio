@@ -53,7 +53,7 @@ export default function Daynotes({ results }) {
         <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
             If you reached that point, my guess is you liked it. You can
-            subscribe and support my writing and photography.
+            subscribe and receive new editions via email.
           </small>
           <SubscribeForm />
         </div>
