@@ -46,12 +46,18 @@ export default function SubscribeForm() {
 
         <div className="subscribe-selection">
           <label>
-            <input type="checkbox" name="fields[subscribe_blog]" value="Yes" />{" "}
+            <input
+              type="checkbox"
+              checked
+              name="fields[subscribe_blog]"
+              value="Yes"
+            />{" "}
             Photo Essays
           </label>
           <label>
             <input
               type="checkbox"
+              checked
               name="fields[subscribe_daynotes]"
               value="Yes"
             />{" "}
