@@ -36,21 +36,27 @@ export default function Daynotes({ results }) {
         description="Lightweigth, low-friction journaling technique newsletter with a pop-up twist."
       />
       <Header />
-      <div className="blog-container">
-        <div className="blog-footer flex flex-column daynotes-wrapper">
+      <div className="blog-container grid">
+        <div className="cs1 ce12">
+          <h3>
+            Season 1: Komorebi <strong>(木漏れ日)</strong>
+          </h3>
+          <small>The seasons is currently running until mid May.</small>
+        </div>
+        <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
+          <small>
+            If you want to receive new editions as emails, you know what to do.
+          </small>
+          <SubscribeForm />
+        </div>
+        <div className="cs1 ce12">{getDatabaseDisplay()}</div>
+        <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
           <small>
             Daynotes is a lightweight, almost daily, from time to time,
             low-friction journaling technique, with a pop-up twist. It happens
             in seasons, and in between I take breaks to get new inspiration.
           </small>
           <br />
-          <small>
-            If you want to receive those as emails, you know what to do.
-          </small>
-          <SubscribeForm />
-        </div>
-        <div>{getDatabaseDisplay()}</div>
-        <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
             If you reached that point, my guess is you liked it. You can
             subscribe and receive new editions via email.
