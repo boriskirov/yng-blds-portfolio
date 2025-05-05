@@ -12,13 +12,8 @@ export default function BlogList({ posts }) {
       <div className="blog-container">
         <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
-            Etáp is a bulgarian word that means:{" "}
-            <em>
-              a specific moment, phase or stage in the process of something.
-            </em>{" "}
-            As everything in life is temporary, and the world moves on. I will
-            use this space to write longer photo essays related to photography,
-            movement and creativity.
+            This space is dedicated to write longer photo essays related to
+            photography, movement and creativity.
             <br />
             <br />
             If you want to recieve those as emails, you know what to do.
