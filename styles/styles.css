@@ -363,15 +363,56 @@ details[open] > summary {
   font-weight: 200;
 }
 
-.blog-image.portrait {
-  width: 50%;
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: zoom-out;
+}
+
+.fullscreen-overlay img {
+  max-width: 50%;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.fullscreen-overlay img.portrait {
   align-self: center;
+}
+
+/* Optional: Adjust behavior further if needed */
+.fullscreen-overlay img.portrait {
+  max-height: 50%;
+}
+
+.fullscreen-overlay img.landscape {
+  max-width: 90vw;
+  max-height: auto;
 }
 
 .blog-image.landscape {
   width: 100%;
-  align-self: center;
   object-fit: cover;
+}
+
+.blog-image.portrait {
+  width: 50%;
+  height: fit-content;
+}
+
+.daynote-image-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .blog-separator {
@@ -417,6 +458,10 @@ details[open] > summary {
 
   .blog-image.portrait {
     width: 100%;
+  }
+
+  .fullscreen-overlay img {
+    max-width: 95%;
   }
 
   .blog-footer {

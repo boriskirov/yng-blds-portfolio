@@ -3,8 +3,14 @@ import Metadata from "../components/metadata";
 import Header from "../components/header";
 import SubscribeForm from "../components/subscribe";
 import AutoOrientedImage from "../components/AutoOrientedImage";
+import { useState } from "react";
 
 export default function Daynotes({ results }) {
+  const [fullscreenSrc, setFullscreenSrc] = useState(null);
+
+  const openFullscreen = (src) => setFullscreenSrc(src);
+  const closeFullscreen = () => setFullscreenSrc(null);
+
   const getDatabaseDisplay = () => {
     return results.map((blog) => {
       const date = blog.properties.Date?.date?.start;
@@ -22,7 +28,14 @@ export default function Daynotes({ results }) {
             {date && <small className="blog-date">{date}</small>}
           </div>
           {text && <p className="blog-text">{text}</p>}
-          {image && <AutoOrientedImage src={image} alt="Daynote image" />}
+          {image && (
+            <div
+              onClick={() => openFullscreen(image)}
+              className="daynote-image-wrapper"
+            >
+              <AutoOrientedImage src={image} alt="Daynote image" />
+            </div>
+          )}
           <small className="blog-separator">***</small>
         </div>
       );
@@ -33,15 +46,23 @@ export default function Daynotes({ results }) {
     <div className="main-container">
       <Metadata
         title="Daynotes"
-        description="Lightweigth, low-friction journaling technique newsletter with a pop-up twist."
+        description="Lightweight, low-friction journaling technique newsletter with a pop-up twist."
       />
       <Header />
+
+      {/* Fullscreen Modal */}
+      {fullscreenSrc && (
+        <div className="fullscreen-overlay" onClick={closeFullscreen}>
+          <img src={fullscreenSrc} alt="Fullscreen view" />
+        </div>
+      )}
+
       <div className="blog-container grid">
         <div className="cs1 ce12">
           <h3>
             Season 1: Komorebi <strong>(木漏れ日)</strong>
           </h3>
-          <small>The seasons is currently running until mid May.</small>
+          <small>The season is currently running until mid May.</small>
         </div>
         <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
           <small>

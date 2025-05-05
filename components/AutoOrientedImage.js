@@ -24,7 +24,7 @@ export default function AutoOrientedImage({ src, alt }) {
       alt={alt}
       onLoad={handleLoad}
       className={`blog-image ${orientation || ""}`}
-      style={{ maxWidth: "100%", borderRadius: "2px" }}
+      style={{ borderRadius: "2px" }}
     />
   );
 }
