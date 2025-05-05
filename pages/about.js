@@ -53,9 +53,9 @@ export default function Contact() {
             </small>
             <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
               <small className="cs1 ce12">
-                You can support me, by subscribing. Daynotes is more frequent
-                and short form of a newsletter, while Etáp is happening every
-                once in a while and is longer.
+                If you like my work, you can subscribe. Daynotes is more
+                frequent and short form of a newsletter, while Photo Essays is
+                happening every once in a while and is longer.
               </small>
               <SubscribeForm />
             </div>
