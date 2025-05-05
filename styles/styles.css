@@ -1,7 +1,7 @@
 :root {
   --font-size: 16px;
-  --red-1: rgba(255, 0, 0, 0.15);
-  --red-2: rgb(255, 40, 40);
+  --red-1: rgba(0, 128, 255, 0.25);
+  --red-2: rgb(33, 143, 252);
   --transparent-1: #ffffff0d;
 }
 
@@ -406,8 +406,12 @@ details[open] > summary {
 }
 
 .blog-image.portrait {
-  width: 50%;
-  height: fit-content;
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
 }
 
 .daynote-image-wrapper {

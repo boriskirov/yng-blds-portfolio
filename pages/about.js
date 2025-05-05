@@ -47,9 +47,9 @@ export default function Contact() {
               taking low-friction microblogging tumblr looking notes called
               <small className="red">Daynotes</small>. I also post a photo with
               them, to capture and reflect on my own thoughts, feelings and
-              experiences. There is also <small className="red">Etáp</small>{" "}
-              which is my newsletter for longer essays around photography,
-              movement and creatitity.
+              experiences. There is also{" "}
+              <small className="red">Photo Essays</small> which is my newsletter
+              for longer essays around photography, movement and creatitity.
             </small>
             <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
               <small className="cs1 ce12">
