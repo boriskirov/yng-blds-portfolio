@@ -26,9 +26,14 @@ export default function Daynotes({ results }) {
         blog.properties.Photo?.files?.[0]?.file?.url;
 
       return (
-        <div className="blog-card" key={blog.id}>
+        <div className="blog-card" key={blog.id} id={`post-${number}`}>
           <div className="flex daynote-metadata">
-            {number && <strong># {number}</strong>}
+            {number && (
+              <a href={`#post-${number}`} className="post-link">
+                <strong># {number}</strong>
+              </a>
+            )}
+
             {date && <small className="blog-date">{date}</small>}
           </div>
           <p className="blog-text">
