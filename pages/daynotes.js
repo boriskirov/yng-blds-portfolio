@@ -14,7 +14,11 @@ export default function Daynotes({ results }) {
   const getDatabaseDisplay = () => {
     return results.map((blog) => {
       const date = blog.properties.Date?.date?.start;
-      const text = blog.properties.Text?.rich_text?.[0]?.plain_text;
+      const text = blog.properties.Text?.rich_text
+        ?.map((rt) => rt?.plain_text || "")
+        .join("")
+        .trim();
+
       const number = blog.properties.Number?.rich_text?.[0]?.plain_text;
 
       const image =
@@ -27,7 +31,28 @@ export default function Daynotes({ results }) {
             {number && <strong># {number}</strong>}
             {date && <small className="blog-date">{date}</small>}
           </div>
-          {text && <p className="blog-text">{text}</p>}
+          <p className="blog-text">
+            {blog.properties.Text?.rich_text?.map((rt, index) => {
+              const content = rt?.plain_text || "";
+
+              if (rt?.href) {
+                return (
+                  <a
+                    key={index}
+                    href={rt.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="post-link"
+                  >
+                    {content}
+                  </a>
+                );
+              }
+
+              return <span key={index}>{content}</span>;
+            })}
+          </p>
+
           {image && (
             <div
               onClick={() => openFullscreen(image)}
