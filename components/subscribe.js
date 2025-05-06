@@ -48,7 +48,6 @@ export default function SubscribeForm() {
           <label>
             <input
               type="checkbox"
-              checked
               defaultChecked={true}
               name="fields[subscribe_blog]"
               value="Yes"
@@ -58,7 +57,6 @@ export default function SubscribeForm() {
           <label>
             <input
               type="checkbox"
-              checked
               defaultChecked={true}
               name="fields[subscribe_daynotes]"
               value="Yes"
