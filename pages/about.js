@@ -14,14 +14,18 @@ export default function Contact() {
         <div className="grid about-body">
           <div className="cs1 ce12">
             <Image src="/avatar1.png" width={1920} height={1920} />
+            <em className="cs1 ce12">
+              The world moves on, but I always have a camera
+            </em>
+            ☺︎
           </div>
           <div className="cs1 ce12 grid">
             <h2 className="cs1 ce12">ABOUT ME</h2>
             <small className="cs1 ce12">
               Born and raised in Sofia, Bulgaria and now living in Amsterdam,
               The Netherlands. I care for details, colours and emotions by
-              creating visual imagery & concepts across lifestyle, outdoors,
-              fashion, still life and other brain stuff ツ.
+              creating imagery, storytelling & concepts across movement,
+              photography and other brain stuff ツ.
             </small>
             <small className="cs1 ce12">
               Photography, writing and active lifestyle like walking, running,
@@ -39,7 +43,7 @@ export default function Contact() {
               computers work. Now I build my own things. Basically when I want
               something like this website, I just build it from scratch. This
               website runs because of GitHub, NextJS, Vercel, Notion as a
-              database, and RSS.
+              database, RSS and MailerLite for newsletters.
             </small>
             <small className="cs1 ce12">
               I'm also a published writer, but that was between 2012-2014, when
