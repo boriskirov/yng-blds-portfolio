@@ -419,6 +419,10 @@ details[open] > summary {
   justify-content: center;
 }
 
+.daynote-image-wrapper:hover {
+  cursor: pointer;
+}
+
 .blog-separator {
   width: 100%;
   text-align: center;
