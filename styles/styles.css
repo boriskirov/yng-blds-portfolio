@@ -420,7 +420,7 @@ details[open] > summary {
 }
 
 .daynote-image-wrapper:hover {
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 .blog-separator {
