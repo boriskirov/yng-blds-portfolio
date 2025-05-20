@@ -92,7 +92,7 @@ export default function Daynotes({ results }) {
           <h3>
             Season 1: Komorebi <strong>(木漏れ日)</strong>
           </h3>
-          <small>The season is currently running until mid May.</small>
+          <small>The season is currently running until end of May.</small>
         </div>
         <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
           <small>
