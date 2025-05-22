@@ -86,14 +86,14 @@ export default function Daynotes({ results }) {
           <img src={fullscreenSrc} alt="Fullscreen view" />
         </div>
       )}
-
       <div className="blog-container grid">
         <div className="cs1 ce12"></div>
         <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">
           <small>
             Daynotes is a shortform season based newsletter focused on
-            photography, creativity, movement and other brain stuff. Season 1:
-            Komorebi (木漏れ日) has ended.
+            photography, creativity, movement and other brain stuff. It's like a
+            collection of campfire stories. <br />
+            <strong>Season 1: Komorebi (木漏れ日) has ended.</strong>
           </small>
           <small>
             If you want to receive new editions as emails, you know what to do.
