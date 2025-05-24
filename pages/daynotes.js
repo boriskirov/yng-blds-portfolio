@@ -4,6 +4,7 @@ import Header from "../components/header";
 import SubscribeForm from "../components/subscribe";
 import AutoOrientedImage from "../components/AutoOrientedImage";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Daynotes({ results }) {
   const [fullscreenSrc, setFullscreenSrc] = useState(null);
@@ -113,6 +114,15 @@ export default function Daynotes({ results }) {
             subscribe and receive new editions via email.
           </small>
           <SubscribeForm />
+        </div>
+        <div className="cs1 ce12">
+          <small>
+            This newsletter is running and is supported by{" "}
+            <Link href="https://www.mailerlite.com/a/OtlosYMXIocS">
+              MailerLite
+            </Link>
+            .
+          </small>
         </div>
       </div>
     </div>

@@ -66,8 +66,9 @@ h1 > bold {
 }
 
 p,
-a {
-  font-size: 14px;
+a,
+small {
+  font-size: 16px;
   color: #f2f2f2;
 }
 
