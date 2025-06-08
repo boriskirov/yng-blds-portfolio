@@ -12,8 +12,10 @@ export default function BlogList({ posts }) {
       <div className="blog-container">
         <div className="blog-footer flex flex-column daynotes-wrapper">
           <small>
-            This space is dedicated for longer essays related to photography,
-            movement and creativity.
+            Third Place is a concept around the third social space, after your
+            home and work, designed to be used for fostering community,
+            creativity and connections. This newsletter would be with longer
+            essays related to photography, movement and creativity.
             <br />
             <br />
             If you want to recieve those as emails, you know what to do.

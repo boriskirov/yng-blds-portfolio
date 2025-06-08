@@ -52,7 +52,7 @@ export default function SubscribeForm() {
               name="fields[subscribe_blog]"
               value="Yes"
             />{" "}
-            Photo Essays
+            Third Place
           </label>
           <label>
             <input
