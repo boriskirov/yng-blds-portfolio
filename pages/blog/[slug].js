@@ -98,7 +98,6 @@ export default function BlogPost({ post, blocks }) {
   );
 }
 
-// Pre-build all valid slug pages
 export async function getStaticPaths() {
   const posts = await getAllPosts();
 
@@ -108,26 +107,22 @@ export async function getStaticPaths() {
       if (typeof slug === "string") {
         return { params: { slug } };
       }
-      return { paths, fallback: false };
+      return null;
     })
     .filter(Boolean);
 
   return {
     paths,
-    fallback: false, // set to true if you want fallback loading
+    fallback: "blocking", // allows new slugs to build live
   };
 }
 
-// Build each individual blog post page
 export async function getStaticProps({ params }) {
   const post = await getPostBySlug(params.slug);
   const blocks = await getPageContent(post.id);
 
   return {
-    props: {
-      post,
-      blocks,
-    },
+    props: { post, blocks },
     revalidate: 60,
   };
 }
