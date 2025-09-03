@@ -94,12 +94,11 @@ export default function Daynotes({ results }) {
             Daynotes is a shortform season based newsletter focused on
             photography, creativity, movement and other brain stuff. It's like a
             collection of campfire stories. <br />
-            <strong>Season 1: Komorebi (木漏れ日) has ended.</strong>
-          </small>
-          <small>
-            If you want to receive new editions as emails, you know what to do.
+            <br />
+            <h3><strong>Season 2: Monkey mind is currently ongoing.</strong></h3>
           </small>
           <SubscribeForm />
+          
         </div>
         <div className="cs1 ce12">{getDatabaseDisplay()}</div>
         <div className="blog-footer flex flex-column daynotes-wrapper cs1 ce12">

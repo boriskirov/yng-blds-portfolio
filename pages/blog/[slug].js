@@ -11,19 +11,20 @@ export default function BlogPost({ post, blocks }) {
 
   return (
     <div className="main-container">
-      <div className="post-image">
-        {coverUrl && (
-          <div>
-            <img src={coverUrl} alt={title} />
-            <div />
-          </div>
-        )}
-      </div>
+      {/* Hero image */}
+      {coverUrl && (
+        <div className="post-image">
+          <img src={coverUrl} alt={title} />
+        </div>
+      )}
+
       <div className="blog-container">
         <Link href="./">Go Back</Link>
 
         <h1 className="post-title">{title}</h1>
         <small>{date}</small>
+
+        {/* Tags */}
         <div className="flex post-tags">
           {tags.map((tag) => (
             <span key={tag.id} className="post-tag">
@@ -34,60 +35,57 @@ export default function BlogPost({ post, blocks }) {
 
         <hr className="post-divider" />
 
+        {/* Render each block */}
         <div>
           {blocks.map((block) => {
-            const type = block.type;
+            const { id, type } = block;
             const value = block[type];
 
+            if (!value) return null;
+
             if (type === "divider") {
-              return <hr key={block.id} className="post-divider" />;
+              return <hr key={id} className="post-divider" />;
             }
 
-            if (block.type === "image") {
-              const value = block.image;
+            if (type === "image") {
               const imageUrl =
                 value.type === "external" ? value.external.url : value.file.url;
-
               const caption = value.caption?.[0]?.plain_text || "";
 
               return (
-                <figure
-                  key={block.id}
-                  className="flex flex-column post-image-caption "
-                >
+                <figure key={id} className="flex flex-column post-image-caption">
                   <img
                     src={imageUrl}
                     alt={caption}
                     loading="lazy"
-                    style={{
-                      objectFit: "cover",
-                      objectPosition: "center center",
-                    }}
+                    style={{ objectFit: "cover", objectPosition: "center center" }}
                   />
                   {caption && <figcaption>{caption}</figcaption>}
                 </figure>
               );
             }
 
-            // Skip empty rich_text blocks
-            if (!value || !value.rich_text || value.rich_text.length === 0)
-              return null;
-
-            const text = value.rich_text.map((t) => t.plain_text).join("");
-
-            if (block.type === "paragraph") {
-              const textArray = block.paragraph?.rich_text;
+            if (type === "paragraph") {
+              const textArray = value.rich_text;
               if (!textArray || textArray.length === 0) return null;
 
-              return <p key={block.id}>{renderText(textArray)}</p>;
+              return (
+                <p key={id} className="mb-4 leading-relaxed">
+                  {renderText(textArray)}
+                </p>
+              );
             }
 
             if (type === "heading_1") {
-              return <h1 key={block.id}>{text}</h1>;
+              return <h1 key={id}>{renderText(value.rich_text)}</h1>;
             }
 
             if (type === "heading_2") {
-              return <h2 key={block.id}>{text}</h2>;
+              return <h2 key={id}>{renderText(value.rich_text)}</h2>;
+            }
+
+            if (type === "heading_3") {
+              return <h3 key={id}>{renderText(value.rich_text)}</h3>;
             }
 
             return null;
@@ -99,6 +97,8 @@ export default function BlogPost({ post, blocks }) {
 }
 
 export async function getStaticPaths() {
+  
+
   const posts = await getAllPosts();
 
   const paths = posts
@@ -113,7 +113,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: "blocking", // allows new slugs to build live
+    fallback: "blocking",
   };
 }
 
@@ -121,8 +121,14 @@ export async function getStaticProps({ params }) {
   const post = await getPostBySlug(params.slug);
   const blocks = await getPageContent(post.id);
 
+  // ✅ Add this:
+  console.log("Blocks fetched from Notion:", JSON.stringify(blocks, null, 2));
+
   return {
     props: { post, blocks },
     revalidate: 60,
   };
 }
+
+
+// Example usage of renderText function in a paragraph
