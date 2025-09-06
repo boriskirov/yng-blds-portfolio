@@ -106,7 +106,7 @@ s {
   text-decoration: line-through;
 }
 
-// Image URL Fragmet styling, read more about it here https://dzone.com/articles/how-to-style-images-with-markdown
+
 
 .italic {
   font-style: italic;
@@ -200,6 +200,12 @@ s {
 .icon {
   width: 24px;
   margin-right: 8px;
+}
+
+.features {
+  font-size: 24px;
+  margin-bottom: 12px;
+  cursor: pointer;
 }
 
 .icon:hover {

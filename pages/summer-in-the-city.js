@@ -57,16 +57,18 @@ export default function TwoHundredPostcards() {
             <h1>€17.50</h1>
             <br />
             <Link
-              href={"/summer-in-the-city"}
+              href={"mailto:info@boriskirov.photos"}
+              target="_blank"
               style={{
                 padding: "12px 24px",
                 fontSize: "20px",
                 fontWeight: "normal",
-                backgroundColor: "rgba(249, 62, 62, 0.16)",
+                
+                backgroundColor: "rgba(249, 62, 62, 0.76)",
                 color: "f2f2f2",
               }}
             >
-              Sold out{" "}
+             Email me{" "}
             </Link>
             <Link
               href={"https://summer-in-the-city.vercel.app/"}
@@ -76,7 +78,7 @@ export default function TwoHundredPostcards() {
                 marginLeft: "12px",
                 fontSize: "20px",
                 fontWeight: "normal",
-                backgroundColor: "rgba(249, 62, 62, 0.76)",
+                backgroundColor: "rgba(249, 62, 62, 0.16)",
                 color: "f2f2f2",
               }}
             >

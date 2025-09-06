@@ -22,7 +22,7 @@ export default function Shop() {
             <small>Zine</small>
             <h2>Summer in the city</h2>
             <small className="cs1 ce3 red small">
-              Second Edition in May 2025
+              Third Edition is in stores and stock
             </small>
           </Link>
 
