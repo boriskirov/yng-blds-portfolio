@@ -65,16 +65,15 @@ export default function BlogPost({ post, blocks }) {
               );
             }
 
-            if (type === "paragraph") {
-              const textArray = value.rich_text;
-              if (!textArray || textArray.length === 0) return null;
-
+            if (block.type === "paragraph") {
+              const textArray = block.paragraph.rich_text;
               return (
-                <p key={id} className="mb-4 leading-relaxed">
+                <p key={block.id} className="blog-text">
                   {renderText(textArray)}
                 </p>
               );
             }
+
 
             if (type === "heading_1") {
               return <h1 key={id}>{renderText(value.rich_text)}</h1>;

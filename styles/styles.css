@@ -368,7 +368,17 @@ details[open] > summary {
   margin: 12px 0 24px 0;
   font-size: 18px;
   font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
 }
+
+
+.blog-text span {
+  margin-bottom: 0.5em; /* spacing between lines */
+}
+
+
 
 .fullscreen-overlay {
   position: fixed;
