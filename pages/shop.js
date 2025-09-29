@@ -26,7 +26,7 @@ export default function Shop() {
             </small>
           </Link>
 
-          <Link href="/shop" className="cs4 ce6 flex flex-column">
+          <Link href="https://boriskirov.gumroad.com" target="_blank" className="cs4 ce6 flex flex-column">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-7.png"
@@ -36,59 +36,13 @@ export default function Shop() {
               />
             </div>
             <small className="small">Preset</small>
-            <h2>"Popeye Style"</h2>
+            <h2>Presets and LUTS</h2>
             <small href="/shop" className="cs1 ce3 red small">
-              Coming soon
+              Go to Gumroad
             </small>
           </Link>
 
-          <Link href="/shop" className="cs7 ce9 flex flex-column">
-            <div className="image-wrapper">
-              <Image
-                src="/shop/shop-8.png"
-                width={380}
-                height={470}
-                className="shop-image"
-              />
-            </div>
-            <small className="small">Preset</small>
-            <h2>"Blue Hour"</h2>
-            <small href="/shop" className="cs1 ce3 red small">
-              Coming soon
-            </small>
-          </Link>
-
-          <Link href="/shop" className="cs10 ce12 flex flex-column">
-            <div className="image-wrapper">
-              <Image
-                src="/shop/shop-5.png"
-                width={380}
-                height={470}
-                className="shop-image"
-              />
-            </div>
-            <small className="small">Preset</small>
-            <h2>"Vibrant Daylight"</h2>
-            <small href="/shop" className="cs1 ce3 red small">
-              Coming soon
-            </small>
-          </Link>
-
-          <Link href="/shop" className="cs1 ce3 flex flex-column">
-            <div className="image-wrapper">
-              <Image
-                src="/shop/shop-4.png"
-                width={380}
-                height={470}
-                className="shop-image"
-              />
-            </div>
-            <small className="small">Preset</small>
-            <h2>"Punchy Haze"</h2>
-            <small className="cs1 ce3 red small">Coming soon</small>
-          </Link>
-
-          <Link href="/200-postcards" className="cs4 ce6 flex flex-column">
+          <Link href="/200-postcards" className="cs7 ce9 flex flex-column">
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-1.png"
@@ -105,7 +59,7 @@ export default function Shop() {
           <Link
             href="https://youngbloods.darkroom.com/"
             target="_blank"
-            className="cs7 ce9 flex flex-column"
+            className="cs10 ce12 flex flex-column"
           >
             <div className="image-wrapper">
               <Image
