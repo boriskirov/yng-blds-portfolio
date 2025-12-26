@@ -68,7 +68,7 @@ export default function Contact() {
               <details closed="true">
                 <summary className="features">Features, Mentions & Collaborations: </summary>
                 <small>
-                  AT5 • Rapha • MAAP • outside.details • analogue.amsterdam •
+                  Shlag Lab • AT5 • Rapha • MAAP • outside.details • analogue.amsterdam •
                   advanced.research • Wesley Verhoeve • Camera Japan • Dolomite
                   • Ferrino Italy • North Face • #FR2 • That Divine • raredub
                   •The Alchemist • Boldy James • Negative Feed • Art Cage

@@ -18,6 +18,9 @@ export default function People() {
             <Link href="/projects/power-of-love-of-power">
               <Item src="/life/life-71.jpg" width={320} height={240} />
             </Link>
+            <Item src="/life/life-74.jpg" width={320} height={240} />
+            <Item src="/life/life-75.jpg" width={320} height={240} />
+            <Item src="/life/life-76.jpg" width={320} height={240} />
             <Item src="/life/life-35.png" width={320} height={240} />
             <Item src="/life/life-68.jpg" width={320} height={240} />
             <Item src="/life/life-38.png" width={320} height={240} />
