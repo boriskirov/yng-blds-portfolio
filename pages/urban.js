@@ -5,7 +5,7 @@ import Metadata from "../components/metadata";
 export default function Urban() {
   return (
     <div className="main-container grid about-bg">
-      <Metadata title="yng.blds" description="City & Urban Photography" />
+      <Metadata title="Boris Kirov" description="City & Urban Photography" />
       <Header />
       <main className="cs1 ce12">
         <div className="grid">

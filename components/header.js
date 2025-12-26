@@ -31,8 +31,8 @@ export default function Header() {
         {/* <Link href="https://photonotes.substack.com/" target="_blank">
           Blog
         </Link> */}
-        <Link href="./blog">Third Place</Link>
-        <Link href="./daynotes"> Daynotes</Link>
+        {/* <Link href="./blog">Third Place</Link>
+        <Link href="./daynotes"> Daynotes</Link> */}
         <Link href="./about">About ツ</Link>
       </nav>
     </header>

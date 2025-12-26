@@ -5,11 +5,11 @@ import "../styles/slider.css";
 import "../styles/fluidigrid.css";
 import "../styles/blog.css";
 
-import { Raleway } from "next/font/google";
+import { Funnel_Sans } from "next/font/google";
 
-const inter = Raleway({
+const inter = Funnel_Sans({
   subsets: ["latin"],
-  weight: ["200", "400", "700"],
+  weight: ["300", "400", "600", "700"],
 });
 
 export default function MyApp({ Component, pageProps }) {

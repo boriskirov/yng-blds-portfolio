@@ -66,14 +66,16 @@ export default function Contact() {
 
             <div className="cs1 ce12">
               <details closed="true">
-                <summary className="features">Features, Mentions & Collaborations: </summary>
+                <summary className="features">
+                  Features, Mentions & Collaborations:{" "}
+                </summary>
                 <small>
-                  Shlag Lab • AT5 • Rapha • MAAP • outside.details • analogue.amsterdam •
-                  advanced.research • Wesley Verhoeve • Camera Japan • Dolomite
-                  • Ferrino Italy • North Face • #FR2 • That Divine • raredub
-                  •The Alchemist • Boldy James • Negative Feed • Art Cage
-                  Budapest • EyeShot Magazine • mnfst • Cheetah bikes • The
-                  Maker Market • Haarlem City Blog • Atlas Obscura •
+                  Shlag Lab • AT5 • Rapha • MAAP • outside.details •
+                  analogue.amsterdam • advanced.research • Wesley Verhoeve •
+                  Camera Japan • Dolomite • Ferrino Italy • North Face • #FR2 •
+                  That Divine • raredub •The Alchemist • Boldy James • Negative
+                  Feed • Art Cage Budapest • EyeShot Magazine • mnfst • Cheetah
+                  bikes • The Maker Market • Haarlem City Blog • Atlas Obscura •
                   Upphotographers • instadenbosch • FramePress Magazine • Dutch
                   Analog • Shoot It With Film • 36h studio • Vice • Bored Panda
                 </small>
@@ -93,7 +95,7 @@ export default function Contact() {
           </div>
           <div className="cs1 ce12">
             <Link
-              href="https://www.instagram.com/yng.blds/"
+              href="https://www.instagram.com/boriskirovv/"
               target="_blank"
               className="flex-items-center"
             >
