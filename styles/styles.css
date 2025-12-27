@@ -13,9 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-footer {
-}
-
 footer > div > a {
   padding-right: 12px;
 }
@@ -25,7 +22,7 @@ footer > div > a {
 }
 
 .header {
-  margin: 24px 0;
+  background: #1d1d1d;
 }
 
 video {
@@ -38,11 +35,6 @@ video {
 hr {
   width: 100%;
   margin: 3vw 0;
-}
-
-h1 {
-  font-size: calc(var(--font-size) * 3.25);
-  font-weight: calc(var(--font-weight) * 0.66);
 }
 
 h2 {
@@ -73,7 +65,7 @@ small {
 }
 
 nav > a {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 a {
@@ -105,8 +97,6 @@ u {
 s {
   text-decoration: line-through;
 }
-
-
 
 .italic {
   font-style: italic;
@@ -148,10 +138,12 @@ s {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
 }
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 .flex-column {
@@ -179,7 +171,8 @@ s {
 
 .sticky {
   top: 0;
-  padding: 16px 16px;
+  padding: 8px 16px;
+  position: sticky;
 }
 
 .name {
@@ -235,7 +228,7 @@ s {
   background-color: transparent;
   color: white;
   border: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .dropbtn:hover {
@@ -373,12 +366,9 @@ details[open] > summary {
   gap: 0.5em;
 }
 
-
 .blog-text span {
   margin-bottom: 0.5em; /* spacing between lines */
 }
-
-
 
 .fullscreen-overlay {
   position: fixed;
@@ -471,6 +461,16 @@ details[open] > summary {
   width: 100%;
 }
 
+.title {
+  font-size: 24px;
+  width: 100%;
+}
+
+.avatar {
+  width: 100%;
+  height: 240px;
+}
+
 @media (max-width: 1648px) {
   .product-item {
     width: 40%;
@@ -479,6 +479,10 @@ details[open] > summary {
 @media (max-width: 1024px) {
   .blog-container {
     padding: 0;
+  }
+
+  .header {
+    flex-direction: column;
   }
 
   .blog-image.portrait {
@@ -539,7 +543,12 @@ details[open] > summary {
   }
 
   .title {
-    font-size: 36px;
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .nav {
+    flex-direction: row;
   }
 
   @keyframes rotateImages {

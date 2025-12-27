@@ -10,7 +10,7 @@ export default function Home() {
         description="Photography & videography"
         image="/avatar.png"
       />
-      <Header />
+      <Header header={false} />
       <main className="cs1 ce12"></main>
     </div>
   );

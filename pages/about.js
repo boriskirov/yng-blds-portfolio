@@ -13,7 +13,14 @@ export default function Contact() {
       <main className="cs1 ce12 blog-container">
         <div className="grid about-body">
           <div className="cs1 ce12">
-            <Image src="/avatar1.png" width={1920} height={1920} />
+            <Image
+              src="/avatar-1.svg"
+              width={640}
+              height={640}
+              className="avatar"
+            />
+          </div>
+          <div className="cs1 ce12">
             <em className="cs1 ce12">
               The world moves on, but I always have a camera
             </em>
