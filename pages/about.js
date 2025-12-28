@@ -12,7 +12,10 @@ export default function Contact() {
 
       <main className="cs1 ce12 blog-container">
         <div className="grid about-body">
-          <div className="cs1 ce12">
+          <div
+            className="cs1 ce12"
+            style={{ background: "#ffffff0d", borderRadius: "8px" }}
+          >
             <Image
               src="/avatar-1.svg"
               width={640}
@@ -35,6 +38,10 @@ export default function Contact() {
               photography and other brain stuff ツ.
             </small>
             <small className="cs1 ce12">
+              Not always but I mainly shoot people, outdoors, garments, and
+              awlays and forever the everyday life.
+            </small>
+            {/* <small className="cs1 ce12">
               Photography, writing and active lifestyle like walking, running,
               cycling and tennis. I have been keeping those interests with me
               along the way, and they are now an essential part of my
@@ -69,8 +76,8 @@ export default function Contact() {
                 happening every once in a while and is longer.
               </small>
               <SubscribeForm />
-            </div>
-
+            </div> */}
+            <hr />
             <div className="cs1 ce12">
               <details closed="true">
                 <summary className="features">
