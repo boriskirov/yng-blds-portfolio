@@ -17,7 +17,7 @@ export default function Contact() {
             style={{ background: "#ffffff0d", borderRadius: "8px" }}
           >
             <Image
-              src="/avatar-1.svg"
+              src="/avatar-1.png"
               width={640}
               height={640}
               className="avatar"
