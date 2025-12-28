@@ -73,6 +73,9 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
+            <small className="small">Print</small>
+            <h2>"Sunset in Centrale Markt"</h2>
+            <small className="cs1 ce3 red small">Order now</small>
           </Link>
         </div>
       </main>
