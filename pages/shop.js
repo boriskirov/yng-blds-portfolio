@@ -26,7 +26,11 @@ export default function Shop() {
             </small>
           </Link>
 
-          <Link href="https://boriskirov.gumroad.com" target="_blank" className="cs4 ce6 flex flex-column">
+          <Link
+            href="https://boriskirov.gumroad.com"
+            target="_blank"
+            className="cs4 ce6 flex flex-column"
+          >
             <div className="image-wrapper">
               <Image
                 src="/shop/shop-7.png"
@@ -51,7 +55,7 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small className="small">Preset</small>
+            <small className="small">Photobook</small>
             <h2>"200 Postcards"</h2>
             <small className="cs1 ce3 red small">Sold out</small>
           </Link>
@@ -69,9 +73,6 @@ export default function Shop() {
                 className="shop-image"
               />
             </div>
-            <small className="small">Preset</small>
-            <h2>"Sunset in Centrale Markt"</h2>
-            <small className="cs1 ce3 red small">Order now</small>
           </Link>
         </div>
       </main>
