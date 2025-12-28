@@ -1,16 +1,18 @@
+// components/grid-item.jsx
+"use client";
+
 import Image from "next/image";
 
-export default function Item(src) {
+export default function Item({ src, width, height, alt = "", onClick }) {
   return (
-    <div className="grid-item">
+    <button type="button" className="grid-item-button" onClick={onClick}>
       <Image
-        className="card"
         src={src}
-        width={1080}
-        height={1080}
-        placeholder="blur"
-        blurDataURL="/image-loader.png"
+        alt={alt}
+        width={width}
+        height={height}
+        className="grid-item-image"
       />
-    </div>
+    </button>
   );
 }

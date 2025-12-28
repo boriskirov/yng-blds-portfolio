@@ -1,8 +1,74 @@
+// pages/garments.jsx   (or app/garments/page.jsx – for app router add "use client" at the top)
+import { useState } from "react";
 import Header from "../components/header";
 import Item from "../components/grid-item";
 import Metadata from "../components/metadata";
+import Lightbox from "../components/Lightbox";
+
+// one source of truth for all images on this page
+const garmentsImages = [
+  { src: "/garments/garments-4.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-60.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-61.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-22.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-26.png", width: 320, height: 240 },
+  { src: "/garments/garments-5.png", width: 320, height: 240 },
+  { src: "/garments/garments-45.png", width: 320, height: 240 },
+  { src: "/garments/garments-27.gif", width: 320, height: 240 },
+  { src: "/garments/garments-56.png", width: 320, height: 240 },
+  { src: "/garments/garments-3.png", width: 320, height: 240 },
+  { src: "/garments/garments-15.png", width: 320, height: 240 },
+  { src: "/garments/garments-57.png", width: 320, height: 240 },
+  { src: "/garments/garments-52.png", width: 320, height: 240 },
+  { src: "/garments/garments-53.png", width: 320, height: 240 },
+  { src: "/garments/garments-50.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-49.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-54.png", width: 320, height: 240 },
+  { src: "/garments/garments-55.png", width: 320, height: 240 },
+  { src: "/garments/garments-11.png", width: 320, height: 240 },
+  { src: "/garments/garments-12.png", width: 320, height: 240 },
+  { src: "/garments/garments-48.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-43.png", width: 320, height: 240 },
+  { src: "/garments/garments-58.png", width: 320, height: 240 },
+  { src: "/garments/garments-59.png", width: 320, height: 240 },
+  { src: "/garments/garments-42.png", width: 320, height: 240 },
+  { src: "/garments/garments-46.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-9.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-51.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-29.jpg", width: 320, height: 240 },
+  { src: "/garments/garments-38.png", width: 320, height: 240 },
+  { src: "/garments/garments-39.png", width: 320, height: 240 },
+  { src: "/garments/garments-40.png", width: 320, height: 240 },
+  { src: "/garments/garments-41.png", width: 320, height: 240 },
+  { src: "/garments/garments-44.png", width: 320, height: 240 },
+];
 
 export default function Garments() {
+  const [lightboxIndex, setLightboxIndex] = useState(null);
+
+  const openLightbox = (index) => setLightboxIndex(index);
+  const closeLightbox = () => setLightboxIndex(null);
+
+  const hasLightbox = lightboxIndex !== null;
+  const currentImage =
+    hasLightbox && garmentsImages[lightboxIndex]
+      ? garmentsImages[lightboxIndex]
+      : null;
+
+  const goNext = () => {
+    setLightboxIndex((prev) => {
+      if (prev === null) return 0;
+      return (prev + 1) % garmentsImages.length;
+    });
+  };
+
+  const goPrev = () => {
+    setLightboxIndex((prev) => {
+      if (prev === null) return 0;
+      return (prev - 1 + garmentsImages.length) % garmentsImages.length;
+    });
+  };
+
   return (
     <div className="main-container grid about-bg">
       <Metadata
@@ -14,43 +80,28 @@ export default function Garments() {
       <main className="cs1 ce12">
         <div className="grid">
           <div className="cs1 ce12 grid-container">
-            <Item src="/garments/garments-4.jpg" width={320} height={240} />
-            <Item src="/garments/garments-60.jpg" width={320} height={240} />
-            <Item src="/garments/garments-61.jpg" width={320} height={240} />
-            <Item src="/garments/garments-22.jpg" width={320} height={240} />
-            <Item src="/garments/garments-26.png" width={320} height={240} />
-            <Item src="/garments/garments-5.png" width={320} height={240} />
-            <Item src="/garments/garments-45.png" width={320} height={240} />
-            <Item src="/garments/garments-27.gif" width={320} height={240} />
-            <Item src="/garments/garments-56.png" width={320} height={240} />
-            <Item src="/garments/garments-3.png" width={320} height={240} />
-            <Item src="/garments/garments-15.png" width={320} height={240} />
-            <Item src="/garments/garments-57.png" width={320} height={240} />
-            <Item src="/garments/garments-52.png" width={320} height={240} />
-            <Item src="/garments/garments-53.png" width={320} height={240} />
-            <Item src="/garments/garments-50.jpg" width={320} height={240} />
-            <Item src="/garments/garments-49.jpg" width={320} height={240} />
-            <Item src="/garments/garments-54.png" width={320} height={240} />
-            <Item src="/garments/garments-55.png" width={320} height={240} />
-            <Item src="/garments/garments-11.png" width={320} height={240} />
-            <Item src="/garments/garments-12.png" width={320} height={240} />
-            <Item src="/garments/garments-48.jpg" width={320} height={240} />
-            <Item src="/garments/garments-43.png" width={320} height={240} />
-            <Item src="/garments/garments-58.png" width={320} height={240} />
-            <Item src="/garments/garments-59.png" width={320} height={240} />
-            <Item src="/garments/garments-42.png" width={320} height={240} />
-            <Item src="/garments/garments-46.jpg" width={320} height={240} />
-            <Item src="/garments/garments-9.jpg" width={320} height={240} />
-            <Item src="/garments/garments-51.jpg" width={320} height={240} />
-            <Item src="/garments/garments-29.jpg" width={320} height={240} />
-            <Item src="/garments/garments-38.png" width={320} height={240} />
-            <Item src="/garments/garments-39.png" width={320} height={240} />
-            <Item src="/garments/garments-40.png" width={320} height={240} />
-            <Item src="/garments/garments-41.png" width={320} height={240} />
-            <Item src="/garments/garments-44.png" width={320} height={240} />
+            {garmentsImages.map((img, index) => (
+              <Item
+                key={img.src}
+                src={img.src}
+                width={img.width}
+                height={img.height}
+                alt={"Garments image " + (index + 1)}
+                onClick={() => openLightbox(index)}
+              />
+            ))}
           </div>
         </div>
       </main>
+
+      <Lightbox
+        isOpen={hasLightbox}
+        src={currentImage ? currentImage.src : null}
+        alt="Garments image"
+        onClose={closeLightbox}
+        onNext={goNext}
+        onPrev={goPrev}
+      />
     </div>
   );
 }
