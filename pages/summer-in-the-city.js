@@ -5,6 +5,7 @@ import Image from "next/image";
 import PreOrderNow from "../components/pre-order-now";
 import Link from "next/link";
 import Slider from "../components/slider";
+import Item from "../components/grid-item";
 
 export default function TwoHundredPostcards() {
   return (
@@ -63,12 +64,12 @@ export default function TwoHundredPostcards() {
                 padding: "12px 24px",
                 fontSize: "20px",
                 fontWeight: "normal",
-                
+
                 backgroundColor: "rgba(249, 62, 62, 0.76)",
                 color: "f2f2f2",
               }}
             >
-             Email me{" "}
+              Email me{" "}
             </Link>
             <Link
               href={"https://summer-in-the-city.vercel.app/"}
@@ -87,31 +88,33 @@ export default function TwoHundredPostcards() {
             <br />
             <br />
             <small>* Feel free to reach out if you want a zine</small>
+          </div>{" "}
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <hr />
+          <div className="cs1 ce12">
+            <Item src="/sitc/sitc02.jpg" width={320} height={240} />
           </div>
-          {/* <div className="cs1 ce12 flex center" style={{ marginTop: "24px" }}>
-            <Image
-              src="/slider.svg"
-              alt="slider"
-              className="icon"
-              width={24}
-              height={24}
-            />
+          <div className="cs1 ce6">
+            <Item src="/sitc/sitc03.jpg" width={320} height={240} />
           </div>
-          <div
-            className="cs1 ce12"
-            style={{
-              backgroundColor: "#ffffff",
-              padding: "24px",
-            }}
-          >
-            <Slider />
-          </div> */}
+          <div className="cs7 ce12">
+            <Item src="/sitc/sitc04.jpg" width={320} height={240} />
+          </div>
+          <div className="cs1 ce6">
+            <Item src="/sitc/sitc05.jpg" width={320} height={240} />
+          </div>
+          <div className="cs7 ce12">
+            <Item src="/sitc/sitc06.jpg" width={320} height={240} />
+          </div>
         </div>
-        {/* <PreOrderNow
-          text="2 books left, available for order."
-          href={"https://forms.gle/1DAkh5AXxZahGTPr9"}
-          target={"_blank"}
-        /> */}
       </main>
     </div>
   );
