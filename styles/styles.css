@@ -496,7 +496,8 @@ details[open] > summary {
 /* Inner wrapper with arrows + image */
 .lightbox-inner {
   position: relative;
-  max-width: 90vw;
+  width: 100%;
+  justify-content: space-between;
   max-height: 90vh;
   display: flex;
   align-items: center;
