@@ -11,7 +11,9 @@ export default function Item({ src, width, height, alt = "", onClick }) {
         alt={alt}
         width={width}
         height={height}
-        className="grid-item-image"
+        className="grid-item-image card"
+        placeholder="blur"
+        blurDataURL="/image-loader.png"
       />
     </button>
   );
