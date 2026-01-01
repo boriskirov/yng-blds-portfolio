@@ -3,9 +3,7 @@ import Link from "next/link";
 export default function Header({ header = true }) {
   return (
     <header
-      className={`z-index cs1 ce12 flex space-between sticky ${
-        header ? "header" : ""
-      }`}
+      className={`cs1 ce12 flex space-between sticky ${header ? "header" : ""}`}
     >
       <div className="cs1 ce12 flex center">
         <Link href="/">
