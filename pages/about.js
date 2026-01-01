@@ -84,14 +84,15 @@ export default function Contact() {
                   Features, Mentions & Collaborations:{" "}
                 </summary>
                 <small>
-                  Shlag Lab • AT5 • Rapha • MAAP • outside.details •
-                  analogue.amsterdam • advanced.research • Wesley Verhoeve •
-                  Camera Japan • Dolomite • Ferrino Italy • North Face • #FR2 •
-                  That Divine • raredub •The Alchemist • Boldy James • Negative
-                  Feed • Art Cage Budapest • EyeShot Magazine • mnfst • Cheetah
-                  bikes • The Maker Market • Haarlem City Blog • Atlas Obscura •
-                  Upphotographers • instadenbosch • FramePress Magazine • Dutch
-                  Analog • Shoot It With Film • 36h studio • Vice • Bored Panda
+                  Next Street Gallery Paris • Shlag Lab • AT5 • Rapha • MAAP •
+                  outside.details • analogue.amsterdam • advanced.research •
+                  Wesley Verhoeve • Camera Japan • Dolomite • Ferrino Italy •
+                  North Face • #FR2 • That Divine • raredub •The Alchemist •
+                  Boldy James • Negative Feed • Art Cage Budapest • EyeShot
+                  Magazine • mnfst • Cheetah bikes • The Maker Market • Haarlem
+                  City Blog • Atlas Obscura • Upphotographers • instadenbosch •
+                  FramePress Magazine • Dutch Analog • Shoot It With Film • 36h
+                  studio • Vice • Bored Panda
                 </small>
               </details>
             </div>
