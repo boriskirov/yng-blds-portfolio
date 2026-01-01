@@ -32,10 +32,11 @@ export default function Contact() {
           <div className="cs1 ce12 grid">
             <h2 className="cs1 ce12">ABOUT ME</h2>
             <small className="cs1 ce12">
-              Born and raised in Sofia, Bulgaria and now living in Amsterdam,
-              The Netherlands. I care for details, colours and emotions by
-              creating imagery, storytelling & concepts across movement,
-              photography and other brain stuff ツ.
+              Hey, I'm Boris (b. 1991) is a designer, photographer, creative
+              storyteller and speaker. Raised in Sofia, Bulgaria and now based
+              in Amsterdam, The Netherlands. I care for details, colours and
+              emotions by creating imagery, storytelling & concepts across
+              movement, photography and other brain stuff ツ.
             </small>
             <small className="cs1 ce12">
               Not always but I mainly shoot people, outdoors, garments, and
