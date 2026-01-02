@@ -356,6 +356,10 @@ details[open] > summary {
   padding: 6vw 24vw;
 }
 
+.about-container {
+  padding: 6vw 12vw;
+}
+
 .blog-date {
   padding: 2px 6px;
   border-radius: 2px;
@@ -594,7 +598,8 @@ details[open] > summary {
   }
 }
 @media (max-width: 1024px) {
-  .blog-container {
+  .blog-container,
+  .about-container {
     padding: 0;
   }
 

@@ -10,7 +10,7 @@ export default function Contact() {
       <Metadata title="About" image="/avatar.png" />
       <Header />
 
-      <main className="cs1 ce12 blog-container">
+      <main className="cs1 ce12 about-container">
         <div className="grid about-body">
           <div
             className="cs1 ce12"
