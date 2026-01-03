@@ -2,7 +2,6 @@ import Header from "../components/header";
 import Metadata from "../components/metadata";
 import backgroundImage from "../public/photo-book-loop.gif";
 import Image from "next/image";
-import PreOrderNow from "../components/pre-order-now";
 import Link from "next/link";
 import Slider from "../components/slider";
 

@@ -300,11 +300,11 @@ s {
 }
 
 details > summary {
-  list-style-type: "► ";
+  list-style-type: "+";
 }
 
 details[open] > summary {
-  list-style-type: "▼ ";
+  list-style-type: "- ";
 }
 
 .cover {

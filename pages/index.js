@@ -1,6 +1,5 @@
 import Header from "../components/header";
 import Metadata from "../components/metadata";
-import PreOrderNow from "../components/pre-order-now";
 
 export default function Home() {
   return (

@@ -12,27 +12,27 @@ export default function Contact() {
 
       <main className="cs1 ce12 about-container">
         <div className="grid about-body">
-          <div
-            className="cs1 ce12"
-            style={{ background: "#ffffff0d", borderRadius: "8px" }}
-          >
+          <div className="cs1 ce6">
             <Image
-              src="/avatar-2.png"
+              src="/avatar-3.png"
               width={640}
               height={640}
               className="avatar"
             />
-          </div>
-          <div className="cs1 ce12">
-            <em className="cs1 ce12">
-              The world moves on, but I always have a camera
+            <em
+              className="cs1 ce12"
+              style={{
+                padding: "32px",
+              }}
+            >
+              The world moves on, but I always have a camera ☺︎
             </em>
-            ☺︎
           </div>
-          <div className="cs1 ce12 grid">
+
+          <div className="cs7 ce12 grid">
             <h2 className="cs1 ce12">ABOUT ME</h2>
             <small className="cs1 ce12">
-              Hey, I'm Boris (b. 1991) is a designer, photographer, creative
+              Hey, I'm Boris (b. 1991) a designer, photographer, creative
               storyteller and speaker. Raised in Sofia, Bulgaria and now based
               in Amsterdam, The Netherlands. I care for details, colours and
               emotions by creating imagery, storytelling & concepts across
@@ -78,9 +78,9 @@ export default function Contact() {
               </small>
               <SubscribeForm />
             </div> */}
-            <hr />
+
             <div className="cs1 ce12">
-              <details closed="true">
+              <details open="true">
                 <summary className="features">
                   Features, Mentions & Collaborations:{" "}
                 </summary>
@@ -96,39 +96,40 @@ export default function Contact() {
                   studio • Vice • Bored Panda
                 </small>
               </details>
+              <hr />
+              <footer className="flex">
+                {" "}
+                <div className="cs1 ce12">
+                  <Link
+                    href="mailto:info@boriskirov.photos?subject=Let's collaborate"
+                    className="flex-items-center"
+                  >
+                    info@boriskirov.photos
+                  </Link>
+                </div>
+                <div className="cs1 ce12">
+                  <Link
+                    href="https://www.instagram.com/boriskirovv/"
+                    target="_blank"
+                    className="flex-items-center"
+                  >
+                    Instagram
+                  </Link>
+                </div>
+                <div className="cs1 ce12">
+                  <Link
+                    href="/feed.xml"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-items-center"
+                  >
+                    RSS feed
+                  </Link>
+                </div>
+              </footer>
             </div>
           </div>
         </div>
-        <footer className="flex">
-          {" "}
-          <div className="cs1 ce12">
-            <Link
-              href="mailto:info@boriskirov.photos?subject=Let's collaborate"
-              className="flex-items-center"
-            >
-              info@boriskirov.photos
-            </Link>
-          </div>
-          <div className="cs1 ce12">
-            <Link
-              href="https://www.instagram.com/boriskirovv/"
-              target="_blank"
-              className="flex-items-center"
-            >
-              Instagram
-            </Link>
-          </div>
-          <div className="cs1 ce12">
-            <Link
-              href="/feed.xml"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex-items-center"
-            >
-              RSS feed
-            </Link>
-          </div>
-        </footer>
       </main>
     </div>
   );
