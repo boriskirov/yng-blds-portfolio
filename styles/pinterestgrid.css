@@ -1,5 +1,5 @@
 .grid-container {
-  column-gap: 16px; /* Adjust the gap between columns */
+  column-gap: 12px; /* Adjust the gap between columns */
   column-count: 4; /* Set the number of columns you want */
 }
 
