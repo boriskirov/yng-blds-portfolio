@@ -7,6 +7,8 @@ import Lightbox from "../components/Lightbox";
 
 // one source of truth for all images on this page
 const garmentsImages = [
+  { src: "/garments/garments-62.png", width: 320, height: 240 },
+  { src: "/garments/garments-63.png", width: 320, height: 240 },
   { src: "/garments/garments-4.jpg", width: 320, height: 240 },
   { src: "/garments/garments-60.jpg", width: 320, height: 240 },
   { src: "/garments/garments-61.jpg", width: 320, height: 240 },
