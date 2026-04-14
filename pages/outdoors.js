@@ -24,6 +24,7 @@ const outdoorsImages = [
   { src: "/outdoors/outdoors-37.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-6.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-27.png", width: 320, height: 240 },
+  { src: "/outdoors/outdoors-44.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-28.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-4.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-30.png", width: 320, height: 240 },
