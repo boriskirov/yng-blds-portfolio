@@ -6,7 +6,7 @@ import Lightbox from "../components/Lightbox";
 
 // Single source of truth for the Outdoors images
 const outdoorsImages = [
-  { src: "/outdoors/outdoors-43.png", width: 320, height: 240 },
+  { src: "/outdoors/outdoors-44.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-1.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-2.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-26.png", width: 320, height: 240 },
@@ -24,7 +24,6 @@ const outdoorsImages = [
   { src: "/outdoors/outdoors-37.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-6.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-27.png", width: 320, height: 240 },
-  { src: "/outdoors/outdoors-44.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-28.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-4.png", width: 320, height: 240 },
   { src: "/outdoors/outdoors-30.png", width: 320, height: 240 },
