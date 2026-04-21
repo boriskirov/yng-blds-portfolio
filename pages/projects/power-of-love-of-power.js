@@ -13,8 +13,11 @@ export default function PowerOfLoveOfPower() {
         image="/avatar.png"
       />
       <Header />
-      <main className="cs2 ce11">
-        <div className="grid">
+      <main className="cs1 ce12 grid">
+        <Link href="/projects" className="back-link">
+          &larr;
+        </Link>
+        <div className="grid project-info">
           <small className="cs1 ce4">Power of Love & Love of Power</small>
           <br />
           <h2 className="cs1 ce9 ">

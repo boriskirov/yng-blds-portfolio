@@ -1,6 +1,6 @@
 :root {
   /* Grid related var*/
-  --grid-tc-12: repeat(12, 1fr);
+
   --grid-tc-1: repeat(1, 1fr);
   --grid-gap: 16px;
   --grid-gap-s: 3.25vw; /* if you want to use specific value for smaller screens */

@@ -18,6 +18,7 @@ export default function Header({ header = true }) {
             <Link href="/people">People</Link>
             <Link href="/outdoors">Outdoors</Link>
             <Link href="/garments">Garments</Link>
+            <Link href="/projects">Projects</Link>
             <Link href="/video">Video</Link>
           </ul>
         </div>

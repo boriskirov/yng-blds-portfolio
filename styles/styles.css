@@ -12,7 +12,8 @@ body {
   word-break: break-word;
   overflow-x: hidden;
 
-  cursor: url("data:image/x-icon;base64,AAACAAEAICAQABIAEADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAzMzMAP///wBmZmYA8HwAAJmZmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADERETAAAAAAAAAFBQMFAwEQAAARAwMAAAAAADBQMFATBTU1AxBQUwAAAAUFBQUDEFNTU1ATBQUAAAUAMDAwAQU1NTU1AQBTAAAABQUFAAEFNTUxUwEFBQAABQAwMAABBTU1MjUBAFMAAAAFBQUAAQNTUxJTAQUFAAAFADAwAAEDU1MhNQEAUwAAAAUFBQADEFMSFTAVAwUAAAUAMFAAUBMFNTUDEFA1AAAABQMDAwUxEAAAEQMFAwAABQBQUFBTEiUVETBQUDUAAAAAAAAAARUiIiUAAAAAAAAAMRERERACEREAFREREgAAA1UVFRFREAAAFREVFRIAAAUxEREVEVEREVEVERESAAAFUiIiIiIiIiIiIiIiIAAAARUAAAFQUzU1ARUAAQAAAAAAMiIAABERUQAAMgAAAEAAAAAAAAUFERAAAAAAAABEAAAAAAAAUiIAAAAAAAAAREAAAAAAAAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////gAAAfwAAAD4AAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAA8AAAAfgAAAPfDAPPz/4H/8f/D//D////w=="),
+  cursor:
+    url("data:image/x-icon;base64,AAACAAEAICAQABIAEADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAzMzMAP///wBmZmYA8HwAAJmZmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADERETAAAAAAAAAFBQMFAwEQAAARAwMAAAAAADBQMFATBTU1AxBQUwAAAAUFBQUDEFNTU1ATBQUAAAUAMDAwAQU1NTU1AQBTAAAABQUFAAEFNTUxUwEFBQAABQAwMAABBTU1MjUBAFMAAAAFBQUAAQNTUxJTAQUFAAAFADAwAAEDU1MhNQEAUwAAAAUFBQADEFMSFTAVAwUAAAUAMFAAUBMFNTUDEFA1AAAABQMDAwUxEAAAEQMFAwAABQBQUFBTEiUVETBQUDUAAAAAAAAAARUiIiUAAAAAAAAAMRERERACEREAFREREgAAA1UVFRFREAAAFREVFRIAAAUxEREVEVEREVEVERESAAAFUiIiIiIiIiIiIiIiIAAAARUAAAFQUzU1ARUAAQAAAAAAMiIAABERUQAAMgAAAEAAAAAAAAUFERAAAAAAAABEAAAAAAAAUiIAAAAAAAAAREAAAAAAAAAAAAAAAAAAAEREAAAAAAAAAAAAAAAAAAD///////////////////////////////////////////gAAAfwAAAD4AAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAA8AAAAfgAAAPfDAPPz/4H/8f/D//D////w=="),
     auto;
 }
 
@@ -26,6 +27,7 @@ footer > div > a {
 
 .header {
   background: #1d1d1d;
+  z-index: 1000;
 }
 
 .z-index {
@@ -229,6 +231,10 @@ s {
 
 .separator {
   margin: 24px 0;
+}
+
+.back-link {
+  padding: 16px 0;
 }
 
 .dropbtn {
@@ -556,14 +562,6 @@ details[open] > summary {
   color: #ffffff;
 }
 
-.lightbox-arrow-prev {
-  /* left arrow, nothing special here but in case you want to style differently */
-}
-
-.lightbox-arrow-next {
-  /* right arrow */
-}
-
 /* Hide arrows on very small screens if you want
    (image can still be changed with keyboard) */
 @media (max-width: 640px) {
@@ -697,4 +695,119 @@ details[open] > summary {
       background-image: url("/index-loop/index-cover-mobile-3.png");
     }
   }
+}
+
+/* Project Link Card */
+
+.project-info {
+  padding: 24px;
+  background: #ffffff0a;
+  border-radius: 4px;
+}
+
+.project-link {
+  display: block;
+  position: relative;
+  transition: ease-in-out 0.3s;
+}
+
+.project-link-overlay {
+  position: relative;
+}
+
+.project-link:hover {
+  filter: brightness(1.25);
+}
+
+.project-link-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-link-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.project-link-description {
+  font-size: 16px;
+  font-weight: 200;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project-link-title {
+  font-size: 32px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.project-link {
+  display: block;
+  position: relative;
+}
+
+.project-link-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-link-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.9s ease;
+}
+
+.project-link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  padding: 24px;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(22, 22, 22, 0.06)
+  );
+}
+
+.project-link-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #f5f5f5d4;
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  border-radius: 30px;
+  transition: ease-in-out 0.3s;
+}
+
+.project-link-icon {
+  filter: invert(100%);
+  width: 16px;
+  height: 16px;
+}
+
+.project-link-card:hover .project-link-cta {
+  filter: invert(100%);
 }

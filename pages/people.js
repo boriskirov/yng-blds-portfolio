@@ -7,13 +7,6 @@ import Lightbox from "../components/Lightbox";
 
 // Master list of images on this page
 const peopleImages = [
-  {
-    src: "/life/life-71.jpg",
-    width: 320,
-    height: 240,
-    href: "/projects/power-of-love-of-power", // this one is a link, not zoomable
-    zoomable: false,
-  },
   { src: "/life/life-74.jpg", width: 320, height: 240 },
   { src: "/life/life-81.png", width: 320, height: 240 },
   { src: "/life/life-86.jpg", width: 320, height: 240 },

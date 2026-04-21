@@ -4,11 +4,11 @@ import "../styles/slider.css";
 import "../styles/fluidigrid.css";
 import "../styles/blog.css";
 
-import { Funnel_Sans } from "next/font/google";
+import { Quicksand } from "next/font/google";
 
-const inter = Funnel_Sans({
+const inter = Quicksand({
   subsets: ["latin"],
-  weight: ["300", "400", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 export default function MyApp({ Component, pageProps }) {
