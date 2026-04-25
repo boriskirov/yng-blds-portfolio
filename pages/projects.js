@@ -12,13 +12,13 @@ export default function Projects() {
         <div className="grid">
           <div className="cs1 ce3">
             <ProjectLink
-              id="/"
+              id="lecoffeeride"
               src="/lecoffeeride/lecofferide-1.png"
               alt="Lecoffeeride"
               width={320}
               height={240}
               title="Lecoffeeride"
-              description="ardennes 2026 - cycling tour"
+              description="Ardennes 2026 - cycling tour"
               cta="Explore"
               icon="/explore.svg"
             />

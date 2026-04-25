@@ -7,7 +7,7 @@
 
 body {
   height: 100%;
-  background-color: #1d1d1d;
+  background-color: #0d0d0d;
   color: #f2f2f2;
   word-break: break-word;
   overflow-x: hidden;
@@ -26,7 +26,7 @@ footer > div > a {
 }
 
 .header {
-  background: #1d1d1d;
+  background: #0d0d0d;
   z-index: 1000;
 }
 
@@ -810,4 +810,161 @@ details[open] > summary {
 
 .project-link-card:hover .project-link-cta {
   filter: invert(100%);
+}
+
+/* Project Page Template */
+
+.project-main-content {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-bg {
+  background: #0d0d0d;
+  min-height: 100vh;
+}
+
+.project-hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.project-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-hero-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2vw 2vw;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.project-title {
+  font-size: 48px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.project-subtitle {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.project-section-title {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 16px 0;
+}
+
+.project-description {
+  color: #f2f2f2;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.project-full-width {
+  width: 100%;
+}
+
+.project-text {
+  color: #f2f2f2;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.project-image-container {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-image-caption {
+  display: block;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.project-image-full {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-subsection-title {
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 16px 0;
+  font-weight: 600;
+}
+
+.project-back {
+  padding: 40px 6vw;
+  text-align: center;
+}
+
+.project-back-link {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.project-back-link:hover {
+  color: #fff;
+}
+
+.triple-image-grid-wrapper {
+  width: 100%;
+}
+
+.triple-image-grid {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.triple-image-cell {
+  flex: 1 1 0;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  min-width: 0;
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triple-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.triple-image-caption {
+  margin-top: 18px;
+  text-align: center;
 }
