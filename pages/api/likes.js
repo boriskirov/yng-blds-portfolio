@@ -1,8 +1,10 @@
 // filepath: pages/api/likes.js
-import { prisma } from "../../lib/prisma";
+import { getPrisma } from "../../lib/prisma";
 
 export default async function handler(req, res) {
   try {
+    const prisma = getPrisma();
+
     if (req.method === "GET") {
       const { pageId } = req.query;
 
