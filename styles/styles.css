@@ -645,6 +645,15 @@ details[open] > summary {
     background-size: cover;
   }
 
+  .triple-image-grid {
+    flex-direction: column;
+  }
+
+  .triple-image-cell {
+    width: 100%;
+    aspect-ratio: auto;
+  }
+
   .cover,
   .cover-main {
     height: 40vh;

@@ -13,7 +13,7 @@ export default function Projects() {
           <div className="cs1 ce3">
             <ProjectLink
               id="lecoffeeride"
-              src="/lecoffeeride/lecofferide-1.png"
+              src="/lecoffeeride/lecofferide-1.jpg"
               alt="Lecoffeeride"
               width={320}
               height={240}
