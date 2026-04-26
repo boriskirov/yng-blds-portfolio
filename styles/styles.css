@@ -977,3 +977,24 @@ details[open] > summary {
   margin-top: 18px;
   text-align: center;
 }
+
+/* Like Button */
+.like-button {
+  background: transparent;
+  border: 1px solid #444;
+  color: #f2f2f2;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.like-button:hover {
+  border-color: #f2f2f2;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.like-button.animating {
+  transform: scale(1.2);
+}

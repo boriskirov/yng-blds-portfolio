@@ -6,6 +6,7 @@ import TripleImageGrid from "../../components/TripleImageGrid";
 import ProjectFullWidth from "../../components/ProjectFullWidth";
 import ProjectContentBlock from "../../components/ProjectContentBlock";
 import Link from "next/link";
+import LikeButton from "../../components/LikeButton";
 
 export default function Lecoffeeride() {
   return (
@@ -44,7 +45,6 @@ export default function Lecoffeeride() {
             { src: "/lecoffeeride/square05.jpg", alt: "Landscape center" },
             { src: "/lecoffeeride/square06.jpg", alt: "Cyclist right" },
           ]}
-          caption="The loop to Gilette takes in the Var cycle path, one of the only level stretches of Tarmac in the region – a little bit of flat riding is good for you sometimes! It's nice to pedal out through the valley and then, once fortified, head back through the hills to the seafront, and an easy pedal home."
         />
         <TripleImageGrid
           images={[
@@ -52,7 +52,7 @@ export default function Lecoffeeride() {
             { src: "/lecoffeeride/square02.jpg", alt: "Landscape center" },
             { src: "/lecoffeeride/square01.jpg", alt: "Cyclist right" },
           ]}
-          caption="The loop to Gilette takes in the Var cycle path, one of the only level stretches of Tarmac in the region – a little bit of flat riding is good for you sometimes! It's nice to pedal out through the valley and then, once fortified, head back through the hills to the seafront, and an easy pedal home."
+          caption="Every cycling event is a great opportunity to experiemnt with my photography. I appreciate dynamic shot-taking, investigating for an interesting and exciting compositions that I see in front but also imaging what's behind me. What I would often do is, use my strap as an achnor to place the camera with one hand below my armpid and my body to level the composition. That's how I capture what's behind me, while still looking forward for what's ahead. I would often take images while riding with 30km/h. In this project I picked 2 images that I took while riding, with that same technique. I will let you guess which are taken like that."
         />
         <ProjectFullWidth
           src="/lecoffeeride/lecofferide-2.jpg"
@@ -64,7 +64,7 @@ export default function Lecoffeeride() {
             { src: "/lecoffeeride/square08.jpg", alt: "Landscape center" },
             { src: "/lecoffeeride/square09.jpg", alt: "Cyclist right" },
           ]}
-          caption="The loop to Gilette takes in the Var cycle path, one of the only level stretches of Tarmac in the region – a little bit of flat riding is good for you sometimes! It's nice to pedal out through the valley and then, once fortified, head back through the hills to the seafront, and an easy pedal home."
+          caption="It's normal to have your own goals and aspirations. It's also normal to face challenges you set for yourself. But from time to time, we just need to step back and enjoy the journey, a journey which you can share with a few friends."
         />
         <ProjectFullWidth
           src="/lecoffeeride/lecofferide-5.jpg"
@@ -84,7 +84,7 @@ export default function Lecoffeeride() {
             { src: "/lecoffeeride/square11.jpg", alt: "Landscape center" },
             { src: "/lecoffeeride/square12.jpg", alt: "Cyclist right" },
           ]}
-          caption="The loop to Gilette takes in the Var cycle path, one of the only level stretches of Tarmac in the region – a little bit of flat riding is good for you sometimes! It's nice to pedal out through the valley and then, once fortified, head back through the hills to the seafront, and an easy pedal home."
+          caption="The first semi-intense cycling experience for me since my injury in 2025, excatly an year later I wanted to test my body and my mind. After suffering for months from an protrusion on my L5-S1 spinal disc, cycling was something I was doubting at some point in the peak of my pain. But I stayed determined, positive and focused on my recovery. Big kudos to my physiotherapist, Michiel and Sander, who helped me bring believe in my body, and guided me to become stronger. "
         />
         <ProjectFullWidth
           src="/lecoffeeride/lecofferide-9.jpg"
@@ -133,6 +133,10 @@ export default function Lecoffeeride() {
           >
             Wanne rondje •
           </Link>
+        </div>
+
+        <div style={{ marginTop: "2rem", textAlign: "center" }}>
+          <LikeButton pageId="lecoffeeride" />
         </div>
       </main>
       <footer className="cs1 ce12">Boris Kirov Photos © 2026</footer>

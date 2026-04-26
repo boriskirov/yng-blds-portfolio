@@ -4,9 +4,9 @@ import "../styles/slider.css";
 import "../styles/fluidigrid.css";
 import "../styles/blog.css";
 
-import { Quicksand } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 
-const inter = Quicksand({
+const inter = Space_Grotesk({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
