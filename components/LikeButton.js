@@ -8,12 +8,23 @@ export default function LikeButton({ pageId }) {
 
   useEffect(() => {
     fetch(`/api/likes?pageId=${pageId}`)
-      .then((res) => res.json())
+      .then(async (res) => {
+        const data = await res.json();
+
+        if (!res.ok) {
+          throw new Error(data.error || "Failed to load likes");
+        }
+
+        return data;
+      })
       .then((data) => {
         setLikes(data.likes || 0);
         setLoading(false);
       })
-      .catch(() => setLoading(false));
+      .catch((error) => {
+        console.error("Failed to load likes:", error);
+        setLoading(false);
+      });
   }, [pageId]);
 
   const handleLike = async () => {
@@ -25,6 +36,11 @@ export default function LikeButton({ pageId }) {
         body: JSON.stringify({ pageId }),
       });
       const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to update likes");
+      }
+
       setLikes(data.likes);
     } catch (err) {
       console.error("Failed to like:", err);
