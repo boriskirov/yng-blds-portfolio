@@ -5,8 +5,8 @@ import ProjectInfo from "../../components/ProjectInfo";
 import TripleImageGrid from "../../components/TripleImageGrid";
 import ProjectFullWidth from "../../components/ProjectFullWidth";
 import ProjectContentBlock from "../../components/ProjectContentBlock";
+import StickyLikeBar from "../../components/StickyLikeBar";
 import Link from "next/link";
-import LikeButton from "../../components/LikeButton";
 
 export default function Lecoffeeride() {
   return (
@@ -103,19 +103,17 @@ export default function Lecoffeeride() {
             { src: "/lecoffeeride/square15.png", alt: "Cyclist right" },
           ]}
         />
-        <div>
-          <p className="komoot-caption">
-            If you want to get the routes for the rides, you can find them on
-            Komoot here, feel free to explore and ride them yourself! Each route
-            offers a unique experience, showcasing the best of the Ardennes
-            region and providing a memorable cycling adventure:
-          </p>
+
+        <div
+          className="flex"
+          style={{ justifyContent: "space-around", width: "100%" }}
+        >
           <Link
             href="https://www.komoot.com/tour/2891023885"
             target="_blank"
             className="komoot-link"
           >
-            Le petite belle route •
+            Le petite belle route
           </Link>
 
           <Link
@@ -123,7 +121,7 @@ export default function Lecoffeeride() {
             target="_blank"
             className="komoot-link"
           >
-            Le petite switchback ride •
+            Le petite switchback ride
           </Link>
 
           <Link
@@ -131,15 +129,23 @@ export default function Lecoffeeride() {
             target="_blank"
             className="komoot-link"
           >
-            Wanne rondje •
+            Wanne rondje
           </Link>
         </div>
 
-        <div style={{ marginTop: "2rem", textAlign: "center" }}>
-          <LikeButton pageId="lecoffeeride" />
-        </div>
+        <StickyLikeBar
+          pageId="lecoffeeride"
+          message="Like what you see? Show some love, that way I can keep creating."
+        />
       </main>
-      <footer className="cs1 ce12">Boris Kirov Photos © 2026</footer>
+      <footer
+        className="cs1 ce12"
+        style={{
+          padding: "2.5rem 0",
+        }}
+      >
+        Boris Kirov Photos © 2026
+      </footer>
     </div>
   );
 }

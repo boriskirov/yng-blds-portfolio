@@ -998,3 +998,50 @@ details[open] > summary {
 .like-button.animating {
   transform: scale(1.2);
 }
+
+.sticky-like-bar {
+  position: fixed;
+  left: 50%;
+  bottom: 16px;
+  width: min(760px, calc(100vw - 32px));
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 18px;
+  background: rgba(24, 24, 24, 0.94);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(14px);
+  transform: translate(-50%, calc(100% + 24px));
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 0.28s ease,
+    opacity 0.28s ease;
+  z-index: 1200;
+}
+
+.sticky-like-bar.is-visible {
+  transform: translate(-50%, 0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sticky-like-bar-message {
+  color: rgba(255, 255, 255, 0.74);
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .sticky-like-bar {
+    bottom: 12px;
+    width: calc(100vw - 20px);
+    padding: 12px 14px;
+  }
+
+  .sticky-like-bar-message {
+    font-size: 14px;
+  }
+}

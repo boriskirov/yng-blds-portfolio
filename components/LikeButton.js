@@ -55,6 +55,7 @@ export default function LikeButton({ pageId }) {
   return (
     <button
       className={`like-button ${animating ? "animating" : ""}`}
+      style={{ margin: "0.5rem 1rem", cursor: "pointer" }}
       onClick={handleLike}
       type="button"
     >
