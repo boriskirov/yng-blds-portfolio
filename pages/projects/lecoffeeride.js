@@ -104,34 +104,46 @@ export default function Lecoffeeride() {
           ]}
         />
 
-        <div
-          className="flex"
-          style={{ justifyContent: "space-around", width: "100%" }}
+        <details
+          style={{
+            backgroundColor: "#f5f5f520",
+            padding: "16px",
+            borderRadius: "2px",
+          }}
         >
-          <Link
-            href="https://www.komoot.com/tour/2891023885"
-            target="_blank"
-            className="komoot-link"
+          <summary
+            style={{
+              cursor: "pointer",
+              margin: "8px 0",
+            }}
+            className="project-subsection-title"
           >
-            Le petite belle route
-          </Link>
-
-          <Link
-            href="https://www.komoot.com/tour/2892679090"
-            target="_blank"
-            className="komoot-link"
-          >
-            Le petite switchback ride
-          </Link>
-
-          <Link
-            href="https://www.komoot.com/tour/2895058586"
-            target="_blank"
-            className="komoot-link"
-          >
-            Wanne rondje
-          </Link>
-        </div>
+            Get the komoot routes
+          </summary>
+          <div className="flex" style={{ flexDirection: "row", gap: "1rem" }}>
+            <iframe
+              src="https://www.komoot.com/tour/2895058586/embed?share_token=aKL1Iwx6m4uGmKMRFvW2XylYGXkVfepf77Yca8L3ILsbU4UOmS&profile=1"
+              width="100%"
+              height="700"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+            <iframe
+              src="https://www.komoot.com/tour/2892679090/embed?share_token=aFsDj5KEQoQ96XJUWKp4RUCQt5WCWgrpLx6rVsf25kUMltWl5P&profile=1"
+              width="100%"
+              height="700"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+            <iframe
+              src="https://www.komoot.com/tour/2891023885/embed?share_token=aiyQ3k5EjZdWpLvGKg3b8F7ADFK8VAv1W7VYacrqWLsliMQtbV&profile=1"
+              width="100%"
+              height="700"
+              frameborder="0"
+              scrolling="no"
+            ></iframe>
+          </div>
+        </details>
 
         <StickyLikeBar
           pageId="lecoffeeride"
