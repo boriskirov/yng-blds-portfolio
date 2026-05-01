@@ -4,9 +4,11 @@ import Item from "../components/grid-item";
 import Header from "../components/header";
 import Metadata from "../components/metadata";
 import Lightbox from "../components/Lightbox";
+import StickyLikeBar from "../components/StickyLikeBar";
 
 // Master list of images on this page
 const peopleImages = [
+  { src: "/life/life-87.jpg", width: 320, height: 240 },
   { src: "/life/life-74.jpg", width: 320, height: 240 },
   { src: "/life/life-81.png", width: 320, height: 240 },
   { src: "/life/life-86.jpg", width: 320, height: 240 },
@@ -147,6 +149,11 @@ export default function People() {
         onClose={closeLightbox}
         onNext={goNext}
         onPrev={goPrev}
+      />
+
+      <StickyLikeBar
+        pageId="my-work"
+        message="If you like my work, this would help me to continue creating it!"
       />
     </div>
   );

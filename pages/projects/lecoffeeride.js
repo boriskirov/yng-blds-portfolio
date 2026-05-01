@@ -146,7 +146,7 @@ export default function Lecoffeeride() {
         </details>
 
         <StickyLikeBar
-          pageId="lecoffeeride"
+          pageId="my-work"
           message="Like what you see? Show some love, that way I can keep creating."
         />
       </main>
